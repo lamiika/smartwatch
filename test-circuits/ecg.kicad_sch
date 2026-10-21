@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "65d2c4f0-34c7-47a6-ab6b-2e4209c5b57f")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "SDO"
+		(shape input)
+		(at 116.84 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0028e592-f9de-420b-bfe0-0f373c576ed2")
+	)
+	(hierarchical_label "INTB"
+		(shape input)
+		(at 116.84 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "663c6d1d-0f7b-4ddd-a7fe-5dfec5992d70")
+	)
+	(hierarchical_label "SDI"
+		(shape input)
+		(at 116.84 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7773e1e6-343d-45f1-b2cf-3ad7d8844899")
+	)
+	(hierarchical_label "CSB"
+		(shape input)
+		(at 116.84 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cde3dc3c-11cf-4495-8026-12089480687c")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 116.84 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6df5215-a42b-4527-b792-1d6395f3473e")
+	)
+)

@@ -1,0 +1,41 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "58f7e42b-20be-497e-88d3-ab926d414f0f")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "RXD"
+		(shape input)
+		(at 139.7 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "875bcc0c-d2f9-4109-ab22-6036af32428a")
+	)
+	(hierarchical_label "TIMEPULSE"
+		(shape input)
+		(at 140.97 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a498ce8e-8677-4d28-a2f3-123781c32d86")
+	)
+	(hierarchical_label "TXD"
+		(shape input)
+		(at 139.7 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db10605d-10df-42e4-82cb-2efc3e6ac741")
+	)
+)

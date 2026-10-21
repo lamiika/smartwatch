@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ba4393b2-312e-45f3-92d1-81385e54eed3")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "HOLD# (IO3)"
+		(shape input)
+		(at 116.84 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f5f9a8d-c96f-4c1e-af3c-4f8dc032f6f6")
+	)
+	(hierarchical_label "SO (IO1)"
+		(shape input)
+		(at 116.84 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15ec1d28-8096-4062-aa5e-76018a164201")
+	)
+	(hierarchical_label "WP# (IO2)"
+		(shape input)
+		(at 116.84 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40bbcb2f-36c8-4e6d-87ed-1e448e46be43")
+	)
+	(hierarchical_label "CE# (QSPI CSN)"
+		(shape input)
+		(at 116.84 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80a8588a-d9f5-468b-ba07-bdb0606e89a6")
+	)
+	(hierarchical_label "SI (IO0)"
+		(shape input)
+		(at 116.84 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8748e0f6-2c32-4e77-b7e4-aaa5354d34d6")
+	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 116.84 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3ea5a0f-fd2a-4db7-bb50-61d886524cea")
+	)
+)
