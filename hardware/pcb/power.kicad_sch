@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e94e2987-720c-44d5-ac21-99f8e0814aab")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "GPIO0 (reset)"
+		(shape input)
+		(at 121.92 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31de4823-63cc-48c4-ad58-84c63bbc64f3")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 121.92 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89015715-4270-4f88-8d3d-ee40382a08b3")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 121.92 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7727c06-8b75-496e-80a0-1842399577e2")
+	)
+	(hierarchical_label "GPIO1 (interrupt)"
+		(shape input)
+		(at 121.92 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf2100da-ab90-4ac1-8b31-bca9c83755c1")
+	)
+)

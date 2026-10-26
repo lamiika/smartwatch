@@ -1,0 +1,1132 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7b1b7b91-6618-446c-b915-39ecd9748633")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 143.51 48.26)
+		(size 21.59 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0665b522-0940-417d-8b45-fb9307db4cff")
+		(property "Sheetname" "Vibration LRA"
+			(at 143.51 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lra.kicad_sch"
+			(at 143.51 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 165.1 54.61 0)
+			(uuid "e6f46bb9-4974-4783-864b-f45056ae1de0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN1" input
+			(at 165.1 60.96 0)
+			(uuid "08f8e389-450e-4fb7-8329-560f8fe66f22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 116.84)
+		(size 24.13 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1640c5b1-7e91-4f3e-9fda-2428f05817d0")
+		(property "Sheetname" "Display Module"
+			(at 59.69 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 59.69 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET" input
+			(at 83.82 146.05 0)
+			(uuid "c81b4022-2e8e-4f7b-a7af-15a5d8920e81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SI00" input
+			(at 83.82 123.19 0)
+			(uuid "379f835d-d21f-4037-a472-451d97948617")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SI01" input
+			(at 83.82 127 0)
+			(uuid "1b050e0e-2dda-4a61-8a7f-52eae4d4f34b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SI02" input
+			(at 83.82 130.81 0)
+			(uuid "e5d2c58b-fc56-430e-bec1-b34d8b71d102")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SI03" input
+			(at 83.82 134.62 0)
+			(uuid "306d0d14-2214-456c-9367-154aedbdcc28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CLK" input
+			(at 83.82 119.38 0)
+			(uuid "ba042180-0408-47f8-b6b3-775ea48b4378")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_CS" input
+			(at 83.82 138.43 0)
+			(uuid "2247483b-7622-4080-b20e-6d0d5ec322ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TE" input
+			(at 83.82 142.24 0)
+			(uuid "a80c283c-069c-48c6-bf7d-fb6f09b385d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TP_INT" input
+			(at 59.69 144.78 180)
+			(uuid "3f77fc2e-ec64-48f9-8975-5de68826620c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_RST" input
+			(at 59.69 139.7 180)
+			(uuid "864972b9-cbe5-4b3b-a46b-c0699f1f9bf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_SCL" input
+			(at 59.69 128.27 180)
+			(uuid "813540b8-d9f9-45f2-aafe-af178eb15786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_SDA" input
+			(at 59.69 123.19 180)
+			(uuid "b9a73f74-5352-4be6-8039-1306b848f869")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCI_EN" input
+			(at 59.69 119.38 180)
+			(uuid "725f8851-c710-409b-835f-ce1a39484f5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 48.26)
+		(size 20.32 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "88aee019-a060-45af-8aef-0fb06e52c718")
+		(property "Sheetname" "Power"
+			(at 187.96 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 187.96 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO0 (reset)" input
+			(at 208.28 67.31 0)
+			(uuid "43b2a9db-fe2e-4112-b779-a91fc2934337")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1 (interrupt)" input
+			(at 208.28 62.23 0)
+			(uuid "57a6dadb-441d-4434-8959-ee414b68b8ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 208.28 57.15 0)
+			(uuid "6c35d287-75a0-4815-b4bb-2af21ea77c0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 208.28 52.07 0)
+			(uuid "a7f9b728-9b4c-4b32-91cc-efdd895d726c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 120.65)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "91c5a049-21db-40de-91cc-be7c60fb61f3")
+		(property "Sheetname" "Heart Rate PPG"
+			(at 143.51 119.9384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ppg.kicad_sch"
+			(at 143.51 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 166.37 130.81 0)
+			(uuid "0ae9bf16-0a09-4b6f-856c-b5d2c340eb47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 166.37 125.73 0)
+			(uuid "75c13fd8-2c09-48bf-9996-119b8ab6689f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" input
+			(at 166.37 135.89 0)
+			(uuid "5f8cd910-0539-4327-8bf1-1f791e57049c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 243.84 90.17)
+		(size 36.83 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a32b5678-2b77-4736-8198-60084a791f52")
+		(property "Sheetname" "MCU"
+			(at 243.84 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 243.84 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 82.55)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a8e0b527-6f59-4ff5-a699-1e21fc4a399e")
+		(property "Sheetname" "Pressure Sensor"
+			(at 187.96 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "barometer.kicad_sch"
+			(at 187.96 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT" input
+			(at 208.28 97.79 0)
+			(uuid "be52fcad-6cb3-4f24-9431-490c8c094071")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 208.28 92.71 0)
+			(uuid "585da53d-f8a5-422b-9aa7-4a17ef7da8e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 208.28 87.63 0)
+			(uuid "f48fe3f8-0696-4de4-abba-2dc678c39c2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 82.55)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a9eb7e86-1512-4479-8078-e6ec7fe619c3")
+		(property "Sheetname" "Microphone"
+			(at 101.6 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microphone.kicad_sch"
+			(at 101.6 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLOCK" input
+			(at 124.46 88.9 0)
+			(uuid "822a872e-0dd2-4102-a91a-58a1fb4dd443")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DATA" input
+			(at 124.46 93.98 0)
+			(uuid "57d920ce-441c-40f4-9d03-a277245170a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 116.84)
+		(size 19.05 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ba1edd3c-e270-4599-b23e-fe027834271a")
+		(property "Sheetname" "Magnetometer"
+			(at 187.96 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "magnetometer.kicad_sch"
+			(at 187.96 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT" input
+			(at 207.01 130.81 0)
+			(uuid "589129c0-6247-43f2-9cd7-c90fe93d0e61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 207.01 125.73 0)
+			(uuid "02d7851d-af06-4366-8a94-3d85c6c8f69a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 207.01 120.65 0)
+			(uuid "36dd9c2a-3f88-4f6f-b861-9284db12eca4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 48.26)
+		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "baa00837-9e82-40d6-8cd8-3ba937210992")
+		(property "Sheetname" "IMU"
+			(at 60.96 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 60.96 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT1" input
+			(at 83.82 62.23 0)
+			(uuid "5d35cf0e-134a-4976-8270-f8c0fe984d6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 83.82 57.15 0)
+			(uuid "aa8c4c9c-4c86-47fa-af8a-99b9cef1da6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 83.82 52.07 0)
+			(uuid "12a3fd01-bf0f-4f9c-b576-7cb89793609d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 82.55)
+		(size 21.59 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c033e03a-672d-4c5a-82de-81e8aa63e7a9")
+		(property "Sheetname" "Heart Rate ECG"
+			(at 143.51 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ecg.kicad_sch"
+			(at 143.51 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CSB" input
+			(at 165.1 101.6 0)
+			(uuid "306fb2f7-2306-4dc5-a71d-33c528f9cd0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INTB" input
+			(at 165.1 106.68 0)
+			(uuid "e2d141bc-0bb0-4e1e-abbc-2be1984c5870")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 165.1 96.52 0)
+			(uuid "569a5acc-b914-4152-95ca-e3405721f7c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDI" input
+			(at 165.1 86.36 0)
+			(uuid "a9a4b81e-3fb0-4554-81d6-7fa356b5608e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDO" input
+			(at 165.1 91.44 0)
+			(uuid "9e50f88c-58a5-4c26-8cc8-54a6edf190e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 48.26)
+		(size 22.86 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ceaf3bc6-770a-43e0-8824-4c6b175fbe16")
+		(property "Sheetname" "Speaker"
+			(at 101.6 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "speaker.kicad_sch"
+			(at 101.6 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BCLK" input
+			(at 124.46 58.42 0)
+			(uuid "355ca026-82dc-4f08-b9b3-940695d5dd88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIN" input
+			(at 124.46 50.8 0)
+			(uuid "e2b3d9e7-84de-4ee9-8d37-37d36fe77cf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 124.46 63.5 0)
+			(uuid "7559af75-9351-489e-8269-296e5d9b5cc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 124.46 67.31 0)
+			(uuid "501acf73-9421-4f8b-b8ff-a33c2af954ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WCLK" input
+			(at 124.46 54.61 0)
+			(uuid "339b0911-a0c6-4026-83b3-53be0076ac55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 115.57)
+		(size 25.4 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf3b1c17-62ba-4998-8a74-365c3fc0ceaf")
+		(property "Sheetname" "Flash Storage"
+			(at 100.33 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flash.kicad_sch"
+			(at 100.33 149.1746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CE# (QSPI CSN)" input
+			(at 125.73 119.38 0)
+			(uuid "6f151719-4df5-457b-ba3d-82119c01ea71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HOLD# (IO3)" input
+			(at 125.73 144.78 0)
+			(uuid "ca7e6cc8-b611-42c7-905f-8dbb037cd3de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCK" input
+			(at 125.73 124.46 0)
+			(uuid "ba33d595-104f-4b35-beae-04359733ab5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SI (IO0)" input
+			(at 125.73 129.54 0)
+			(uuid "b42e71cc-52a5-44d0-8430-f988a682dc58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SO (IO1)" input
+			(at 125.73 134.62 0)
+			(uuid "eb1d5a92-59a3-42f2-881c-e0f4dd896fdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WP# (IO2)" input
+			(at 125.73 139.7 0)
+			(uuid "b858da40-5749-431d-bc23-915004b86051")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 60.96 80.01)
+		(size 22.86 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f63396eb-f983-445a-9b74-1d89c69668a3")
+		(property "Sheetname" "GNSS"
+			(at 60.96 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gnss.kicad_sch"
+			(at 60.96 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RXD" input
+			(at 83.82 83.82 0)
+			(uuid "1a9282a7-cbeb-4e7b-a0bf-1d388d6bc357")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TIMEPULSE" input
+			(at 83.82 93.98 0)
+			(uuid "c5d74fad-0c7c-4680-925b-f4deba0c0e24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 83.82 88.9 0)
+			(uuid "157be320-7009-41d4-98d3-19753aec2617")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

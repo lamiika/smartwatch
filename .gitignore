@@ -1,0 +1,25 @@
+# KiCad temporary files and backups
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-cache*
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*.lck
+fp-info-cache
+
+# Local project settings and history
+*.kicad_prl
+.history/
+
+# Generated routing / netlist files
+*.net
+*.dsn
+*.ses
+libraries/
