@@ -657,7 +657,7 @@
         "uuid": "7b1b7b91-6618-446c-b915-39ecd9748633"
       }
     ],
-    "used_designators": "#PWR1-13,#PWR15-16,#PWR19-20,#PWR23-24,#PWR26-30,C1-2,DS1,U1-6",
+    "used_designators": "#PWR1-13,#PWR15-16,#PWR19-20,#PWR23-24,#PWR26-39,C1-2,C11,DS1,J1,JP1-3,R4-7,U1-6,U8",
     "variants": []
   },
   "sheets": [
@@ -716,6 +716,10 @@
     [
       "ba1edd3c-e270-4599-b23e-fe027834271a",
       "Magnetometer"
+    ],
+    [
+      "1542ac5e-3152-4bd7-8aa8-f00a88303213",
+      "Connector"
     ]
   ],
   "text_variables": {},

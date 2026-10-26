@@ -1340,10 +1340,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed2b0b24-4425-485c-ab4c-d506175c6b57")
 		(property "Reference" "R2"
-			(at 102.87 92.71 90)
+			(at 103.124 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1353,7 +1352,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 102.87 95.25 90)
+			(at 103.124 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
