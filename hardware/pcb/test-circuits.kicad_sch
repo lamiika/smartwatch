@@ -44,8 +44,28 @@
 			)
 		)
 		(pin "EN" input
-			(at 165.1 54.61 0)
+			(at 143.51 54.61 180)
 			(uuid "e6f46bb9-4974-4783-864b-f45056ae1de0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 143.51 60.96 180)
+			(uuid "bdbde77f-69da-4611-98f7-014e6d7a1c87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT+" input
+			(at 165.1 54.61 0)
+			(uuid "f3d693a0-a3c0-4131-a619-0fa2e82adadb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,9 +73,9 @@
 				(justify right)
 			)
 		)
-		(pin "IN1" input
+		(pin "OUT-" input
 			(at 165.1 60.96 0)
-			(uuid "08f8e389-450e-4fb7-8329-560f8fe66f22")
+			(uuid "3e726cf3-068b-4e8c-a971-e9a8d7a3fc11")
 			(effects
 				(font
 					(size 1.27 1.27)
