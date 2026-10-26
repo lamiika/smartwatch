@@ -1349,7 +1349,7 @@
 		)
 		(uuid "24038517-d96b-4817-90d2-c077ec87cb34")
 	)
-	(hierarchical_label "INT1"
+	(hierarchical_label "INT1_IMU"
 		(shape input)
 		(at 160.02 81.28 0)
 		(effects
@@ -1360,7 +1360,7 @@
 		)
 		(uuid "439dbd07-f39d-4281-956a-870fb9a1979a")
 	)
-	(hierarchical_label "INT2"
+	(hierarchical_label "INT2_IMU"
 		(shape input)
 		(at 160.02 83.82 0)
 		(effects
