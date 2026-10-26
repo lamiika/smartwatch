@@ -22,4 +22,4 @@ fp-info-cache
 *.net
 *.dsn
 *.ses
-libraries/
+#libraries/

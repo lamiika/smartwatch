@@ -1,0 +1,3 @@
+[submodule "hardware/pcb/libraries"]
+	path = hardware/pcb/libraries
+	url = git@github.com:lamiika/project-dependencies.git
