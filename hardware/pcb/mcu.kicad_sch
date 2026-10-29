@@ -5,405 +5,6 @@
 	(uuid "3b1b1ad4-3385-4d6a-aa07-6c7faf2859a0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_4ms_Resistor:8.2k_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "8.2k_0402"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_4ms_Resistor:R_0402"
-				(at -2.54 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "8.2K, 1%, 1/16W, 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Specifications" "8.2k, 1%, 1/16W, 0402"
-				(at -2.54 -7.874 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at -2.54 -9.398 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Part Number" "RC0402FR-078K2L "
-				(at -2.54 -10.922 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Manufacturer 2" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number 2" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Display" "8.2k"
-				(at 3.81 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "JLCPCB ID" "C25924"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "8.2k 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "8.2k_0402_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "8.2k_0402_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+1V8"
 			(power global)
 			(pin_numbers
@@ -2769,55 +2370,283 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:res_2.2k_0201"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "res_2.2k_0201"
+				(at 2.54 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor eu smd 0201"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "res_2.2k_0201_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "res_2.2k_0201_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 0.889 2.159) (xy -2.159 -0.889) (xy -0.889 -2.159) (xy 2.159 0.889) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "res_2.2k_0201_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "res_2.2k_0201_1_2"
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(text "Bootstrap pins reference design"
+	(text "3V3 GPIO"
 		(exclude_from_sim no)
-		(at 58.674 107.442 0)
+		(at 110.49 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "3491527a-a1c7-4798-8e99-eda317281b9d")
-	)
-	(text "Documentation available here"
-		(exclude_from_sim no)
-		(at 57.658 110.998 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "https://wiki.sifli.com/en/hardware/SF32LB520-3-5-7-HW-Application.html#boot-settings")
-		)
-		(uuid "41a8cd31-2343-4f0d-a6e2-76eba9c1bf1a")
+		(uuid "55dacc0d-9b45-4b60-bc13-239848f67e6d")
 	)
 	(junction
-		(at 71.12 133.35)
+		(at 194.31 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4da1f5fc-0c59-43bc-8bbd-800a348bce8a")
+		(uuid "48ab1e72-3717-42ea-957b-aef9dcf19698")
 	)
 	(junction
-		(at 71.12 143.51)
+		(at 194.31 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67546bd6-22a6-43a9-b191-b9c9748522e5")
+		(uuid "68818136-99e1-42d6-909c-a2a587b78443")
 	)
 	(junction
-		(at 40.64 121.92)
+		(at 190.5 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d770e1fc-2a07-421e-a6bd-f374aea53895")
+		(uuid "a5179871-eac9-4f47-99b2-d399b7ab8741")
 	)
 	(wire
 		(pts
-			(xy 101.6 130.81) (xy 109.22 130.81)
+			(xy 139.7 143.51) (xy 207.01 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21a0757b-ae3d-49dd-9edc-a42f564d8426")
+		(uuid "037eaccd-688b-4bef-9349-1b5414edf114")
+	)
+	(wire
+		(pts
+			(xy 194.31 134.62) (xy 194.31 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0755862a-bc27-4e2f-b2bc-01574826ebc3")
+	)
+	(wire
+		(pts
+			(xy 190.5 138.43) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25aad96f-43cc-4740-bebe-35fa69022791")
 	)
 	(wire
 		(pts
@@ -2831,17 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 121.92) (xy 48.26 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33607394-8b8e-4d1b-ab74-8c948433a765")
-	)
-	(wire
-		(pts
-			(xy 62.23 143.51) (xy 109.22 143.51)
+			(xy 101.6 143.51) (xy 109.22 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2861,13 +2680,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 121.92) (xy 71.12 121.92)
+			(xy 139.7 146.05) (xy 207.01 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b8a5f81-7aff-4dfb-9a9c-81e62343ebf8")
+		(uuid "371c85ff-6f4b-432f-9f58-c900437eb131")
+	)
+	(wire
+		(pts
+			(xy 101.6 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc9fd68-c23e-4423-94e3-5195548abb36")
 	)
 	(wire
 		(pts
@@ -2881,23 +2710,33 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 144.78) (xy 71.12 143.51)
+			(xy 101.6 130.81) (xy 109.22 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a5811f5-0845-44fd-a42e-341e73813770")
+		(uuid "50c203f1-c90a-4321-8877-6818c90fec1e")
 	)
 	(wire
 		(pts
-			(xy 71.12 121.92) (xy 71.12 124.46)
+			(xy 101.6 113.03) (xy 109.22 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7086076d-0318-4222-b84e-64eb36a2868c")
+		(uuid "59633dca-8323-415a-a6ce-ccc31b89e232")
+	)
+	(wire
+		(pts
+			(xy 101.6 115.57) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1b9602-0ed9-4317-a952-13c10059bd70")
 	)
 	(wire
 		(pts
@@ -2921,7 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 133.35) (xy 109.22 133.35)
+			(xy 101.6 133.35) (xy 109.22 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2931,67 +2770,97 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 154.94) (xy 71.12 154.94)
+			(xy 101.6 120.65) (xy 109.22 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9dd89fe1-ac48-44c5-a31c-e5b7788d892a")
+		(uuid "81d28ef9-1187-4a2c-b50b-0984f1a5968d")
 	)
 	(wire
 		(pts
-			(xy 40.64 85.09) (xy 40.64 121.92)
+			(xy 101.6 105.41) (xy 109.22 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa80c329-1668-4e30-a0f1-184b5b0a36ce")
+		(uuid "88d8cd70-558d-4dc9-9237-a928668be4be")
 	)
 	(wire
 		(pts
-			(xy 71.12 154.94) (xy 71.12 152.4)
+			(xy 139.7 148.59) (xy 168.91 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b60a07df-b34e-4296-bad4-a463eb6a230c")
+		(uuid "8ee0a452-404c-4ac8-8359-879b289866c5")
 	)
 	(wire
 		(pts
-			(xy 40.64 154.94) (xy 40.64 121.92)
+			(xy 139.7 151.13) (xy 168.91 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ced807e5-342e-41e2-aa2f-f422b7d4c0c2")
+		(uuid "a44c308b-2a3f-4940-9775-6a0fba94e70a")
 	)
 	(wire
 		(pts
-			(xy 71.12 132.08) (xy 71.12 133.35)
+			(xy 190.5 134.62) (xy 194.31 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e80ba6c8-d5d3-4fbd-951d-d47e0ce1ae40")
+		(uuid "b26642b4-85f6-45e3-9c07-12074c0b179b")
 	)
 	(wire
 		(pts
-			(xy 48.26 154.94) (xy 40.64 154.94)
+			(xy 101.6 100.33) (xy 109.22 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9d5b19a-bd2e-47da-91e1-f801c983ec0d")
+		(uuid "bbe05bbd-c934-4cc0-b450-40bfb1b10d75")
+	)
+	(wire
+		(pts
+			(xy 101.6 110.49) (xy 109.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec3eacb-b5fe-4d88-baf2-6a2d75696954")
+	)
+	(wire
+		(pts
+			(xy 194.31 132.08) (xy 194.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0176dc-3a5c-4a8b-a993-e13bc6b12acd")
+	)
+	(wire
+		(pts
+			(xy 101.6 118.11) (xy 109.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba6b162-e58a-471a-a3b9-badceebacaed")
 	)
 	(hierarchical_label "SO (IO1)"
 		(shape input)
-		(at 62.23 133.35 180)
+		(at 101.6 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2999,6 +2868,17 @@
 			(justify right)
 		)
 		(uuid "0f3d29b6-6b9f-4647-bd88-81239cf40dc2")
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape input)
+		(at 101.6 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24ec861d-a74f-4ca5-a26b-8e0de87f068e")
 	)
 	(hierarchical_label "SDA_USB"
 		(shape input)
@@ -3044,6 +2924,50 @@
 		)
 		(uuid "4bce91a6-c8cc-4c3d-bd29-6310d6aee0ad")
 	)
+	(hierarchical_label "TP_SCL"
+		(shape input)
+		(at 207.01 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "552b4386-d1d8-4255-b691-25765883575a")
+	)
+	(hierarchical_label "VCI_EN"
+		(shape input)
+		(at 100.33 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f37e4de-5975-4652-b271-41d6fab4d6ce")
+	)
+	(hierarchical_label "TP_RST"
+		(shape input)
+		(at 168.91 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "736761e8-703f-4873-807e-e4375296b531")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 101.6 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73a1ccb4-4cf0-4ecf-97f6-8b8e6a48d91f")
+	)
 	(hierarchical_label "SCK"
 		(shape input)
 		(at 101.6 140.97 180)
@@ -3054,6 +2978,28 @@
 			(justify right)
 		)
 		(uuid "a53296b5-fe60-4f3b-a6c2-8dcbbae939dd")
+	)
+	(hierarchical_label "SI00"
+		(shape input)
+		(at 101.6 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8262536-e031-4302-b506-8e6af42bf805")
+	)
+	(hierarchical_label "TE"
+		(shape input)
+		(at 101.6 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be0cdc0c-e8ac-42df-8042-13ee958d9394")
 	)
 	(hierarchical_label "SCL_USB"
 		(shape input)
@@ -3066,6 +3012,17 @@
 		)
 		(uuid "c048994b-2c59-42e9-8ef9-deeed9dc0961")
 	)
+	(hierarchical_label "SI02"
+		(shape input)
+		(at 101.6 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2287bf1-2974-4429-91ff-56e1511ece2f")
+	)
 	(hierarchical_label "DBG_UART_TXD"
 		(shape input)
 		(at 101.6 148.59 180)
@@ -3077,9 +3034,31 @@
 		)
 		(uuid "c5994625-aa57-40b6-b4ba-a5965e65ccc5")
 	)
+	(hierarchical_label "TP_SDA"
+		(shape input)
+		(at 207.01 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1e06416-3c51-435f-a5d8-37e9dacf7363")
+	)
+	(hierarchical_label "SI03"
+		(shape input)
+		(at 101.6 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8ccaecf-017d-4f67-af71-9852640ae18c")
+	)
 	(hierarchical_label "HOLD# (IO3)"
 		(shape input)
-		(at 62.23 143.51 180)
+		(at 101.6 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3087,6 +3066,28 @@
 			(justify right)
 		)
 		(uuid "ea18a47e-563c-45da-9e95-11ac990e678a")
+	)
+	(hierarchical_label "SPI_CS"
+		(shape input)
+		(at 101.6 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f173ec4b-0c1c-45c3-b2a2-56f9dfdba0fc")
+	)
+	(hierarchical_label "TP_INT"
+		(shape input)
+		(at 168.91 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5929dc1-06f6-4dde-a5b8-6c2eca175fdc")
 	)
 	(hierarchical_label "DBG_UART_RXD"
 		(shape input)
@@ -3099,248 +3100,16 @@
 		)
 		(uuid "f9afaf10-6357-42af-83e9-6a1c24bdd1dc")
 	)
-	(symbol
-		(lib_id "PCM_4ms_Resistor:8.2k_0402")
-		(at 71.12 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "1dbdcf9a-32ba-489a-9e7a-c196cf74272a")
-		(property "Reference" "R4"
-			(at 73.66 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(hierarchical_label "SI01"
+		(shape input)
+		(at 101.6 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "8.2k_0402"
-			(at 68.58 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Resistor:R_0402"
-			(at 68.58 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8.2K, 1%, 1/16W, 0402"
-			(at 71.12 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "8.2k, 1%, 1/16W, 0402"
-			(at 68.58 136.144 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 68.58 137.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "RC0402FR-078K2L "
-			(at 68.58 139.192 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 71.12 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 71.12 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Display" "8.2k"
-			(at 73.66 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C25924"
-			(at 71.12 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4bfe300a-5b3e-4f1e-abeb-6ece8f3c0b6b")
-		)
-		(pin "1"
-			(uuid "0f298405-0a0d-453f-891c-2dc14c2ae123")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 53.34 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45cc03e5-4258-4bb2-8d07-29e0925ea78f")
-		(property "Reference" "JP2"
-			(at 53.34 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 53.34 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 53.34 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1334ec09-93ac-460c-8d40-4c950f1a972e")
-		)
-		(pin "1"
-			(uuid "b9a66be2-edf1-4bcb-b901-3186849e5254")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f9f5d478-9358-4417-a3a1-5a91a0d3c290")
 	)
 	(symbol
 		(lib_id "symbols:SF32LB52xUx")
@@ -3624,30 +3393,40 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Resistor:8.2k_0402")
-		(at 71.12 148.59 0)
+		(lib_id "symbols:res_2.2k_0201")
+		(at 190.5 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "9f77bc7c-403e-40d4-8e8f-b1854e3e2597")
-		(property "Reference" "R5"
-			(at 73.66 147.3199 0)
+		(dnp no)
+		(uuid "a0a21d4f-6ffe-479b-b261-2535eca3bb89")
+		(property "Reference" "R9"
+			(at 187.96 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "8.2k_0402"
-			(at 68.58 148.59 90)
+		(property "Value" "res_2.2k_0201"
+			(at 187.96 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+			(at 190.5 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3655,22 +3434,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Resistor:R_0402"
-			(at 68.58 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 148.59 0)
+			(at 190.5 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3680,88 +3447,8 @@
 				)
 			)
 		)
-		(property "Description" "8.2K, 1%, 1/16W, 0402"
-			(at 71.12 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "8.2k, 1%, 1/16W, 0402"
-			(at 68.58 156.464 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 68.58 157.988 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "RC0402FR-078K2L "
-			(at 68.58 159.512 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer 2" ""
-			(at 71.12 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number 2" ""
-			(at 71.12 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Display" "8.2k"
-			(at 73.66 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C25924"
-			(at 71.12 148.59 0)
+		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 190.5 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,23 +3459,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f9f0bac-2b17-4ebf-b451-3b34ef003da3")
+			(uuid "761f461f-1b67-44be-a0dc-7b30f74bc7f4")
 		)
 		(pin "2"
-			(uuid "4a4c8ac6-a71d-49f7-b754-9bb0eb6c0250")
+			(uuid "11cd84a8-d7fc-418f-8680-6adbc18fdb95")
 		)
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 40.64 85.09 0)
+		(lib_id "symbols:res_2.2k_0201")
+		(at 194.31 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3797,9 +3484,91 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d47487e8-36f0-4f9c-9197-1c60c498666e")
-		(property "Reference" "#PWR031"
-			(at 40.64 88.9 0)
+		(uuid "ced5cfc2-8814-4820-b9b4-cb65dd2087a1")
+		(property "Reference" "R8"
+			(at 196.85 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "res_2.2k_0201"
+			(at 196.85 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+			(at 194.31 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 194.31 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6f05494-edfa-4658-a60e-a598d75e6056")
+		)
+		(pin "2"
+			(uuid "a8adffd8-668f-4746-94b4-04c4fef05e2a")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 194.31 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d983cac4-b15c-4ed3-a9f3-ca256aecc908")
+		(property "Reference" "#PWR040"
+			(at 194.31 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3810,7 +3579,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 40.64 80.01 0)
+			(at 194.31 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3820,7 +3589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 85.09 0)
+			(at 194.31 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3831,7 +3600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 85.09 0)
+			(at 194.31 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3842,7 +3611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 40.64 85.09 0)
+			(at 194.31 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3853,92 +3622,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3da95e0-ebce-42e0-b09f-1cc4fad225df")
+			(uuid "1aa56957-06b3-4053-8ff7-5fef3a2da5e9")
 		)
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 53.34 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e29a8424-3704-4557-9d18-f84b2f454982")
-		(property "Reference" "JP1"
-			(at 53.34 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 53.34 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 53.34 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bde26641-bd4a-471c-9bad-7466ddbb1a0d")
-		)
-		(pin "1"
-			(uuid "75d83bbd-0efb-4c76-9842-de5f400e0cd4")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "JP1")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
