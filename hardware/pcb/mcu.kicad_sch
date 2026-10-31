@@ -2601,10 +2601,22 @@
 		(uuid "55dacc0d-9b45-4b60-bc13-239848f67e6d")
 	)
 	(junction
+		(at 139.7 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "234f464b-dd81-4609-9911-cb5294bdec89")
+	)
+	(junction
 		(at 194.31 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48ab1e72-3717-42ea-957b-aef9dcf19698")
+	)
+	(junction
+		(at 139.7 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59cff267-7325-4dfe-8694-7db98a0af5f6")
 	)
 	(junction
 		(at 194.31 143.51)
@@ -2630,6 +2642,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 163.83) (xy 149.86 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063b9b2e-c5f7-4d23-a46c-ada0d44c85aa")
+	)
+	(wire
+		(pts
 			(xy 194.31 134.62) (xy 194.31 135.89)
 		)
 		(stroke
@@ -2647,6 +2669,16 @@
 			(type default)
 		)
 		(uuid "25aad96f-43cc-4740-bebe-35fa69022791")
+	)
+	(wire
+		(pts
+			(xy 128.27 148.59) (xy 139.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279f5b4f-aaf2-4b4c-8a35-ed88836e9b23")
 	)
 	(wire
 		(pts
@@ -2690,6 +2722,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 148.59) (xy 149.86 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4097f1-f00c-46ef-8e63-3c614160b9cc")
+	)
+	(wire
+		(pts
 			(xy 101.6 107.95) (xy 109.22 107.95)
 		)
 		(stroke
@@ -2707,6 +2749,16 @@
 			(type default)
 		)
 		(uuid "4e1ac96d-8b1c-4208-b5f2-eb87054e5b31")
+	)
+	(wire
+		(pts
+			(xy 139.7 151.13) (xy 149.86 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4c0c66-83a0-45d5-b00e-a8ef9124be60")
 	)
 	(wire
 		(pts
@@ -2750,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 166.37) (xy 149.86 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cde8e2e-fe9c-47bf-b644-a4902635c960")
+	)
+	(wire
+		(pts
 			(xy 101.6 135.89) (xy 109.22 135.89)
 		)
 		(stroke
@@ -2787,26 +2849,6 @@
 			(type default)
 		)
 		(uuid "88d8cd70-558d-4dc9-9237-a928668be4be")
-	)
-	(wire
-		(pts
-			(xy 139.7 148.59) (xy 168.91 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee0a452-404c-4ac8-8359-879b289866c5")
-	)
-	(wire
-		(pts
-			(xy 139.7 151.13) (xy 168.91 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a44c308b-2a3f-4940-9775-6a0fba94e70a")
 	)
 	(wire
 		(pts
@@ -2850,6 +2892,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 151.13) (xy 139.7 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9b7829-12a0-46bf-9326-34cd7fc0c588")
+	)
+	(wire
+		(pts
 			(xy 101.6 118.11) (xy 109.22 118.11)
 		)
 		(stroke
@@ -2869,6 +2921,28 @@
 		)
 		(uuid "0f3d29b6-6b9f-4647-bd88-81239cf40dc2")
 	)
+	(hierarchical_label "GNSS_RXD"
+		(shape input)
+		(at 153.67 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d5dca0a-0722-4b04-9dec-f5d3629f9cb6")
+	)
+	(hierarchical_label "SPEAKER_N"
+		(shape input)
+		(at 149.86 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f958144-0a2d-4032-bd90-a8b9c774ce07")
+	)
 	(hierarchical_label "SPI_CLK"
 		(shape input)
 		(at 101.6 110.49 180)
@@ -2882,7 +2956,7 @@
 	)
 	(hierarchical_label "SDA_USB"
 		(shape input)
-		(at 87.63 160.02 0)
+		(at 153.67 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2890,6 +2964,17 @@
 			(justify left)
 		)
 		(uuid "36db05ce-514a-4941-981b-6c404827dfff")
+	)
+	(hierarchical_label "GNSS_RESET"
+		(shape input)
+		(at 153.67 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "396e79a6-b6d5-4b2f-a1b1-6add7adf6175")
 	)
 	(hierarchical_label "CE# (QSPI CSN)"
 		(shape input)
@@ -2901,6 +2986,17 @@
 			(justify right)
 		)
 		(uuid "3a56601e-8975-4390-8944-eba30b3fb24d")
+	)
+	(hierarchical_label "GNSS_EN"
+		(shape input)
+		(at 153.67 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cbe6647-b2c0-4062-a914-2de99fb880d7")
 	)
 	(hierarchical_label "SI (IO0)"
 		(shape input)
@@ -2935,6 +3031,17 @@
 		)
 		(uuid "552b4386-d1d8-4255-b691-25765883575a")
 	)
+	(hierarchical_label "GNSS_TXD"
+		(shape input)
+		(at 153.67 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5557ddf4-c6cc-4e58-afcd-b440f1c8de69")
+	)
 	(hierarchical_label "VCI_EN"
 		(shape input)
 		(at 100.33 96.52 180)
@@ -2948,7 +3055,7 @@
 	)
 	(hierarchical_label "TP_RST"
 		(shape input)
-		(at 168.91 151.13 0)
+		(at 149.86 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2967,6 +3074,28 @@
 			(justify right)
 		)
 		(uuid "73a1ccb4-4cf0-4ecf-97f6-8b8e6a48d91f")
+	)
+	(hierarchical_label "GNSS_TIMEPULSE"
+		(shape input)
+		(at 153.67 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "860f21a3-f9cd-40c1-9e32-10eb59f93518")
+	)
+	(hierarchical_label "SPEAKER_P"
+		(shape input)
+		(at 149.86 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c08cccd-91cd-4e7b-b765-801fdd0c5cc7")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -3003,7 +3132,7 @@
 	)
 	(hierarchical_label "SCL_USB"
 		(shape input)
-		(at 87.63 165.1 0)
+		(at 153.67 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3045,6 +3174,17 @@
 		)
 		(uuid "e1e06416-3c51-435f-a5d8-37e9dacf7363")
 	)
+	(hierarchical_label "GNSS_EXTINT"
+		(shape input)
+		(at 153.67 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e26c6a7e-585a-4392-ba0d-e5e18f5865da")
+	)
 	(hierarchical_label "SI03"
 		(shape input)
 		(at 101.6 120.65 180)
@@ -3080,7 +3220,7 @@
 	)
 	(hierarchical_label "TP_INT"
 		(shape input)
-		(at 168.91 148.59 0)
+		(at 149.86 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
