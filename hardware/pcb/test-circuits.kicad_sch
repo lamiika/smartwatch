@@ -354,6 +354,112 @@
 		)
 	)
 	(sheet
+		(at 198.12 99.06)
+		(size 25.4 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "56a9a668-5785-4525-bdda-a5cc8fddb55d")
+		(property "Sheetname" "Flash Storage"
+			(at 198.12 98.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flash.kicad_sch"
+			(at 198.12 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FLASH CS#" input
+			(at 198.12 104.14 180)
+			(uuid "88cd79c3-4b49-495a-a176-e475abd02678")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASH IO0" input
+			(at 198.12 113.03 180)
+			(uuid "441063f6-4f26-4e23-bf83-6ac68460eb9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASH IO1" input
+			(at 198.12 116.84 180)
+			(uuid "317eaefb-9669-4a01-9d08-44b77c9537c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASH IO2" input
+			(at 198.12 120.65 180)
+			(uuid "b0798939-4a1b-4259-8b56-e6f7bf861cae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASH IO3" input
+			(at 198.12 124.46 180)
+			(uuid "91187654-19aa-4841-a31d-fae79d2d3b24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASH SCK" input
+			(at 198.12 107.95 180)
+			(uuid "640be696-76f8-4179-afcc-976d7dda3007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 200.66 24.13)
 		(size 20.32 22.86)
 		(exclude_from_sim no)
@@ -1053,112 +1159,6 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 104.14 160.02)
-		(size 25.4 33.02)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "cf3b1c17-62ba-4998-8a74-365c3fc0ceaf")
-		(property "Sheetname" "Flash Storage"
-			(at 104.14 159.3084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "flash.kicad_sch"
-			(at 104.14 193.6246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CE# (QSPI CSN)" input
-			(at 129.54 163.83 0)
-			(uuid "6f151719-4df5-457b-ba3d-82119c01ea71")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HOLD# (IO3)" input
-			(at 129.54 189.23 0)
-			(uuid "ca7e6cc8-b611-42c7-905f-8dbb037cd3de")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCK" input
-			(at 129.54 168.91 0)
-			(uuid "ba33d595-104f-4b35-beae-04359733ab5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SI (IO0)" input
-			(at 129.54 173.99 0)
-			(uuid "b42e71cc-52a5-44d0-8430-f988a682dc58")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SO (IO1)" input
-			(at 129.54 179.07 0)
-			(uuid "eb1d5a92-59a3-42f2-881c-e0f4dd896fdf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WP# (IO2)" input
-			(at 129.54 184.15 0)
-			(uuid "b858da40-5749-431d-bc23-915004b86051")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633"
-					(page "13")
 				)
 			)
 		)

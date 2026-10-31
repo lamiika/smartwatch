@@ -2910,16 +2910,16 @@
 		)
 		(uuid "dba6b162-e58a-471a-a3b9-badceebacaed")
 	)
-	(hierarchical_label "SO (IO1)"
+	(hierarchical_label "FLASH SCK"
 		(shape input)
-		(at 101.6 133.35 180)
+		(at 101.6 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0f3d29b6-6b9f-4647-bd88-81239cf40dc2")
+		(uuid "1ae889f8-6ec4-4fd6-9b62-8464107528ff")
 	)
 	(hierarchical_label "GNSS_RXD"
 		(shape input)
@@ -2954,6 +2954,17 @@
 		)
 		(uuid "24ec861d-a74f-4ca5-a26b-8e0de87f068e")
 	)
+	(hierarchical_label "FLASH IO2"
+		(shape input)
+		(at 101.6 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "365f8836-8dff-48ea-bd0e-136ce61c25a5")
+	)
 	(hierarchical_label "SDA_USB"
 		(shape input)
 		(at 153.67 116.84 0)
@@ -2976,17 +2987,6 @@
 		)
 		(uuid "396e79a6-b6d5-4b2f-a1b1-6add7adf6175")
 	)
-	(hierarchical_label "CE# (QSPI CSN)"
-		(shape input)
-		(at 101.6 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a56601e-8975-4390-8944-eba30b3fb24d")
-	)
 	(hierarchical_label "GNSS_EN"
 		(shape input)
 		(at 153.67 107.95 0)
@@ -2998,7 +2998,18 @@
 		)
 		(uuid "3cbe6647-b2c0-4062-a914-2de99fb880d7")
 	)
-	(hierarchical_label "SI (IO0)"
+	(hierarchical_label "FLASH CS#"
+		(shape input)
+		(at 101.6 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "438396a4-45f7-49d8-b230-b8ca630a355f")
+	)
+	(hierarchical_label "FLASH IO0"
 		(shape input)
 		(at 101.6 138.43 180)
 		(effects
@@ -3007,18 +3018,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3e2e9303-67a6-4cd9-852d-de82fc5d3556")
-	)
-	(hierarchical_label "WP# (IO2)"
-		(shape input)
-		(at 101.6 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4bce91a6-c8cc-4c3d-bd29-6310d6aee0ad")
+		(uuid "4515425a-94ee-4d99-b75a-5b6a8971d906")
 	)
 	(hierarchical_label "TP_SCL"
 		(shape input)
@@ -3096,17 +3096,6 @@
 			(justify left)
 		)
 		(uuid "9c08cccd-91cd-4e7b-b765-801fdd0c5cc7")
-	)
-	(hierarchical_label "SCK"
-		(shape input)
-		(at 101.6 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a53296b5-fe60-4f3b-a6c2-8dcbbae939dd")
 	)
 	(hierarchical_label "SI00"
 		(shape input)
@@ -3196,7 +3185,7 @@
 		)
 		(uuid "e8ccaecf-017d-4f67-af71-9852640ae18c")
 	)
-	(hierarchical_label "HOLD# (IO3)"
+	(hierarchical_label "FLASH IO3"
 		(shape input)
 		(at 101.6 143.51 180)
 		(effects
@@ -3205,7 +3194,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ea18a47e-563c-45da-9e95-11ac990e678a")
+		(uuid "ee2ad93c-37ca-4136-9273-2bf8e7744ab4")
 	)
 	(hierarchical_label "SPI_CS"
 		(shape input)
@@ -3250,6 +3239,17 @@
 			(justify right)
 		)
 		(uuid "f9f5d478-9358-4417-a3a1-5a91a0d3c290")
+	)
+	(hierarchical_label "FLASH IO1"
+		(shape input)
+		(at 101.6 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fa93e4a4-180c-4b94-a8ed-5b589435cbda")
 	)
 	(symbol
 		(lib_id "symbols:SF32LB52xUx")
