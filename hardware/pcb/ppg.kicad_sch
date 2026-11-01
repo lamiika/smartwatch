@@ -740,6 +740,290 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:LSF0102GSX"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "LSF0102GSX"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "footprints:XSON8_SOT1203_NEX"
+				(at -20.32 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "LSF0102GSX"
+				(at -20.32 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LSF0102GSX"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "XSON8_SOT1203_NEX XSON8_SOT1203_NEX-M XSON8_SOT1203_NEX-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LSF0102GSX_0_1"
+				(polyline
+					(pts
+						(xy -12.7 5.08) (xy -12.7 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -12.7) (xy 12.7 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 5.08) (xy -12.7 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -12.7) (xy 12.7 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -5.08 0)
+					(length 7.62)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -7.62 0)
+					(length 7.62)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -7.62 180)
+					(length 7.62)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
+					(length 7.62)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 0 180)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LSF0102GSX_1_1"
+				(pin power_in line
+					(at -20.32 0 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -2.54 0)
+					(length 7.62)
+					(name "REFA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -2.54 180)
+					(length 7.62)
+					(name "REFB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:MAX30101EFD"
 			(pin_names
 				(offset 1.016)
@@ -1097,10 +1381,10 @@
 		)
 		(uuid "d2a4f223-36a5-4fa5-8588-67dc4617cdfd")
 	)
-	(text_box "MAX30101EFD\n\nSynopsis:\n\n	High-Sensitivity Pulse Oximeter and Heart-Rate Sensor for Wearable Health\n	\nDatasheet:\n\n	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30101.pdf\n\nVoltage:\n\n	VDD to GND: -0.2V to 2.2V\n	GND to PGND: -0.3V to +0.3V\n	VLED to PGND: -0.3V to +6.0V\n	All other pins to GND: -0.3V to +6.0V\n\nI2C:\n\n	I2C_ADDR = 0x57"
+	(text_box "MAX30101EFD\n\nSynopsis:\n\n	High-Sensitivity Pulse Oximeter and Heart-Rate Sensor for Wearable Health\n	\nDatasheet:\n\n	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30101.pdf\n\nVoltage:\n\n	VDD to GND: -0.2V to 2.2V\n	GND to PGND: -0.3V to +0.3V\n	VLED to PGND: -0.3V to +6.0V\n	I2C to GND: 1.8V\n	All other pins to GND: -0.3V to +6.0V\n\nI2C:\n\n	I2C_ADDR = 0x57"
 		(exclude_from_sim no)
 		(at 81.28 34.29 0)
-		(size 104.14 42.7962)
+		(size 104.14 44.8409)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1131,6 +1415,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 115.57) (xy 116.84 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d413eed-fd17-45f9-bed0-cf0e875f2a6d")
+	)
+	(wire
+		(pts
 			(xy 151.13 132.08) (xy 151.13 128.27)
 		)
 		(stroke
@@ -1158,6 +1452,16 @@
 			(type default)
 		)
 		(uuid "53ec5835-8b8f-4353-b543-51798ea20521")
+	)
+	(wire
+		(pts
+			(xy 43.18 113.03) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5724d3b7-9a85-4bc5-8412-2669b46e71be")
 	)
 	(wire
 		(pts
@@ -1201,6 +1505,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 113.03) (xy 116.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0421173-c5e9-472c-9aaa-cf5ea5538886")
+	)
+	(wire
+		(pts
 			(xy 151.13 88.9) (xy 151.13 107.95)
 		)
 		(stroke
@@ -1239,27 +1553,26 @@
 		)
 		(uuid "dc35e256-863c-4c72-af8c-7149fec30ac2")
 	)
+	(wire
+		(pts
+			(xy 43.18 115.57) (xy 53.34 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaae2720-464b-4830-99e4-c2b7dbddba3a")
+	)
 	(hierarchical_label "SCL_PPG"
 		(shape input)
-		(at 116.84 113.03 180)
+		(at 43.18 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "73e6b1df-5fa0-4eb8-8ca4-fe48f765f3e4")
-	)
-	(hierarchical_label "SDA_PPG"
-		(shape input)
-		(at 116.84 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "792332a5-f02c-4644-8287-f9a945385190")
+		(uuid "0e769f1e-1d8a-4ff6-a802-56227e6787fa")
 	)
 	(hierarchical_label "INT_PPG"
 		(shape input)
@@ -1271,6 +1584,17 @@
 			(justify left)
 		)
 		(uuid "c51fcc66-eea4-406b-9c55-f14b0748b37d")
+	)
+	(hierarchical_label "SDA_PPG"
+		(shape input)
+		(at 43.18 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed506341-d3ef-4aec-9405-2755e2e793da")
 	)
 	(symbol
 		(lib_id "symbols:MAX30101EFD")
@@ -1960,6 +2284,107 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/91c5a049-21db-40de-91cc-be7c60fb61f3"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:LSF0102GSX")
+		(at 73.66 107.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a759e367-1361-498f-b800-a26db41887ce")
+		(property "Reference" "U17"
+			(at 73.66 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LSF0102GSX"
+			(at 73.66 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints:XSON8_SOT1203_NEX"
+			(at 93.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "LSF0102GSX"
+			(at 93.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "e0e1553d-e378-4562-8d96-f9ece5d4bcdb")
+		)
+		(pin "8"
+			(uuid "16b48263-1a67-4421-8fe6-e9bc1b84eb18")
+		)
+		(pin "3"
+			(uuid "2fd5a244-dea4-4dbf-9b88-b6d19380ff3d")
+		)
+		(pin "2"
+			(uuid "227ff7c8-4a6d-4497-9966-4897f2170ce5")
+		)
+		(pin "1"
+			(uuid "c8114e5b-b780-49d8-90a2-bfa15dab2ac1")
+		)
+		(pin "5"
+			(uuid "de0f8caf-3c22-439f-a7e5-72dc0329b8d6")
+		)
+		(pin "4"
+			(uuid "300e3df9-2ae3-4d34-b5eb-a8cf4b7c283a")
+		)
+		(pin "7"
+			(uuid "fdb89cd2-08cf-4f70-82fa-b3caae9c1824")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/91c5a049-21db-40de-91cc-be7c60fb61f3"
+					(reference "U17")
 					(unit 1)
 				)
 			)
