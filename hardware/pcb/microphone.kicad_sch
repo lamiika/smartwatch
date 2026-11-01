@@ -665,15 +665,35 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "IM68D121JV01XTMA1\n\nSynopsis:\n\n	Ultra-low power digital PDM XENSIV™ MEMS microphon\n\nDatasheet:\n\n	https://www.infineon.com/assets/row/public/documents/30/49/infineon-im68d121j-datasheet-en.pdf\n\nLR:\n\n	LR = GND, Data driven at falling clock edge. Data high-Z at rising edge.\n	LR = VDD, Data driven at rising clock edge. Data high-Z at falling edge.\n"
+		(exclude_from_sim no)
+		(at 90.17 54.61 0)
+		(size 113.03 30.5285)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e61a5150-75e4-42cf-9631-fd01a0c827bd")
+	)
 	(junction
-		(at 124.46 97.79)
+		(at 119.38 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "882a277c-2c41-4a98-83e9-325188ca5038")
 	)
 	(wire
 		(pts
-			(xy 124.46 102.87) (xy 129.54 102.87)
+			(xy 119.38 113.03) (xy 124.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -683,7 +703,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 90.17) (xy 124.46 97.79)
+			(xy 119.38 100.33) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -693,7 +713,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 97.79) (xy 124.46 97.79)
+			(xy 113.03 107.95) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -703,7 +723,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 97.79) (xy 106.68 97.79)
+			(xy 107.95 107.95) (xy 101.6 107.95)
 		)
 		(stroke
 			(width 0)
@@ -713,7 +733,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 97.79) (xy 106.68 102.87)
+			(xy 101.6 107.95) (xy 101.6 121.92)
 		)
 		(stroke
 			(width 0)
@@ -723,7 +743,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 97.79) (xy 129.54 97.79)
+			(xy 119.38 107.95) (xy 124.46 107.95)
 		)
 		(stroke
 			(width 0)
@@ -733,7 +753,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 102.87) (xy 171.45 102.87)
+			(xy 154.94 113.03) (xy 166.37 113.03)
 		)
 		(stroke
 			(width 0)
@@ -743,7 +763,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 160.02 107.95)
+			(xy 160.02 118.11) (xy 154.94 118.11)
 		)
 		(stroke
 			(width 0)
@@ -753,7 +773,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 111.76) (xy 124.46 102.87)
+			(xy 119.38 121.92) (xy 119.38 113.03)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +783,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 97.79) (xy 171.45 97.79)
+			(xy 154.94 107.95) (xy 166.37 107.95)
 		)
 		(stroke
 			(width 0)
@@ -773,7 +793,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 165.1 107.95)
+			(xy 160.02 121.92) (xy 160.02 118.11)
 		)
 		(stroke
 			(width 0)
@@ -781,9 +801,9 @@
 		)
 		(uuid "fecd07da-0cf8-46a6-8b25-90da35d7a210")
 	)
-	(hierarchical_label "DATA"
+	(hierarchical_label "DATA_MK"
 		(shape input)
-		(at 171.45 102.87 0)
+		(at 166.37 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -792,9 +812,9 @@
 		)
 		(uuid "8c46c68e-fc54-414a-b118-b12eaf00b934")
 	)
-	(hierarchical_label "CLOCK"
+	(hierarchical_label "CLK_MK"
 		(shape input)
-		(at 171.45 97.79 0)
+		(at 166.37 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -805,7 +825,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 124.46 90.17 0)
+		(at 119.38 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -816,7 +836,7 @@
 		(fields_autoplaced yes)
 		(uuid "166b8e65-0d5b-4d65-88ca-c62b78f25e09")
 		(property "Reference" "#PWR069"
-			(at 124.46 93.98 0)
+			(at 119.38 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -827,7 +847,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 85.09 0)
+			(at 119.38 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -837,7 +857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 90.17 0)
+			(at 119.38 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -848,7 +868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 90.17 0)
+			(at 119.38 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -859,7 +879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 90.17 0)
+			(at 119.38 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -883,7 +903,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 102.87 0)
+		(at 101.6 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -894,7 +914,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a79ff88-0da3-4a84-93a6-ee2d21a269ae")
 		(property "Reference" "#PWR070"
-			(at 106.68 109.22 0)
+			(at 101.6 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -905,7 +925,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 107.95 0)
+			(at 101.6 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -915,7 +935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 102.87 0)
+			(at 101.6 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -926,7 +946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 102.87 0)
+			(at 101.6 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -937,7 +957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 102.87 0)
+			(at 101.6 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -961,7 +981,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Capacitor:1uF_0201_4V")
-		(at 115.57 97.79 90)
+		(at 110.49 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -972,7 +992,7 @@
 		(fields_autoplaced yes)
 		(uuid "339a4bf7-cda5-438f-a0da-9870a6e036bd")
 		(property "Reference" "C32"
-			(at 115.5763 91.44 90)
+			(at 110.4963 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -982,7 +1002,7 @@
 			)
 		)
 		(property "Value" "1uF_0201_4V"
-			(at 111.76 97.79 0)
+			(at 106.68 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,7 +1013,7 @@
 			)
 		)
 		(property "Footprint" "PCM_4ms_Capacitor:C_0201"
-			(at 120.65 100.33 0)
+			(at 115.57 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1005,7 +1025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 97.79 0)
+			(at 110.49 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1016,7 +1036,7 @@
 			)
 		)
 		(property "Description" "1uF, 0201, Min. 4V 10%, X7R or X5R or X6S or similar"
-			(at 115.57 97.79 0)
+			(at 110.49 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1027,7 +1047,7 @@
 			)
 		)
 		(property "Specifications" "1uF, Min. 4V 10%, X7R or X5R or X6S or similar"
-			(at 123.444 100.33 0)
+			(at 118.364 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1039,7 +1059,7 @@
 			)
 		)
 		(property "Display" "1uF"
-			(at 115.5763 93.98 90)
+			(at 110.4963 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1049,7 +1069,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 129.54 96.52 0)
+			(at 124.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1060,7 +1080,7 @@
 			)
 		)
 		(property "Part Number" "CC0201MRX5R5BB105"
-			(at 132.08 90.17 0)
+			(at 127 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1071,7 +1091,7 @@
 			)
 		)
 		(property "JLCPCB ID" "C272877"
-			(at 128.27 96.52 0)
+			(at 123.19 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1082,7 +1102,7 @@
 			)
 		)
 		(property "Manufacturer 2" "Murata"
-			(at 124.968 100.33 0)
+			(at 119.888 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1094,7 +1114,7 @@
 			)
 		)
 		(property "Part Number 2" "GRM033D70G105ME01D"
-			(at 126.492 100.33 0)
+			(at 121.412 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1106,7 +1126,7 @@
 			)
 		)
 		(property "Production Stage" "A"
-			(at 132.08 100.33 0)
+			(at 127 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1134,7 +1154,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 111.76 0)
+		(at 119.38 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1145,7 +1165,7 @@
 		(fields_autoplaced yes)
 		(uuid "33a6089c-e09b-4052-8e42-5b6f5d5bca68")
 		(property "Reference" "#PWR067"
-			(at 124.46 118.11 0)
+			(at 119.38 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1156,7 +1176,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 116.84 0)
+			(at 119.38 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1166,7 +1186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 111.76 0)
+			(at 119.38 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1177,7 +1197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 111.76 0)
+			(at 119.38 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1188,7 +1208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 111.76 0)
+			(at 119.38 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1212,7 +1232,7 @@
 	)
 	(symbol
 		(lib_id "symbols:IM68D121JV01XTMA1")
-		(at 134.62 95.25 0)
+		(at 129.54 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1222,7 +1242,7 @@
 		(dnp no)
 		(uuid "a21be1c3-9252-4e13-80ac-965356810b74")
 		(property "Reference" "MK1"
-			(at 144.78 87.63 0)
+			(at 139.7 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1232,7 +1252,7 @@
 			)
 		)
 		(property "Value" "IM68D121JV01XTMA1"
-			(at 144.78 90.17 0)
+			(at 139.7 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1242,7 +1262,7 @@
 			)
 		)
 		(property "Footprint" "footprints:IFX-PG-TLGA-5N-9-V.kicad_mod"
-			(at 134.62 95.25 0)
+			(at 129.54 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1253,7 +1273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 95.25 0)
+			(at 129.54 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1264,7 +1284,7 @@
 			)
 		)
 		(property "Description" "Ultra-low power digital PDM XENSIV™ MEMS microphone,High quality audio capturing."
-			(at 168.402 92.71 0)
+			(at 163.322 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1299,7 +1319,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 111.76 0)
+		(at 160.02 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1310,7 +1330,7 @@
 		(fields_autoplaced yes)
 		(uuid "e346d9b7-310d-4fbc-8a6c-4693092fba54")
 		(property "Reference" "#PWR068"
-			(at 165.1 118.11 0)
+			(at 160.02 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1321,7 +1341,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 116.84 0)
+			(at 160.02 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1331,7 +1351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 111.76 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1342,7 +1362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 111.76 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1353,7 +1373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 111.76 0)
+			(at 160.02 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

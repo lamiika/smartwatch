@@ -438,7 +438,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
+		(symbol "power:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -453,7 +453,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -463,8 +463,8 @@
 					)
 				)
 			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -474,7 +474,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -1.27 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -485,17 +485,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -506,7 +495,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -517,34 +506,21 @@
 					)
 				)
 			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
+			)
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -554,56 +530,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "GNDPWR_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -1091,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 105.41) (xy 138.43 105.41)
+			(xy 135.89 105.41) (xy 138.43 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1151,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 124.46) (xy 100.33 129.54)
+			(xy 100.33 124.46) (xy 100.33 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1161,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 127) (xy 106.68 135.89)
+			(xy 106.68 127) (xy 106.68 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1395,8 +1323,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 160.02 134.62 0)
+		(lib_id "power:GND")
+		(at 135.89 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1405,9 +1333,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2a66543b-eeb7-49fb-8873-626d6ace29aa")
-		(property "Reference" "#PWR062"
-			(at 160.02 139.7 0)
+		(uuid "23e792f4-e7fd-450c-a276-72a0a50cb842")
+		(property "Reference" "#PWR034"
+			(at 129.54 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,86 +1345,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 159.893 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 160.02 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "510bf6e4-f4da-40ab-9512-5da037d56ed4")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ba1edd3c-e270-4599-b23e-fe027834271a"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 137.16 105.41 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f5648e5-5a6e-4106-8850-5d02507b882b")
-		(property "Reference" "#PWR035"
-			(at 132.08 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 133.35 105.2829 90)
+		(property "Value" "GND"
+			(at 132.08 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1528,8 +1378,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 137.16 105.41 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1540,12 +1390,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a3707668-2e00-4285-977c-86a6924dbcdc")
+			(uuid "84d624ba-342d-49e9-85b6-5f92074ddad4")
 		)
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ba1edd3c-e270-4599-b23e-fe027834271a"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1823,8 +1673,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 151.13 134.62 0)
+		(lib_id "power:GND")
+		(at 100.33 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1833,9 +1683,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "52abf776-e538-4437-bb1e-7204f9ff5088")
-		(property "Reference" "#PWR030"
-			(at 151.13 139.7 0)
+		(uuid "51fa8122-584f-4714-8a2b-0af05db2cb6c")
+		(property "Reference" "#PWR020"
+			(at 100.33 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1845,8 +1695,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 151.003 138.43 0)
+		(property "Value" "GND"
+			(at 100.33 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1856,7 +1706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 135.89 0)
+			(at 100.33 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1867,7 +1717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 135.89 0)
+			(at 100.33 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1877,8 +1727,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 151.13 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1889,12 +1739,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1495022-42bc-4b7a-a743-2057cfb3b8e1")
+			(uuid "8bfcbb32-0029-4c47-95ba-7592e5ca6f25")
 		)
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ba1edd3c-e270-4599-b23e-fe027834271a"
-					(reference "#PWR030")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1979,8 +1829,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 106.68 135.89 0)
+		(lib_id "power:GND")
+		(at 173.99 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1989,9 +1839,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b0eab506-769e-47e2-a9fc-d1d32068802a")
-		(property "Reference" "#PWR028"
-			(at 106.68 140.97 0)
+		(uuid "8f3c6ba1-31c0-427a-bd15-a9452fa35694")
+		(property "Reference" "#PWR030"
+			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2001,18 +1851,19 @@
 				)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 106.553 139.7 0)
+		(property "Value" "GND"
+			(at 177.8 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 137.16 0)
+			(at 173.99 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2023,7 +1874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 137.16 0)
+			(at 173.99 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2033,8 +1884,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 106.68 135.89 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2045,7 +1896,163 @@
 			)
 		)
 		(pin "1"
-			(uuid "edf25e62-92f0-41c9-84ba-9ba5cfa87ecb")
+			(uuid "2004aa35-7298-4670-a099-8b2d31170656")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ba1edd3c-e270-4599-b23e-fe027834271a"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a864446d-b56a-4ed8-8031-e0b660b00325")
+		(property "Reference" "#PWR026"
+			(at 151.13 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c394314f-3c0c-4f25-8f4e-1714c9472c41")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ba1edd3c-e270-4599-b23e-fe027834271a"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9c3dc84-f181-4fe0-8402-4a5e8bf69247")
+		(property "Reference" "#PWR028"
+			(at 160.02 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 160.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b55872ef-b44b-49b8-9f9c-63072a9d4bb4")
 		)
 		(instances
 			(project "test-circuits"
@@ -2295,8 +2302,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 100.33 129.54 0)
+		(lib_id "power:GND")
+		(at 106.68 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2305,9 +2312,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e7c5eeb9-2ae1-4363-aaa8-ce9768f453a5")
-		(property "Reference" "#PWR026"
-			(at 100.33 134.62 0)
+		(uuid "e741bf78-2f3a-4635-9d6b-f09c0715f97d")
+		(property "Reference" "#PWR021"
+			(at 106.68 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2317,8 +2324,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 100.203 133.35 0)
+		(property "Value" "GND"
+			(at 106.68 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2328,7 +2335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 130.81 0)
+			(at 106.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2339,7 +2346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 130.81 0)
+			(at 106.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2349,87 +2356,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 100.33 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5adce506-3ebf-499c-b40d-7e5c2c7248ec")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ba1edd3c-e270-4599-b23e-fe027834271a"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 173.99 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd2d72f4-727e-4e03-93ac-2631c5b39d8f")
-		(property "Reference" "#PWR034"
-			(at 179.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 177.8 119.5069 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 173.99 119.38 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2440,12 +2368,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "87676fc4-7663-463d-aadb-c2717f2d82ae")
+			(uuid "e7c3c828-5482-4663-983c-30a5952f874e")
 		)
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ba1edd3c-e270-4599-b23e-fe027834271a"
-					(reference "#PWR034")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
