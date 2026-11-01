@@ -1705,10 +1705,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "MCP2221A\n\nSynopsis: \n\n	USB 2.0 to I2C/UART Protocol Converter with GPIO\n\nDatasheet: \n\n	https://ww1.microchip.com/downloads/en/DeviceDoc/20005565C.pdf\n\nMCP2221A is a USB composite device that uses industry-standard USB classes:\n\nFor the UART (Serial) side: \n\nLinux automatically uses the standard cdc_acm driver. \nIt will show up as a virtual serial port, typically named /dev/ttyACM0 or /dev/ttyACM1.\n\nFor the I2C, GPIO, ADC, and DAC side: \n\nThe chip operates as a standard USB HID (Human Interface Device).\nLinux communicates with it directly via the standard hidraw interface (driver)."
+	(text_box "MCP2221A\n\nSynopsis: \n\n	USB 2.0 to I2C/UART Protocol Converter with GPIO\n\nDatasheet: \n\n	https://ww1.microchip.com/downloads/en/DeviceDoc/20005565C.pdf\n\nInfo:\n\n	MCP2221A is a USB composite device that uses industry-standard USB classes:\n\nFor the UART (Serial) side: \n\n	Linux automatically uses the standard cdc_acm driver. \n	It will show up as a virtual serial port, typically named /dev/ttyACM0 or /dev/ttyACM1.\n\nFor the I2C, GPIO, ADC, and DAC side: \n\n	The chip operates as a standard USB HID (Human Interface Device).\n	Linux communicates with it directly via the standard hidraw interface (driver)."
 		(exclude_from_sim no)
 		(at 127 19.05 0)
-		(size 86.36 48.9301)
+		(size 113.03 50.9748)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

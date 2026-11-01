@@ -1526,6 +1526,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Setup unknown"
+		(exclude_from_sim no)
+		(at 166.116 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da08a055-faa7-406f-867d-a93d6f80f5e4")
+	)
+	(text_box "TCK127BG_LF\n\nSynopsis:\n\n	0.08 nA Ultra small IQ 1.0 A Load Switch IC in Ultra Small Package\n\nDatasheet:\n\n	https://toshiba.semicon-storage.com/info/TCK127BG_datasheet_en_20211028.pdf?did=140423&prodName=TCK127BG"
+		(exclude_from_sim no)
+		(at 27.94 48.2747 0)
+		(size 123.19 20.3053)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "78d8154f-8edf-42ab-b367-ebeb8d1a87fd")
+	)
+	(text_box "MAX-M10M-00B\n\nSynopsis:\n\n	Ultra-low-power GNSS receiver for high-performance asset-tracking devices\n\nDatasheet:\n\n	https://content.u-blox.com/sites/default/files/MAX-M10_ProductSummary_UBX-20017987.pdf"
+		(exclude_from_sim no)
+		(at 154.94 85.09 0)
+		(size 107.95 24.13)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fdb206ff-8289-48fc-b71d-5408d49587dc")
+	)
 	(junction
 		(at 127 116.84)
 		(diameter 0)
