@@ -665,10 +665,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "IM68D121JV01XTMA1\n\nSynopsis:\n\n	Ultra-low power digital PDM XENSIV™ MEMS microphon\n\nDatasheet:\n\n	https://www.infineon.com/assets/row/public/documents/30/49/infineon-im68d121j-datasheet-en.pdf\n\nLR:\n\n	LR = GND, Data driven at falling clock edge. Data high-Z at rising edge.\n	LR = VDD, Data driven at rising clock edge. Data high-Z at falling edge.\n"
+	(text_box "IM68D121JV01XTMA1\n\nSynopsis:\n\n	Ultra-low power digital PDM XENSIV™ MEMS microphon\n\nDatasheet:\n\n	https://www.infineon.com/assets/row/public/documents/30/49/infineon-im68d121j-datasheet-en.pdf\n\nLR:\n\n	LR = GND, Data driven at falling clock edge. Data high-Z at rising edge.\n	LR = VDD, Data driven at rising clock edge. Data high-Z at falling edge.\n\nCurrent when CLK pulled low: \n	typ 1 uA max 5 uA\n"
 		(exclude_from_sim no)
 		(at 90.17 54.61 0)
-		(size 113.03 30.5285)
+		(size 113.03 36.6624)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

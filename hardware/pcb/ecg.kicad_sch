@@ -1621,10 +1621,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "MAX30003CTI+T\n\nSynopsis:\n\n	Ultra-Low Power, Single-Channel Integrated Biopotential (ECG, R-to-R Detection) AFE\n\nDatasheet:\n\n	https://www.analog.com/media/en/technical-documentation/data-sheets/max30003.pdf\n\nVoltage:\n\n	Interface voltage is 3V3. Typical application circuit."
+	(text_box "MAX30003CTI+T\n\nSynopsis:\n\n	Ultra-Low Power, Single-Channel Integrated Biopotential (ECG, R-to-R Detection) AFE\n\nDatasheet:\n\n	https://www.analog.com/media/en/technical-documentation/data-sheets/max30003.pdf\n\nVoltage:\n\n	Interface voltage is 3V3. Typical application circuit.\n\nShutdown current: \n	1.1 uA"
 		(exclude_from_sim no)
 		(at 58.42 38.8262 0)
-		(size 97.79 28.4838)
+		(size 97.79 34.6177)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

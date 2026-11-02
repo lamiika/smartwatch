@@ -1009,10 +1009,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "PAM8013AKR\n\nSynopsis:\n\n	3W MONO CLASS D AUDIO AMPLIFIER\n\nDatasheet:\n\n	https://www.diodes.com/datasheet/download/PAM8013.pdf\n\nVoltage:\n\n	Supply Voltage from 2.8V to 5.5 V.\n\nSD:\n\n	Shutdown control pin. Should not be left disconnected.\n"
+	(text_box "PAM8013AKR\n\nSynopsis:\n\n	3W MONO CLASS D AUDIO AMPLIFIER\n\nDatasheet:\n\n	https://www.diodes.com/datasheet/download/PAM8013.pdf\n\nVoltage:\n\n	Supply Voltage from 2.8V to 5.5 V.\n\nSD:\n\n	Shutdown control pin. Should not be left disconnected.\n\nShutdown current: \n	<1 uA\n"
 		(exclude_from_sim no)
 		(at 104.14 36.9976 0)
-		(size 82.55 36.6624)
+		(size 82.55 42.7962)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
