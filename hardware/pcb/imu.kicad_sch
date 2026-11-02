@@ -962,10 +962,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "LSM6DSV16XTR\n\nSynopsis:\n\n	6-axis inertial measurement unit (IMU)\n\nDatasheet:\n\n	https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf\n\nVoltage:\n\n	Operation voltage 1.71V to 3.6V.\n\nI2C:\n\n	To select/exploit the I²C interface, the CS line must be tied high (that is, connected to Vdd_IO).\n\n	SCL and SDA should be configured with 10k pull-up resistors to VDD_IO voltage.\n\nSDO / SA0:\n\n	Connect to GND or VDDIO, sets the I2C address bit.\n	Tie to GND = Address 0x6A\n	Tie to VDDIO = Address 0x6B"
+	(text_box "LSM6DSV16XTR\n\nSynopsis:\n\n	6-axis inertial measurement unit (IMU)\n\nDatasheet:\n\n	https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf\n\nVoltage:\n\n	Operation voltage 1.71V to 3.6V.\n\nI2C:\n\n	To select/exploit the I²C interface, the CS line must be tied high (that is, connected to Vdd_IO).\n\n	SCL and SDA should be configured with 10k pull-up resistors to VDD_IO voltage.\n\nSDO / SA0:\n\n	Connect to GND or VDDIO, sets the I2C address bit.\n	Tie to GND = Address 0x6A\n	Tie to VDDIO = Address 0x6B\n\nPower-down current: 			2.6 µA\nAccelerometer LPM1 at 1.875 Hz:	4.0 µA\nAccelerometer LPM2 at 1.875 Hz:	4.2 µA\nAccelerometer LPM1 at 60 Hz: 	17 µA\nAccelerometer LPM2 at 60 Hz: 	20 µA\nAccelerometer normal mode: 		100 µA\nAccelerometer high-performance:	190 µA\nAccel + gyro high-performance: 	650 µA"
 		(exclude_from_sim no)
-		(at 90.17 21.6313 0)
-		(size 111.76 57.1087)
+		(at 95.25 18.7489 0)
+		(size 111.76 71.4211)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -983,13 +983,19 @@
 		(uuid "0c15f214-e944-4cf3-96d4-e29751d07721")
 	)
 	(junction
+		(at 193.04 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f9fbed9-db42-4355-acd5-dc976ab8399a")
+	)
+	(junction
 		(at 185.42 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6661d55a-b7b8-43b6-93c6-cd0c288184f7")
 	)
 	(junction
-		(at 170.18 113.03)
+		(at 193.04 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "748873f7-1d3c-460c-9980-972a1092d4fc")
@@ -999,12 +1005,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e961b92e-673a-48ac-8722-1ec19340f74f")
-	)
-	(junction
-		(at 193.04 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1022a70-80e7-45a2-8b8e-538d62fd6dc1")
 	)
 	(no_connect
 		(at 114.3 135.89)
@@ -1016,23 +1016,43 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 128.27) (xy 180.34 128.27)
+			(xy 179.07 137.16) (xy 179.07 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31f0067e-3ca9-46ea-a1f7-ead0012b4525")
+		(uuid "071b0123-b51d-4b28-abb8-aebeb6891436")
 	)
 	(wire
 		(pts
-			(xy 185.42 115.57) (xy 193.04 115.57)
+			(xy 170.18 120.65) (xy 160.02 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "377fd796-43a0-4873-829b-ab83128de7f5")
+		(uuid "2d0ca447-7823-4ede-b4e8-f23b6216f2f5")
+	)
+	(wire
+		(pts
+			(xy 193.04 93.98) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33dc3172-95b3-4f41-ae4c-50e85f94f76e")
+	)
+	(wire
+		(pts
+			(xy 170.18 123.19) (xy 160.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fa435b-5d9f-41d1-b253-8e9f02af0ad4")
 	)
 	(wire
 		(pts
@@ -1046,7 +1066,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 113.03) (xy 170.18 105.41)
+			(xy 193.04 113.03) (xy 193.04 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 128.27) (xy 114.3 128.27)
+			(xy 105.41 128.27) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1073,6 +1093,16 @@
 			(type default)
 		)
 		(uuid "5579b959-e6f8-4278-ad9c-0d5bfb56e7be")
+	)
+	(wire
+		(pts
+			(xy 193.04 129.54) (xy 193.04 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605314db-5b99-45ba-803b-67f1cd2e9ff0")
 	)
 	(wire
 		(pts
@@ -1096,13 +1126,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 113.03) (xy 170.18 113.03)
+			(xy 160.02 113.03) (xy 204.47 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "833c982a-7391-472b-b92e-3b0336418674")
+	)
+	(wire
+		(pts
+			(xy 200.66 93.98) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8764c99f-4143-4208-b6b1-e284c9edf15f")
 	)
 	(wire
 		(pts
@@ -1136,6 +1176,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 115.57) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bfe9d3-17a0-4dff-a51e-cfc4fd280545")
+	)
+	(wire
+		(pts
 			(xy 163.83 140.97) (xy 163.83 146.05)
 		)
 		(stroke
@@ -1146,27 +1196,27 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 115.57) (xy 193.04 105.41)
+			(xy 193.04 115.57) (xy 204.47 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2a89140-07a8-4080-9b02-c5e8bc5cd2ef")
+		(uuid "b89c3577-3466-4dab-97f4-518edc034590")
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 170.18 113.03)
+			(xy 105.41 123.19) (xy 114.3 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c042774f-181f-419b-98e4-4ce8967400f6")
+		(uuid "bfd0868b-0576-4b7d-ae7c-5d947acb4b57")
 	)
 	(wire
 		(pts
-			(xy 195.58 115.57) (xy 193.04 115.57)
+			(xy 185.42 115.57) (xy 193.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1176,13 +1226,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 93.98) (xy 193.04 97.79)
+			(xy 105.41 120.65) (xy 114.3 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3459b64-a12d-40ba-8ab4-ce4303d2127e")
+		(uuid "ceba0a36-d242-4868-ac12-538f399df727")
+	)
+	(wire
+		(pts
+			(xy 179.07 128.27) (xy 160.02 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66799eb-9b05-493b-b535-f9edbd68ac6b")
 	)
 	(wire
 		(pts
@@ -1196,7 +1256,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 93.98) (xy 170.18 97.79)
+			(xy 193.04 93.98) (xy 193.04 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1215,28 +1275,28 @@
 		(uuid "fa184a6b-4674-4e06-86ec-8598e9557034")
 	)
 	(label "VDD_IO"
-		(at 107.95 128.27 0)
+		(at 105.41 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5db36ac1-ed66-4d70-a038-e1502776ea74")
 	)
 	(label "VDD_IO"
-		(at 185.42 123.19 90)
+		(at 185.42 123.19 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cbc8bb55-a2ef-46b8-9f4c-296e5f9f1ba1")
 	)
 	(hierarchical_label "SCL_IMU"
 		(shape input)
-		(at 114.3 123.19 180)
+		(at 105.41 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1247,7 +1307,7 @@
 	)
 	(hierarchical_label "INT1_IMU"
 		(shape input)
-		(at 160.02 120.65 0)
+		(at 170.18 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1258,7 +1318,7 @@
 	)
 	(hierarchical_label "INT2_IMU"
 		(shape input)
-		(at 160.02 123.19 0)
+		(at 170.18 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1269,7 +1329,7 @@
 	)
 	(hierarchical_label "SDA_IMU"
 		(shape input)
-		(at 114.3 120.65 180)
+		(at 105.41 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1554,7 +1614,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 172.72 113.03 270)
+		(at 204.47 113.03 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1565,7 +1625,7 @@
 		(fields_autoplaced yes)
 		(uuid "1edea56b-09ed-4ad5-9727-c53720645f56")
 		(property "Reference" "#PWR057"
-			(at 168.91 113.03 0)
+			(at 200.66 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,7 +1636,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 176.53 113.0299 90)
+			(at 208.28 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1587,7 +1647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 113.03 0)
+			(at 204.47 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 113.03 0)
+			(at 204.47 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1609,7 +1669,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 113.03 0)
+			(at 204.47 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1633,7 +1693,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 93.98 180)
+		(at 200.66 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1642,9 +1702,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29cd98ae-ea1d-443a-b1ca-782cdecd07ba")
-		(property "Reference" "#PWR077"
-			(at 193.04 87.63 0)
+		(uuid "29cbb68d-e999-4c39-88b8-cf6c3594dc47")
+		(property "Reference" "#PWR076"
+			(at 200.66 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1655,7 +1715,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 88.9 0)
+			(at 200.66 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1665,7 +1725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 93.98 0)
+			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +1736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 93.98 0)
+			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1687,7 +1747,86 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 93.98 0)
+			(at 200.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ef94f80-52b9-4306-b011-a6c5fc63b3cd")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/baa00837-9e82-40d6-8cd8-3ba937210992"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29cd98ae-ea1d-443a-b1ca-782cdecd07ba")
+		(property "Reference" "#PWR077"
+			(at 193.04 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1711,7 +1850,8 @@
 	)
 	(symbol
 		(lib_id "symbols:cap_100nF_0201")
-		(at 170.18 102.87 90)
+		(at 193.04 102.87 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1719,10 +1859,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2da7a576-cbde-4e26-b8d1-2a9f2051a12f")
 		(property "Reference" "C1"
-			(at 173.99 100.3299 90)
+			(at 189.23 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1733,7 +1872,7 @@
 			)
 		)
 		(property "Value" "100nF_0201"
-			(at 173.99 102.8699 90)
+			(at 189.23 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1744,7 +1883,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC0603X33N"
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1756,7 +1895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1767,7 +1906,7 @@
 			)
 		)
 		(property "Description" "SMD capacitor X6S(EIA) with capacitance 0.10uF Tol.20%. Rated voltage 4Vdc 105C"
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,7 +1918,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +1930,7 @@
 			)
 		)
 		(property "Package" "0603 Murata"
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1803,7 +1942,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +1954,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=snap"
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1827,7 +1966,7 @@
 			)
 		)
 		(property "MP" "GRM033C80G104ME19D"
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1839,7 +1978,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1851,7 +1990,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=eda"
-			(at 170.18 102.87 0)
+			(at 193.04 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1872,84 +2011,6 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/baa00837-9e82-40d6-8cd8-3ba937210992"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 93.98 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d5c9c7f-79cb-4c63-ac3a-552ccdf1c4aa")
-		(property "Reference" "#PWR076"
-			(at 170.18 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dcb8386a-70aa-4229-8618-f3d1e86ddc88")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/baa00837-9e82-40d6-8cd8-3ba937210992"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -2035,7 +2096,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 128.27 90)
+		(at 179.07 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2046,7 +2107,7 @@
 		(fields_autoplaced yes)
 		(uuid "b021aac2-ee83-4851-a429-7e9acd0c6a89")
 		(property "Reference" "#PWR075"
-			(at 186.69 128.27 0)
+			(at 179.07 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2057,18 +2118,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 128.2699 90)
+			(at 181.61 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 128.27 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2079,7 +2140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 128.27 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2090,7 +2151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 128.27 0)
+			(at 179.07 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2192,7 +2253,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 195.58 115.57 270)
+		(at 204.47 115.57 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2203,7 +2264,7 @@
 		(fields_autoplaced yes)
 		(uuid "de268c78-9035-485f-bbb4-a09c9da6d981")
 		(property "Reference" "#PWR058"
-			(at 191.77 115.57 0)
+			(at 200.66 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2214,7 +2275,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 199.39 115.5699 90)
+			(at 208.28 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2225,7 +2286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 115.57 0)
+			(at 204.47 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2236,7 +2297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 115.57 0)
+			(at 204.47 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 195.58 115.57 0)
+			(at 204.47 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2271,7 +2332,7 @@
 	)
 	(symbol
 		(lib_id "symbols:cap_100nF_0201")
-		(at 193.04 100.33 270)
+		(at 193.04 124.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2282,7 +2343,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed0b25e1-d614-49d5-abcd-48ef8b5df4f0")
 		(property "Reference" "C2"
-			(at 196.85 100.3299 90)
+			(at 196.85 124.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2293,7 +2354,7 @@
 			)
 		)
 		(property "Value" "100nF_0201"
-			(at 196.85 102.8699 90)
+			(at 196.85 126.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2304,7 +2365,7 @@
 			)
 		)
 		(property "Footprint" "footprints:CAPC0603X33N"
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,7 +2377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2327,7 +2388,7 @@
 			)
 		)
 		(property "Description" "SMD capacitor X6S(EIA) with capacitance 0.10uF Tol.20%. Rated voltage 4Vdc 105C"
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2339,7 +2400,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2351,7 +2412,7 @@
 			)
 		)
 		(property "Package" "0603 Murata"
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2363,7 +2424,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +2436,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=snap"
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,7 +2448,7 @@
 			)
 		)
 		(property "MP" "GRM033C80G104ME19D"
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2399,7 +2460,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,7 +2472,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=eda"
-			(at 193.04 100.33 0)
+			(at 193.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

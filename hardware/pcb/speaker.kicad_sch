@@ -1231,6 +1231,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 102.87) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862e711e-c607-445d-a627-aa9a8a062ae1")
+	)
+	(wire
+		(pts
 			(xy 109.22 90.17) (xy 109.22 92.71)
 		)
 		(stroke
@@ -1372,7 +1382,7 @@
 	)
 	(hierarchical_label "SD_SPEAKER"
 		(shape input)
-		(at 133.35 102.87 180)
+		(at 127 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)

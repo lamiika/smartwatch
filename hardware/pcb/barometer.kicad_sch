@@ -819,218 +819,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:TCK127BG_LF"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0.762 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TCK127BG_LF"
-				(at 0.762 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "footprints:WCSP4G_TOS"
-				(at -17.78 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=140341&prodName=TCK127BG"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TCK127BG,LF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "WCSP4G_TOS WCSP4G_TOS-M WCSP4G_TOS-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TCK127BG_LF_0_1"
-				(polyline
-					(pts
-						(xy -10.16 5.08) (xy -10.16 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -7.62) (xy 10.16 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 5.08) (xy -10.16 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 10.16 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TCK127BG_LF_1_1"
-				(pin power_out line
-					(at 17.78 -2.54 180)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 0 180)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 -2.54 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 7.62)
-					(name "CONTROL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "Example Sparkfun board"
 		(exclude_from_sim no)
@@ -1043,7 +831,7 @@
 		)
 		(uuid "e0acc35f-6796-454d-955a-5f5c53c584f3")
 	)
-	(text_box "BMP581\n\nSynopsis:\n\n	Barometric Pressure Sensor\n	\nDatasheet:\n\n	https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf\n\nVoltage:\n\n	VDDIO: 1.2V to 3.3V\n	VDD: 1.8V to 3.3V\n\nModel:\n\n	https://www.snapeda.com/parts/BMP581/Bosch/view-part/?ref=search&t=BMP581&ab_test_case=b\n\nSDO:\n\n	The chip reads the voltage level of the SDO pin to establish its identifier on the I2C bus.\n\n\n	SDO tied to Ground (VSSIO): The I2C address becomes 0x46.\n	SDO tied to Power (VDDIO): The I2C address becomes 0x47\n\nDeep standby current:\n	0.55 uA"
+	(text_box "BMP581\n\nSynopsis:\n\n	Barometric Pressure Sensor\n	\nDatasheet:\n\n	https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf\n\nVoltage:\n\n	VDDIO: 1.2V to 3.3V\n	VDD: 1.8V to 3.3V\n\nModel:\n\n	https://www.snapeda.com/parts/BMP581/Bosch/view-part/?ref=search&t=BMP581&ab_test_case=b\n\nSDO:\n\n	The chip reads the voltage level of the SDO pin to establish its identifier on the I2C bus.\n\n\n	SDO tied to Ground (VSSIO): The I2C address becomes 0x46.\n	SDO tied to Power (VDDIO): The I2C address becomes 0x47.\n\nDeep standby current:\n	0.55 uA"
 		(exclude_from_sim no)
 		(at 88.9 17.78 0)
 		(size 113.03 61.1979)
@@ -1067,7 +855,7 @@
 		(at 105.41 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "42683f6c-5e58-4218-93ef-f8e202c07549")
+		(uuid "0fef259b-bf7f-4099-9b21-a87a40b52fd5")
 	)
 	(junction
 		(at 121.92 124.46)
@@ -1096,16 +884,6 @@
 	(no_connect
 		(at 158.75 127)
 		(uuid "ee76e284-4caa-4acc-8488-bac21e441a85")
-	)
-	(wire
-		(pts
-			(xy 97.79 100.33) (xy 105.41 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "058bb378-31e3-4781-8193-da160d10213f")
 	)
 	(wire
 		(pts
@@ -1159,7 +937,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 90.17) (xy 105.41 97.79)
+			(xy 105.41 90.17) (xy 105.41 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1176,6 +954,16 @@
 			(type default)
 		)
 		(uuid "46d3e1de-d39b-4edf-83c5-1400653fa927")
+	)
+	(wire
+		(pts
+			(xy 166.37 124.46) (xy 158.75 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526f8627-d1e1-4ff8-b2ae-85a2d79cdf4c")
 	)
 	(wire
 		(pts
@@ -1209,13 +997,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 97.79) (xy 105.41 97.79)
+			(xy 121.92 127) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "639c7ad5-6340-4010-a5e1-6b506d907ee4")
+		(uuid "5f256ea2-1bfb-4911-9077-6f1e098b9933")
 	)
 	(wire
 		(pts
@@ -1236,6 +1024,26 @@
 			(type default)
 		)
 		(uuid "847d1b04-657b-4684-a3ba-79dcbce2e164")
+	)
+	(wire
+		(pts
+			(xy 143.51 149.86) (xy 143.51 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93286601-2b0a-4b24-ab6f-c12d964257d3")
+	)
+	(wire
+		(pts
+			(xy 151.13 100.33) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b0b475-5590-4b7f-acb9-5de16aec4ced")
 	)
 	(wire
 		(pts
@@ -1288,7 +1096,7 @@
 		(uuid "e84adc20-fbbf-4211-949a-1a9881797ee8")
 	)
 	(label "SDO"
-		(at 146.05 161.29 90)
+		(at 146.05 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1298,7 +1106,7 @@
 		(uuid "0f090a77-e907-4f80-ac26-fe339ecfaff6")
 	)
 	(label "SDO"
-		(at 121.92 119.38 270)
+		(at 121.92 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1309,7 +1117,7 @@
 	)
 	(hierarchical_label "SDA_BARO"
 		(shape input)
-		(at 143.51 144.78 270)
+		(at 143.51 149.86 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1320,7 +1128,7 @@
 	)
 	(hierarchical_label "INT_BARO"
 		(shape input)
-		(at 158.75 124.46 0)
+		(at 166.37 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1331,7 +1139,7 @@
 	)
 	(hierarchical_label "SCK_BARO"
 		(shape input)
-		(at 128.27 127 180)
+		(at 121.92 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1430,85 +1238,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 151.13 100.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "346636a8-6024-414b-ad22-1407e259ec38")
-		(property "Reference" "#PWR063"
-			(at 157.48 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 100.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d851bfd-68db-4b1c-bf42-76d1df637ad9")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a8e0b527-6f59-4ff5-a699-1e21fc4a399e"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 105.41 130.81 0)
 		(unit 1)
@@ -1591,6 +1320,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 151.13 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "631603a1-cd5c-4776-9f2e-db7580c2c47f")
+		(property "Reference" "#PWR063"
+			(at 151.13 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "410ea615-11cc-45d3-95c1-1ea3991362ef")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a8e0b527-6f59-4ff5-a699-1e21fc4a399e"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 105.41 90.17 0)
 		(unit 1)
@@ -1663,94 +1471,6 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a8e0b527-6f59-4ff5-a699-1e21fc4a399e"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:TCK127BG_LF")
-		(at 80.01 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71907ab3-1877-4171-9bc0-fe9bee6ce361")
-		(property "Reference" "U20"
-			(at 80.01 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TCK127BG_LF"
-			(at 80.01 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:WCSP4G_TOS"
-			(at 62.23 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=140341&prodName=TCK127BG"
-			(at 80.01 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B2"
-			(uuid "8b31c410-93f2-4a42-99f9-071dc3f0e600")
-		)
-		(pin "A1"
-			(uuid "55d22c1f-595c-4f46-b696-ff03a6a5db9e")
-		)
-		(pin "B1"
-			(uuid "18d8fd8f-747e-4674-a62b-bcca0d2696f2")
-		)
-		(pin "A2"
-			(uuid "03f68735-757c-4878-b598-87c99024beb3")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a8e0b527-6f59-4ff5-a699-1e21fc4a399e"
-					(reference "U20")
 					(unit 1)
 				)
 			)

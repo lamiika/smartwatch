@@ -2006,10 +2006,10 @@
 		)
 		(uuid "78d8154f-8edf-42ab-b367-ebeb8d1a87fd")
 	)
-	(text_box "MAX-M10M-00B\n\nSynopsis:\n\n	Ultra-low-power GNSS receiver for high-performance asset-tracking devices\n\nDatasheet:\n\n	https://content.u-blox.com/sites/default/files/MAX-M10_ProductSummary_UBX-20017987.pdf"
+	(text_box "MAX-M10M-20B\n\nSynopsis:\n\n	Ultra-low-power GNSS receiver for high-performance asset-tracking devices\n\nDatasheet:\n\n	https://content.u-blox.com/sites/default/files/documents/MAX-M10M-20B_DataSheet_UBXDOC-963802114-13063.pdf\n\nIntegration manual: \n	https://content.u-blox.com/sites/default/files/documents/MAX-M10M-20B_IntegrationManual_UBXDOC-963802114-13064.pdf\n\nHardware backup mode current:\n	Typical 28 uA\nSoftware backup mode current:\n	Typical 49 uA (Vcc = 3 uA + V_IO = 46 uA)\n"
 		(exclude_from_sim no)
 		(at 154.94 85.09 0)
-		(size 107.95 24.13)
+		(size 107.95 36.6624)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

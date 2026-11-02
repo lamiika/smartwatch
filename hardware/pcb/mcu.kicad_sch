@@ -5,6 +5,1347 @@
 	(uuid "3b1b1ad4-3385-4d6a-aa07-6c7faf2859a0")
 	(paper "A4")
 	(lib_symbols
+		(symbol "PCM_MCU_SiFli:SF32LB52-MOD-1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -99.06 -31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SF32LB52-MOD-1"
+				(at -0.508 46.482 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SiFli_MOD:SF32LB52‐MOD‐1"
+				(at 1.524 -47.752 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://downloads.sifli.com/silicon/DS5203-SF32LB52-MOD-1%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC%E4%B9%A6%20V0p2.pdf"
+				(at 1.524 -52.832 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SF32LB52-MOD-1 is a general-purpose low-power Bluetooth MCU module, which adopts SiFli's SF32LB525UC6 chip and Arm Cortex-M33 STAR-MC1 dual-core processor, with an operating frequency of up to 240MHz.The module has a rich set of peripheral interfaces, including GPIO, SPI, LCD, MPI, UART, I2C, PWM, SDIO, USB2.0 FS, analog audio input and output, UART, I2C, PWM, SDIO, USB2.0 FS, analog audio input and output."
+				(at 8.128 -59.69 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SiFli MCU MOD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SF32LB52-MOD-1_1_1"
+				(rectangle
+					(start -15.24 35.56)
+					(end 15.24 -35.56)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 2.54)
+					(name "PA44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -12.7 0)
+					(length 2.54)
+					(name "PA43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 2.54)
+					(name "PA42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "PA23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "PA22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 2.54)
+					(name "PA41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "PA40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "PA39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "PA38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "PA37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "PA36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 7.62 0)
+					(length 2.54)
+					(name "PA35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "PA34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 12.7 0)
+					(length 2.54)
+					(name "PA33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 15.24 0)
+					(length 2.54)
+					(name "PA32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -20.32 180)
+					(length 2.54)
+					(name "VDD33_VOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "PA24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "PA25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 30.48 0)
+					(length 2.54)
+					(name "PA26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 27.94 0)
+					(length 2.54)
+					(name "PA27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 25.4 0)
+					(length 2.54)
+					(name "PA28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 22.86 0)
+					(length 2.54)
+					(name "PA29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 20.32 0)
+					(length 2.54)
+					(name "PA30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 17.78 0)
+					(length 2.54)
+					(name "PA31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 38.1 270)
+					(length 2.54)
+					(name "VSYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "PA20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "PA19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "PA18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -25.4 0)
+					(length 2.54)
+					(name "AU_DAC1P_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -27.94 0)
+					(length 2.54)
+					(name "AU_DAC1N_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 -25.4 180)
+					(length 2.54)
+					(name "MIC_BIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -27.94 180)
+					(length 2.54)
+					(name "MIC_ADC_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "PA09"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "PA08"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "PA07"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 15.24 180)
+					(length 2.54)
+					(name "PA06"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 17.78 180)
+					(length 2.54)
+					(name "PA05"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 20.32 180)
+					(length 2.54)
+					(name "PA04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 22.86 180)
+					(length 2.54)
+					(name "PA03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 25.4 180)
+					(length 2.54)
+					(name "PA02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 27.94 180)
+					(length 2.54)
+					(name "PA01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 30.48 180)
+					(length 2.54)
+					(name "PA00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(name "VBATS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SF32LB52-MOD-1_2_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "PA16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "PA17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2590,6 +3931,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Sifli SF32LB525\n\n	https://downloads.sifli.com/user%20manual/DS5201-SF32LB52x-Datasheet%20V2p5p3.pdf\n\n	https://downloads.sifli.com/user%20manual/UM5201-SF32LB52x-User%20Manual%20V0p8p4.pdf\n\n	https://wiki.sifli.com/en/hardware/SF32LB520-3-5-7-HW-Application.html\n\nProcessor buck inductor requirements: \n\n	L (inductance) = 4.7 uH ± 20%, DCR (DC resistance) ≦ 0.4 ohm, Isat (saturation current) ≧ 450 mA."
+		(exclude_from_sim no)
+		(at 176.276 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25c5ceda-dcef-4e2f-acfc-475a821d1c09")
+	)
 	(text "3V3 GPIO"
 		(exclude_from_sim no)
 		(at 110.49 90.17 0)
@@ -3029,7 +4381,7 @@
 	)
 	(hierarchical_label "GNSS_RXD"
 		(shape input)
-		(at 153.67 102.87 0)
+		(at 149.86 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3073,7 +4425,7 @@
 	)
 	(hierarchical_label "GNSS_RESET"
 		(shape input)
-		(at 153.67 110.49 0)
+		(at 149.86 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3084,7 +4436,7 @@
 	)
 	(hierarchical_label "GNSS_EN"
 		(shape input)
-		(at 153.67 107.95 0)
+		(at 149.86 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3139,7 +4491,7 @@
 	)
 	(hierarchical_label "GNSS_TXD"
 		(shape input)
-		(at 153.67 100.33 0)
+		(at 149.86 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3172,7 +4524,7 @@
 	)
 	(hierarchical_label "GNSS_TIMEPULSE"
 		(shape input)
-		(at 153.67 105.41 0)
+		(at 149.86 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3271,7 +4623,7 @@
 	)
 	(hierarchical_label "GNSS_EXTINT"
 		(shape input)
-		(at 153.67 113.03 0)
+		(at 149.86 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3430,6 +4782,286 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_MCU_SiFli:SF32LB52-MOD-1")
+		(at 48.26 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "337cda7a-89e2-4442-b8d2-e2c7929da60b")
+		(property "Reference" "U21"
+			(at 50.4033 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SF32LB52-MOD-1"
+			(at 50.4033 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SiFli_MOD:SF32LB52‐MOD‐1"
+			(at 49.784 181.102 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://downloads.sifli.com/silicon/DS5203-SF32LB52-MOD-1%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC%E4%B9%A6%20V0p2.pdf"
+			(at 49.784 186.182 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SF32LB52-MOD-1 is a general-purpose low-power Bluetooth MCU module, which adopts SiFli's SF32LB525UC6 chip and Arm Cortex-M33 STAR-MC1 dual-core processor, with an operating frequency of up to 240MHz.The module has a rich set of peripheral interfaces, including GPIO, SPI, LCD, MPI, UART, I2C, PWM, SDIO, USB2.0 FS, analog audio input and output, UART, I2C, PWM, SDIO, USB2.0 FS, analog audio input and output."
+			(at 56.388 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "65"
+			(uuid "f2d8b626-7138-4452-a189-5bb47342792e")
+		)
+		(pin "15"
+			(uuid "1045b974-7d55-4da1-8f9b-c9e4830377ff")
+		)
+		(pin "52"
+			(uuid "fd836477-7e21-4b27-9ce5-12b8954d311a")
+		)
+		(pin "38"
+			(uuid "a3435561-2642-43f0-b1eb-66dc70942b6a")
+		)
+		(pin "68"
+			(uuid "74705dcb-9f61-477e-903a-51527d2f9831")
+		)
+		(pin "49"
+			(uuid "62737775-5524-46e4-9e72-f748a2aab16f")
+		)
+		(pin "48"
+			(uuid "18bd54e8-6c14-489d-b9b5-dab17cabde93")
+		)
+		(pin "40"
+			(uuid "bf0e5423-c8df-446d-aded-f753ab00afe7")
+		)
+		(pin "35"
+			(uuid "8ecdebae-7502-4921-8af2-fd97a645d9cc")
+		)
+		(pin "22"
+			(uuid "e4a624d1-d153-4210-b6cf-1ddadf958308")
+		)
+		(pin "50"
+			(uuid "6a41a727-8ceb-4a62-81ee-0e88a9490111")
+		)
+		(pin "54"
+			(uuid "9853f8d2-ccb9-4c8c-aaa4-0f1650c46f36")
+		)
+		(pin "25"
+			(uuid "a6f97397-0419-4cff-9a0e-c6ad47505b8d")
+		)
+		(pin "23"
+			(uuid "ac05db16-ea27-464b-b842-b71bea79fcfa")
+		)
+		(pin "62"
+			(uuid "b12cd13e-02b5-42f3-ab05-3796c1a9afb3")
+		)
+		(pin "27"
+			(uuid "d8037203-bfe9-4c23-985c-26cc83daf69a")
+		)
+		(pin "64"
+			(uuid "612bcfb7-8886-455e-b3d1-871c0a3954e1")
+		)
+		(pin "45"
+			(uuid "7e078dcd-3d32-4295-88eb-a910c1a9a824")
+		)
+		(pin "18"
+			(uuid "25a07787-d24f-4ca2-a610-847a1b86ac8b")
+		)
+		(pin "63"
+			(uuid "51629d76-def8-46ae-a413-0b6fd17799b4")
+		)
+		(pin "16"
+			(uuid "c5bf4b35-ef91-4803-b1c5-253ff5e2622f")
+		)
+		(pin "43"
+			(uuid "284564d5-fbb7-49e1-901f-ac0adc083420")
+		)
+		(pin "41"
+			(uuid "d66e6a4f-caf3-4739-b199-a056e66a09ad")
+		)
+		(pin "42"
+			(uuid "ffdee8cc-fdb1-489c-94cc-d405c692cd6f")
+		)
+		(pin "14"
+			(uuid "e64a4d3f-bb94-439c-8e0f-9497fb62ca35")
+		)
+		(pin "20"
+			(uuid "1c624756-3138-47f3-a61f-ef9cb71930ed")
+		)
+		(pin "19"
+			(uuid "06c35013-168d-4ddc-859f-7aa73b19138e")
+		)
+		(pin "67"
+			(uuid "dd721cac-1778-4fe1-9b09-9864ac5b60b3")
+		)
+		(pin "13"
+			(uuid "2698d8bd-a9e0-4c50-9e02-0030ae856449")
+		)
+		(pin "61"
+			(uuid "f6e15e09-0ec2-46ff-8fe7-9d1a9951443b")
+		)
+		(pin "21"
+			(uuid "7fc0d273-d5f5-4cc5-a7cb-f65c1da2a40b")
+		)
+		(pin "28"
+			(uuid "9641a326-d22d-4190-82cf-9be2a9c1e9c1")
+		)
+		(pin "24"
+			(uuid "04b26205-9266-4b34-bbb4-8a5bec175097")
+		)
+		(pin "26"
+			(uuid "426dd035-0ef3-4841-beb1-c08520463e40")
+		)
+		(pin "66"
+			(uuid "9f3ab104-63ed-402a-8134-1e0430546c5c")
+		)
+		(pin "29"
+			(uuid "d6d1cf0d-4b28-4a43-9bb6-2915a9d921da")
+		)
+		(pin "17"
+			(uuid "b721cf64-a52a-45cc-a9dd-06cfffa72e3d")
+		)
+		(pin "33"
+			(uuid "d0c72a62-5067-4610-b9ae-c3f4478886f3")
+		)
+		(pin "44"
+			(uuid "cd1081de-ce39-4012-82b2-4cf30cb8b602")
+		)
+		(pin "30"
+			(uuid "7e9ca4e3-3f0a-4851-9281-74debb31ace4")
+		)
+		(pin "46"
+			(uuid "2126dd60-7d5e-4bc1-89f0-f7b00ad93f21")
+		)
+		(pin "32"
+			(uuid "bc903846-b30c-4955-a769-438ca9a10850")
+		)
+		(pin "47"
+			(uuid "489c9aa3-b994-499c-ab47-21030eceb38d")
+		)
+		(pin "31"
+			(uuid "121d2703-f870-4fed-9dea-22ea0bd048f6")
+		)
+		(pin "59"
+			(uuid "b9d300b0-5c2f-4265-b9d6-de5a9e8024fe")
+		)
+		(pin "58"
+			(uuid "3f6d0f3c-6521-4e39-a1f6-157c673ade1e")
+		)
+		(pin "11"
+			(uuid "18945823-2088-4a78-bffd-b2b88ab848ea")
+		)
+		(pin "10"
+			(uuid "c0a8970c-84aa-4b13-9292-d8f8481cda3e")
+		)
+		(pin "9"
+			(uuid "9750abfe-cd71-46dd-b397-45c6c47798bd")
+		)
+		(pin "8"
+			(uuid "c7b912a0-21c9-4a00-a262-641e4b2056db")
+		)
+		(pin "7"
+			(uuid "804ee4eb-5148-4d81-853e-fad9339bb0d5")
+		)
+		(pin "6"
+			(uuid "60bc8f8d-df40-4150-aef0-cc82306dde32")
+		)
+		(pin "5"
+			(uuid "95abf466-cea6-44d6-8dcd-baf37626dad6")
+		)
+		(pin "4"
+			(uuid "d410b080-fb0d-4e7c-a3fd-e05684904265")
+		)
+		(pin "3"
+			(uuid "b4a54445-68ec-4a21-9dd4-41c8e966e1a1")
+		)
+		(pin "2"
+			(uuid "0e22d61d-f311-46f4-aae8-2ba8124c0fe2")
+		)
+		(pin "1"
+			(uuid "7ca9c573-646f-4c59-b989-b85864c618d0")
+		)
+		(pin "36"
+			(uuid "c7a36d28-291c-4c49-856b-3f0ea09dd1e1")
+		)
+		(pin "34"
+			(uuid "7bc56bcc-2f13-4e2f-9add-d5aef1fdf9bd")
+		)
+		(pin "53"
+			(uuid "64b8763a-a30d-4d92-b436-416eabae9cfa")
+		)
+		(pin "57"
+			(uuid "0cf1fc9c-785a-4506-affb-76a88b495555")
+		)
+		(pin "56"
+			(uuid "d2a8dcb0-fc5e-4d98-9947-d77d4c711d5b")
+		)
+		(pin "60"
+			(uuid "bdd7dc66-631d-40c8-9288-9ea2f66f8cf7")
+		)
+		(pin "37"
+			(uuid "699823f2-0af0-4ba7-b330-c05a342b8cae")
+		)
+		(pin "55"
+			(uuid "02095e36-ac67-4ecd-b87a-8a5f31f39c66")
+		)
+		(pin "51"
+			(uuid "01f2975b-905f-469e-b613-21dd2caad3b5")
+		)
+		(pin "39"
+			(uuid "ce322753-c0d7-4ca9-99c7-f59e25580346")
+		)
+		(pin "12"
+			(uuid "7f75c071-d55b-40e0-ae05-40ee73a51ca2")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -4397,6 +6029,284 @@
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "#PWR074")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_MCU_SiFli:SF32LB52-MOD-1")
+		(at 49.53 58.42 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff13bcc2-abfc-413a-a435-160d89036397")
+		(property "Reference" "U21"
+			(at 49.53 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SF32LB52-MOD-1"
+			(at 49.53 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SiFli_MOD:SF32LB52‐MOD‐1"
+			(at 51.054 106.172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://downloads.sifli.com/silicon/DS5203-SF32LB52-MOD-1%E6%8A%80%E6%9C%AF%E8%A7%84%E6%A0%BC%E4%B9%A6%20V0p2.pdf"
+			(at 51.054 111.252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SF32LB52-MOD-1 is a general-purpose low-power Bluetooth MCU module, which adopts SiFli's SF32LB525UC6 chip and Arm Cortex-M33 STAR-MC1 dual-core processor, with an operating frequency of up to 240MHz.The module has a rich set of peripheral interfaces, including GPIO, SPI, LCD, MPI, UART, I2C, PWM, SDIO, USB2.0 FS, analog audio input and output, UART, I2C, PWM, SDIO, USB2.0 FS, analog audio input and output."
+			(at 57.658 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "65"
+			(uuid "f2d8b626-7138-4452-a189-5bb47342792e")
+		)
+		(pin "15"
+			(uuid "1045b974-7d55-4da1-8f9b-c9e4830377ff")
+		)
+		(pin "52"
+			(uuid "fd836477-7e21-4b27-9ce5-12b8954d311a")
+		)
+		(pin "38"
+			(uuid "a3435561-2642-43f0-b1eb-66dc70942b6a")
+		)
+		(pin "68"
+			(uuid "74705dcb-9f61-477e-903a-51527d2f9831")
+		)
+		(pin "49"
+			(uuid "62737775-5524-46e4-9e72-f748a2aab16f")
+		)
+		(pin "48"
+			(uuid "18bd54e8-6c14-489d-b9b5-dab17cabde93")
+		)
+		(pin "40"
+			(uuid "bf0e5423-c8df-446d-aded-f753ab00afe7")
+		)
+		(pin "35"
+			(uuid "8ecdebae-7502-4921-8af2-fd97a645d9cc")
+		)
+		(pin "22"
+			(uuid "e4a624d1-d153-4210-b6cf-1ddadf958308")
+		)
+		(pin "50"
+			(uuid "6a41a727-8ceb-4a62-81ee-0e88a9490111")
+		)
+		(pin "54"
+			(uuid "9853f8d2-ccb9-4c8c-aaa4-0f1650c46f36")
+		)
+		(pin "25"
+			(uuid "a6f97397-0419-4cff-9a0e-c6ad47505b8d")
+		)
+		(pin "23"
+			(uuid "ac05db16-ea27-464b-b842-b71bea79fcfa")
+		)
+		(pin "62"
+			(uuid "b12cd13e-02b5-42f3-ab05-3796c1a9afb3")
+		)
+		(pin "27"
+			(uuid "d8037203-bfe9-4c23-985c-26cc83daf69a")
+		)
+		(pin "64"
+			(uuid "612bcfb7-8886-455e-b3d1-871c0a3954e1")
+		)
+		(pin "45"
+			(uuid "7e078dcd-3d32-4295-88eb-a910c1a9a824")
+		)
+		(pin "18"
+			(uuid "25a07787-d24f-4ca2-a610-847a1b86ac8b")
+		)
+		(pin "63"
+			(uuid "51629d76-def8-46ae-a413-0b6fd17799b4")
+		)
+		(pin "16"
+			(uuid "c5bf4b35-ef91-4803-b1c5-253ff5e2622f")
+		)
+		(pin "43"
+			(uuid "284564d5-fbb7-49e1-901f-ac0adc083420")
+		)
+		(pin "41"
+			(uuid "d66e6a4f-caf3-4739-b199-a056e66a09ad")
+		)
+		(pin "42"
+			(uuid "ffdee8cc-fdb1-489c-94cc-d405c692cd6f")
+		)
+		(pin "14"
+			(uuid "e64a4d3f-bb94-439c-8e0f-9497fb62ca35")
+		)
+		(pin "20"
+			(uuid "1c624756-3138-47f3-a61f-ef9cb71930ed")
+		)
+		(pin "19"
+			(uuid "06c35013-168d-4ddc-859f-7aa73b19138e")
+		)
+		(pin "67"
+			(uuid "dd721cac-1778-4fe1-9b09-9864ac5b60b3")
+		)
+		(pin "13"
+			(uuid "2698d8bd-a9e0-4c50-9e02-0030ae856449")
+		)
+		(pin "61"
+			(uuid "f6e15e09-0ec2-46ff-8fe7-9d1a9951443b")
+		)
+		(pin "21"
+			(uuid "7fc0d273-d5f5-4cc5-a7cb-f65c1da2a40b")
+		)
+		(pin "28"
+			(uuid "9641a326-d22d-4190-82cf-9be2a9c1e9c1")
+		)
+		(pin "24"
+			(uuid "04b26205-9266-4b34-bbb4-8a5bec175097")
+		)
+		(pin "26"
+			(uuid "426dd035-0ef3-4841-beb1-c08520463e40")
+		)
+		(pin "66"
+			(uuid "9f3ab104-63ed-402a-8134-1e0430546c5c")
+		)
+		(pin "29"
+			(uuid "d6d1cf0d-4b28-4a43-9bb6-2915a9d921da")
+		)
+		(pin "17"
+			(uuid "b721cf64-a52a-45cc-a9dd-06cfffa72e3d")
+		)
+		(pin "33"
+			(uuid "d0c72a62-5067-4610-b9ae-c3f4478886f3")
+		)
+		(pin "44"
+			(uuid "cd1081de-ce39-4012-82b2-4cf30cb8b602")
+		)
+		(pin "30"
+			(uuid "7e9ca4e3-3f0a-4851-9281-74debb31ace4")
+		)
+		(pin "46"
+			(uuid "2126dd60-7d5e-4bc1-89f0-f7b00ad93f21")
+		)
+		(pin "32"
+			(uuid "bc903846-b30c-4955-a769-438ca9a10850")
+		)
+		(pin "47"
+			(uuid "489c9aa3-b994-499c-ab47-21030eceb38d")
+		)
+		(pin "31"
+			(uuid "121d2703-f870-4fed-9dea-22ea0bd048f6")
+		)
+		(pin "59"
+			(uuid "b9d300b0-5c2f-4265-b9d6-de5a9e8024fe")
+		)
+		(pin "58"
+			(uuid "3f6d0f3c-6521-4e39-a1f6-157c673ade1e")
+		)
+		(pin "11"
+			(uuid "18945823-2088-4a78-bffd-b2b88ab848ea")
+		)
+		(pin "10"
+			(uuid "c0a8970c-84aa-4b13-9292-d8f8481cda3e")
+		)
+		(pin "9"
+			(uuid "9750abfe-cd71-46dd-b397-45c6c47798bd")
+		)
+		(pin "8"
+			(uuid "c7b912a0-21c9-4a00-a262-641e4b2056db")
+		)
+		(pin "7"
+			(uuid "804ee4eb-5148-4d81-853e-fad9339bb0d5")
+		)
+		(pin "6"
+			(uuid "60bc8f8d-df40-4150-aef0-cc82306dde32")
+		)
+		(pin "5"
+			(uuid "95abf466-cea6-44d6-8dcd-baf37626dad6")
+		)
+		(pin "4"
+			(uuid "d410b080-fb0d-4e7c-a3fd-e05684904265")
+		)
+		(pin "3"
+			(uuid "b4a54445-68ec-4a21-9dd4-41c8e966e1a1")
+		)
+		(pin "2"
+			(uuid "0e22d61d-f311-46f4-aae8-2ba8124c0fe2")
+		)
+		(pin "1"
+			(uuid "7ca9c573-646f-4c59-b989-b85864c618d0")
+		)
+		(pin "36"
+			(uuid "c7a36d28-291c-4c49-856b-3f0ea09dd1e1")
+		)
+		(pin "34"
+			(uuid "7bc56bcc-2f13-4e2f-9add-d5aef1fdf9bd")
+		)
+		(pin "53"
+			(uuid "64b8763a-a30d-4d92-b436-416eabae9cfa")
+		)
+		(pin "57"
+			(uuid "0cf1fc9c-785a-4506-affb-76a88b495555")
+		)
+		(pin "56"
+			(uuid "d2a8dcb0-fc5e-4d98-9947-d77d4c711d5b")
+		)
+		(pin "60"
+			(uuid "bdd7dc66-631d-40c8-9288-9ea2f66f8cf7")
+		)
+		(pin "37"
+			(uuid "699823f2-0af0-4ba7-b330-c05a342b8cae")
+		)
+		(pin "55"
+			(uuid "02095e36-ac67-4ecd-b87a-8a5f31f39c66")
+		)
+		(pin "51"
+			(uuid "01f2975b-905f-469e-b613-21dd2caad3b5")
+		)
+		(pin "39"
+			(uuid "ce322753-c0d7-4ca9-99c7-f59e25580346")
+		)
+		(pin "12"
+			(uuid "7f75c071-d55b-40e0-ae05-40ee73a51ca2")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "U21")
+					(unit 2)
 				)
 			)
 		)
