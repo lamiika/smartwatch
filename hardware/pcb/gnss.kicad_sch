@@ -2382,6 +2382,16 @@
 	)
 	(wire
 		(pts
+			(xy 0.0762 0.0762) (xy 2.6162 0.0762)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7ec593-ed90-407b-a09d-ede576cfc569")
+	)
+	(wire
+		(pts
 			(xy 143.51 120.65) (xy 143.51 116.84)
 		)
 		(stroke
@@ -2401,7 +2411,7 @@
 		)
 		(uuid "294197c1-5882-4657-bc0d-31cb17e1c6a9")
 	)
-	(hierarchical_label "GNSS_EN"
+	(hierarchical_label "LOAD_GNSS"
 		(shape input)
 		(at 69.85 97.79 180)
 		(effects
