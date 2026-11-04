@@ -831,10 +831,10 @@
 		)
 		(uuid "e0acc35f-6796-454d-955a-5f5c53c584f3")
 	)
-	(text_box "BMP581\n\nSynopsis:\n\n	Barometric Pressure Sensor\n	\nDatasheet:\n\n	https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf\n\nVoltage:\n\n	VDDIO: 1.2V to 3.3V\n	VDD: 1.8V to 3.3V\n\nModel:\n\n	https://www.snapeda.com/parts/BMP581/Bosch/view-part/?ref=search&t=BMP581&ab_test_case=b\n\nSDO:\n\n	The chip reads the voltage level of the SDO pin to establish its identifier on the I2C bus.\n\n\n	SDO tied to Ground (VSSIO): The I2C address becomes 0x46.\n	SDO tied to Power (VDDIO): The I2C address becomes 0x47.\n\nDeep standby current:\n	0.55 uA"
+	(text_box "BMP581\n\nSynopsis:\n\n	Barometric Pressure Sensor\n	\nDatasheet:\n\n	https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf\n\nVoltage:\n\n	VDDIO: 1.2V to 3.3V\n	VDD: 1.8V to 3.3V\n\nModel:\n\n	https://www.snapeda.com/parts/BMP581/Bosch/view-part/?ref=search&t=BMP581&ab_test_case=b\n\nSDO:\n\n	The chip reads the voltage level of the SDO pin to establish its identifier on the I2C bus.\n\n\n	SDO tied to Ground (VSSIO): The I2C address becomes 0x46.\n	SDO tied to Power (VDDIO): The I2C address becomes 0x47.\n\nDeep standby current:\n	0.55 uA\n\nOperating current: 80 uA\nMax current: 260 uA"
 		(exclude_from_sim no)
-		(at 88.9 17.78 0)
-		(size 113.03 61.1979)
+		(at 88.9 12.7 0)
+		(size 113.03 67.3318)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

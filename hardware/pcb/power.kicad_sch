@@ -408,6 +408,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "3V3 LDO requirements: \n353.19 mA max operating current\n425.19 mA max operating current + worst transient"
+		(exclude_from_sim no)
+		(at 152.146 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc36d456-b19d-4a8f-a0ec-e608bf218d42")
+	)
 	(symbol
 		(lib_id "power:+BATT")
 		(at 161.29 82.55 0)

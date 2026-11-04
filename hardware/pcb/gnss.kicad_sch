@@ -128,6 +128,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_4ms_Capacitor:1uF_0201_4V"
 			(pin_numbers
 				(hide yes)
@@ -1986,10 +2164,10 @@
 		)
 		(uuid "da08a055-faa7-406f-867d-a93d6f80f5e4")
 	)
-	(text_box "TCK127BG_LF\n\nSynopsis:\n\n	0.08 nA Ultra small IQ 1.0 A Load Switch IC in Ultra Small Package\n\nDatasheet:\n\n	https://toshiba.semicon-storage.com/info/TCK127BG_datasheet_en_20211028.pdf?did=140423&prodName=TCK127BG"
+	(text_box "TCK127BG_LF\n\nSynopsis:\n\n	0.08 nA Ultra small IQ 1.0 A Load Switch IC in Ultra Small Package\n\nDatasheet:\n\n	https://toshiba.semicon-storage.com/info/TCK127BG_datasheet_en_20211028.pdf?did=140423&prodName=TCK127BG\n\nMax current: 28 mA\nStartup transient: 100 mA"
 		(exclude_from_sim no)
 		(at 27.94 48.2747 0)
-		(size 123.19 20.3053)
+		(size 123.19 26.4392)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2039,6 +2217,12 @@
 		(uuid "1e08a176-9d15-4f0a-8f67-f0e29057dc9e")
 	)
 	(junction
+		(at 127 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "579e9ef8-af20-429b-a668-e6ab5bd2df86")
+	)
+	(junction
 		(at 127 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2049,6 +2233,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc9f20df-49fc-42bf-b284-853132ffaa36")
+	)
+	(junction
+		(at 127 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfb138dd-2213-4d8e-b9d4-acb994302327")
 	)
 	(junction
 		(at 127 157.48)
@@ -2172,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 127 95.25)
+			(xy 127 86.36) (xy 127 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2202,6 +2392,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 101.6) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5915790d-7611-4ec4-ab32-f92639830b66")
+	)
+	(wire
+		(pts
 			(xy 120.65 160.02) (xy 127 160.02)
 		)
 		(stroke
@@ -2212,6 +2412,26 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607c8412-f479-4ab4-a241-a24e11c3254f")
+	)
+	(wire
+		(pts
+			(xy 130.81 90.17) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6286c6fd-204e-407d-a97f-441452159094")
+	)
+	(wire
+		(pts
 			(xy 67.31 139.7) (xy 74.93 139.7)
 		)
 		(stroke
@@ -2219,6 +2439,16 @@
 			(type default)
 		)
 		(uuid "637ae04a-6e8b-4429-a1af-c5aaae556ed9")
+	)
+	(wire
+		(pts
+			(xy 127 90.17) (xy 127 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7244ab39-845a-4ecd-8c56-32a14628ddb8")
 	)
 	(wire
 		(pts
@@ -2302,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 127 107.95)
+			(xy 127 97.79) (xy 127 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2352,6 +2582,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 91.44) (xy 130.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c776eea0-e0a2-4871-8fe1-bf8857fdb3a3")
+	)
+	(wire
+		(pts
 			(xy 127 116.84) (xy 120.65 116.84)
 		)
 		(stroke
@@ -2389,6 +2629,16 @@
 			(type default)
 		)
 		(uuid "df7ec593-ed90-407b-a09d-ede576cfc569")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62f1ab1-873c-4d98-9634-c65f1523f62f")
 	)
 	(wire
 		(pts
@@ -3029,6 +3279,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 130.81 96.52 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f74020b-5b33-480a-b14f-3062c179bad0")
+		(property "Reference" "JP6"
+			(at 133.35 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 133.35 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 125.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a907f942-7a23-44ad-9189-16fafcb71dcc")
+		)
+		(pin "1"
+			(uuid "5c109c94-ed0f-4836-a049-7d3fb17fa86d")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/f63396eb-f983-445a-9b74-1d89c69668a3"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 95.25 270)
 		(unit 1)
@@ -3185,7 +3517,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 127 88.9 0)
+		(at 127 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3196,7 +3528,7 @@
 		(fields_autoplaced yes)
 		(uuid "81048f8a-9517-41e4-b1d6-29ebba428375")
 		(property "Reference" "#PWR044"
-			(at 127 92.71 0)
+			(at 127 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3539,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 127 83.82 0)
+			(at 127 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3217,7 +3549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 88.9 0)
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3228,7 +3560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 88.9 0)
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3239,7 +3571,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 88.9 0)
+			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

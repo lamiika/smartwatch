@@ -962,10 +962,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "LSM6DSV16XTR\n\nSynopsis:\n\n	6-axis inertial measurement unit (IMU)\n\nDatasheet:\n\n	https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf\n\nVoltage:\n\n	Operation voltage 1.71V to 3.6V.\n\nI2C:\n\n	To select/exploit the I²C interface, the CS line must be tied high (that is, connected to Vdd_IO).\n\n	SCL and SDA should be configured with 10k pull-up resistors to VDD_IO voltage.\n\nSDO / SA0:\n\n	Connect to GND or VDDIO, sets the I2C address bit.\n	Tie to GND = Address 0x6A\n	Tie to VDDIO = Address 0x6B\n\nPower-down current: 			2.6 µA\nAccelerometer LPM1 at 1.875 Hz:	4.0 µA\nAccelerometer LPM2 at 1.875 Hz:	4.2 µA\nAccelerometer LPM1 at 60 Hz: 	17 µA\nAccelerometer LPM2 at 60 Hz: 	20 µA\nAccelerometer normal mode: 		100 µA\nAccelerometer high-performance:	190 µA\nAccel + gyro high-performance: 	650 µA"
+	(text_box "LSM6DSV16XTR\n\nSynopsis:\n\n	6-axis inertial measurement unit (IMU)\n\nDatasheet:\n\n	https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf\n\nVoltage:\n\n	Operation voltage 1.71V to 3.6V.\n\nI2C:\n\n	To select/exploit the I²C interface, the CS line must be tied high (that is, connected to Vdd_IO).\n\n	SCL and SDA should be configured with 10k pull-up resistors to VDD_IO voltage.\n\nSDO / SA0:\n\n	Connect to GND or VDDIO, sets the I2C address bit.\n	Tie to GND = Address 0x6A\n	Tie to VDDIO = Address 0x6B\n\nPower-down current: 			2.6 µA\nAccelerometer LPM1 at 1.875 Hz:	4.0 µA\nAccelerometer LPM2 at 1.875 Hz:	4.2 µA\nAccelerometer LPM1 at 60 Hz: 	17 µA\nAccelerometer LPM2 at 60 Hz: 	20 µA\nAccelerometer normal mode: 		100 µA\nAccelerometer high-performance:	190 µA\nAccel + gyro high-performance: 	650 µA\n\n5 mA transient?"
 		(exclude_from_sim no)
 		(at 95.25 18.7489 0)
-		(size 111.76 71.4211)
+		(size 111.76 75.5103)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
