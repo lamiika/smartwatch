@@ -657,7 +657,7 @@
         "uuid": "7b1b7b91-6618-446c-b915-39ecd9748633"
       }
     ],
-    "used_designators": "#PWR1-43,#PWR47-49,#PWR51-65,#PWR71-151,C1-2,C5-7,C11-29,C33-86,DS1,FL1-2,J1-2,JP1-7,L1,R1-11,R13-43,SW1-5,TP2-9,U1-10,U12,U17-22,Y1-2",
+    "used_designators": "#PWR1-43,#PWR47-65,#PWR71-183,BT1,C1-2,C5-29,C33-97,D1-8,DS1,FL1-2,J1-2,JP1-10,L1-2,R1-11,R13-51,SW1-9,TP2-9,U1-10,U12,U14,U17-23,VR1,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -720,6 +720,26 @@
     [
       "1542ac5e-3152-4bd7-8aa8-f00a88303213",
       "Connector"
+    ],
+    [
+      "784e085e-27d4-4881-a978-93f186d1d9e3",
+      "Button Filter1"
+    ],
+    [
+      "8b189798-4532-4e9f-8e21-29dc03e4ad19",
+      "Button Filter2"
+    ],
+    [
+      "d593b066-4783-4f86-94da-15f5efcb125f",
+      "Button Filter3"
+    ],
+    [
+      "863be3ef-30ae-489c-aa58-e1765eef8a06",
+      "Button Filter4"
+    ],
+    [
+      "e02c2984-fa8e-4906-9071-cfce38ba8fc0",
+      "Button Filter5"
     ]
   ],
   "text_variables": {},

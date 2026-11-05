@@ -1110,7 +1110,7 @@
 		)
 	)
 	(sheet
-		(at 49.53 165.1)
+		(at 88.9 168.91)
 		(size 20.32 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1126,7 +1126,7 @@
 		)
 		(uuid "88aee019-a060-45af-8aef-0fb06e52c718")
 		(property "Sheetname" "Power"
-			(at 49.53 164.3884 0)
+			(at 88.9 168.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1137,7 +1137,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 49.53 188.5446 0)
+			(at 88.9 192.3546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2002,12 +2002,12 @@
 		)
 	)
 	(sheet
-		(at 49.53 130.81)
+		(at 35.56 116.84)
 		(size 21.59 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2018,7 +2018,7 @@
 		)
 		(uuid "c033e03a-672d-4c5a-82de-81e8aa63e7a9")
 		(property "Sheetname" "Heart Rate ECG"
-			(at 49.53 130.0984 0)
+			(at 35.56 116.1284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2029,7 +2029,7 @@
 			)
 		)
 		(property "Sheetfile" "ecg.kicad_sch"
-			(at 49.53 158.0646 0)
+			(at 35.56 144.0946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2040,7 +2040,7 @@
 			)
 		)
 		(pin "CSB_ECG" input
-			(at 71.12 148.59 0)
+			(at 57.15 134.62 0)
 			(uuid "306fb2f7-2306-4dc5-a71d-33c528f9cd0f")
 			(effects
 				(font
@@ -2050,7 +2050,7 @@
 			)
 		)
 		(pin "INTB_ECG" input
-			(at 71.12 151.13 0)
+			(at 57.15 137.16 0)
 			(uuid "e2d141bc-0bb0-4e1e-abbc-2be1984c5870")
 			(effects
 				(font
@@ -2060,7 +2060,7 @@
 			)
 		)
 		(pin "SCLK_ECG" input
-			(at 71.12 143.51 0)
+			(at 57.15 129.54 0)
 			(uuid "569a5acc-b914-4152-95ca-e3405721f7c9")
 			(effects
 				(font
@@ -2070,7 +2070,7 @@
 			)
 		)
 		(pin "SDI_ECG" input
-			(at 71.12 135.89 0)
+			(at 57.15 121.92 0)
 			(uuid "a9a4b81e-3fb0-4554-81d6-7fa356b5608e")
 			(effects
 				(font
@@ -2080,7 +2080,7 @@
 			)
 		)
 		(pin "SDO_ECG" input
-			(at 71.12 138.43 0)
+			(at 57.15 124.46 0)
 			(uuid "9e50f88c-58a5-4c26-8cc8-54a6edf190e9")
 			(effects
 				(font
@@ -2090,7 +2090,7 @@
 			)
 		)
 		(pin "FCLK_ECG" input
-			(at 71.12 140.97 0)
+			(at 57.15 127 0)
 			(uuid "03355581-3b4d-4e66-8157-9787545b433a")
 			(effects
 				(font
@@ -2100,7 +2100,7 @@
 			)
 		)
 		(pin "INT2B_ECG" input
-			(at 71.12 146.05 0)
+			(at 57.15 132.08 0)
 			(uuid "459ab149-ad4f-4658-8460-53cbe131a862")
 			(effects
 				(font

@@ -1148,17 +1148,6 @@
 		)
 		(uuid "c17c5b8d-6258-406d-9fd4-ebc414796105")
 	)
-	(hierarchical_label "LOAD_BARO"
-		(shape input)
-		(at 49.53 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d033e362-10c7-4422-8d06-7cfffdd47972")
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 121.92 109.22 0)

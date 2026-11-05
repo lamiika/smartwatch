@@ -160,6 +160,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_4ms_Capacitor:1nF_0201_16V"
 			(pin_numbers
 				(hide yes)
@@ -595,14 +773,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "PCM_SparkFun-PowerSymbol:VBATT"
 			(power global)
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -620,10 +794,10 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
+			(property "Value" "VBATT"
+				(at 0 3.81 0)
 				(show_name no)
-				(do_not_autoplace no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -652,7 +826,18 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"VBATT\""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -663,18 +848,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
+			(symbol "VBATT_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -712,11 +886,12 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "VBATT_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name ""
+					(hide yes)
+					(name "VBATT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1835,6 +2010,12 @@
 		(uuid "f3cf6d5e-4c0c-48b4-b6d0-9fa82461dc96")
 	)
 	(junction
+		(at 167.64 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ae43459-0e61-4ee8-ae03-114331f80337")
+	)
+	(junction
 		(at 200.66 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1847,10 +2028,28 @@
 		(uuid "2768758b-018d-45f2-be3c-6091dbf5a7d1")
 	)
 	(junction
+		(at 167.64 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ccf1dfa-fc3d-4146-bc5b-01db2ffbf6d9")
+	)
+	(junction
+		(at 196.85 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72fa1f4b-0e9f-4f7a-b368-f2a624690646")
+	)
+	(junction
 		(at 129.54 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dd07a62-f66b-4776-9370-4ee8fb5150e8")
+	)
+	(junction
+		(at 196.85 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a7f7b3a-d4ca-4500-906c-0f5eae6ae40d")
 	)
 	(junction
 		(at 129.54 96.52)
@@ -1912,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 102.87) (xy 168.91 102.87)
+			(xy 165.1 102.87) (xy 167.64 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1962,6 +2161,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 129.54) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4393c26f-3cd1-4ff4-8cb2-a73b87e08750")
+	)
+	(wire
+		(pts
+			(xy 167.64 121.92) (xy 168.91 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fe43c8-942b-438d-8d71-9bdafb892137")
+	)
+	(wire
+		(pts
 			(xy 123.19 121.92) (xy 135.89 121.92)
 		)
 		(stroke
@@ -1969,6 +2188,16 @@
 			(type default)
 		)
 		(uuid "4d46888a-4612-4d79-99d7-f6037fe18249")
+	)
+	(wire
+		(pts
+			(xy 189.23 129.54) (xy 196.85 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507f623c-22f6-4753-a86d-3589327ddd7f")
 	)
 	(wire
 		(pts
@@ -2062,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 102.87) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e50a8ad-8706-4b64-9542-a7e5f160f742")
+	)
+	(wire
+		(pts
 			(xy 105.41 119.38) (xy 135.89 119.38)
 		)
 		(stroke
@@ -2069,6 +2308,16 @@
 			(type default)
 		)
 		(uuid "7e5b7500-a22b-47a6-81a9-d27858362cce")
+	)
+	(wire
+		(pts
+			(xy 196.85 91.44) (xy 196.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83195a9f-1bc0-4ab3-ab3c-3c87214b6f60")
 	)
 	(wire
 		(pts
@@ -2082,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 121.92) (xy 168.91 121.92)
+			(xy 165.1 121.92) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2119,6 +2368,26 @@
 			(type default)
 		)
 		(uuid "8f59b5fe-82f9-4e6c-a85b-7fae91bb167c")
+	)
+	(wire
+		(pts
+			(xy 179.07 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902b2761-fdc8-47ac-8f17-5f183dea2d7c")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f7272f-7923-4d70-a2ec-9f5bb422ee48")
 	)
 	(wire
 		(pts
@@ -2172,6 +2441,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 129.54) (xy 196.85 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf13c15-9b1b-42f3-939a-d81b707f528b")
+	)
+	(wire
+		(pts
 			(xy 129.54 96.52) (xy 129.54 111.76)
 		)
 		(stroke
@@ -2212,6 +2491,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 129.54) (xy 167.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c994221a-b0af-4d92-80a5-f2d4d71ecf48")
+	)
+	(wire
+		(pts
 			(xy 165.1 114.3) (xy 165.1 121.92)
 		)
 		(stroke
@@ -2239,6 +2528,16 @@
 			(type default)
 		)
 		(uuid "e745143c-2e4d-421e-afa5-909ec5a4e3c3")
+	)
+	(wire
+		(pts
+			(xy 189.23 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb558229-3424-48af-ad45-f749b9f8c7aa")
 	)
 	(wire
 		(pts
@@ -2540,6 +2839,88 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ceaf3bc6-770a-43e0-8824-4c6b175fbe16"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 184.15 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55b7815b-9551-4cf6-833c-ac6380a8a990")
+		(property "Reference" "JP8"
+			(at 182.8799 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 185.4199 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 184.15 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dc9c535f-f8ab-423a-89b2-e60aec713899")
+		)
+		(pin "1"
+			(uuid "1dc44018-3db8-48de-9674-6758bb0e308f")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ceaf3bc6-770a-43e0-8824-4c6b175fbe16"
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -3697,6 +4078,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 184.15 129.54 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5bab47c-f37d-4416-a69c-19252fb428a7")
+		(property "Reference" "JP9"
+			(at 185.4201 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 182.8801 132.08 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 184.15 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d04c6b2e-c4cc-4f91-8f7b-44eba6a19f4a")
+		)
+		(pin "1"
+			(uuid "173febf9-6b20-432c-80af-68a3095e5cb0")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ceaf3bc6-770a-43e0-8824-4c6b175fbe16"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:2200pF_0402_50V_10%")
 		(at 200.66 110.49 180)
 		(unit 1)
@@ -3996,84 +4459,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 129.54 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddd9fa34-f8a4-40d7-9c70-322c23053b40")
-		(property "Reference" "#PWR050"
-			(at 129.54 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 129.54 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 129.54 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86645e90-321e-448f-b012-94847612888f")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ceaf3bc6-770a-43e0-8824-4c6b175fbe16"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:PAM8013AKR")
 		(at 146.05 116.84 0)
 		(unit 1)
@@ -4168,6 +4553,84 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ceaf3bc6-770a-43e0-8824-4c6b175fbe16"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:VBATT")
+		(at 129.54 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1409508-7f4f-4dc8-aa96-41c40237bb2d")
+		(property "Reference" "#PWR0156"
+			(at 129.54 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT"
+			(at 129.54 87.63 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBATT\""
+			(at 129.54 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63eb5af5-5d32-43ca-b01b-3d6e8944f90c")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/ceaf3bc6-770a-43e0-8824-4c6b175fbe16"
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
