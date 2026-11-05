@@ -1996,16 +1996,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Filter"
-		(exclude_from_sim no)
-		(at 170.434 102.108 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d2a4f223-36a5-4fa5-8588-67dc4617cdfd")
-	)
 	(text "5V or BAT bypass"
 		(exclude_from_sim no)
 		(at 85.598 111.506 0)
@@ -2018,7 +2008,7 @@
 	)
 	(text_box "MAX30101EFD\n\nSynopsis:\n\n	High-Sensitivity Pulse Oximeter and Heart-Rate Sensor for Wearable Health\n	\nDatasheet:\n\n	https://www.analog.com/media/en/technical-documentation/data-sheets/MAX30101.pdf\n\nVoltage:\n\n	VDD to GND: -0.2V to 2.2V\n	GND to PGND: -0.3V to +0.3V\n	VLED to PGND: -0.3V to +6.0V\n	I2C to GND: 1.8V\n	All other pins to GND: -0.3V to +6.0V\n\nI2C:\n\n	I2C_ADDR = 0x57\n\nInterrupt:\n	Active-low open drain output. Can be tied to 3V3 pull-up resistor line without level shifting.\n\nSDA, SCL: \n	Can be tied to 3V3 pull-up resistor line without level shifting.\n\nSupply Current in Shutdown: \n	Typical 0.7 uA Max 2.5 uA\n\nVLED: 51 mA led drive, 60 mA margin, 200 mA max\n\nVDD: 1.1 max, 2 mA margin"
 		(exclude_from_sim no)
-		(at 82.55 13.97 0)
+		(at 38.1 23.8289 0)
 		(size 104.14 71.4211)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke

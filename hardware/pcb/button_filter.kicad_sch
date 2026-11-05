@@ -1159,7 +1159,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VSYS"
 			(at 133.35 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)

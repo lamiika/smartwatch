@@ -1249,10 +1249,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "BMM350\n\nSynopsis:\n\n	3-axis magnetic sensor with high data rate.\n\nDatasheet:\n\n	https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf\n\nStore:\n\n	https://www.digikey.fi/fi/products/detail/bosch-sensortec/BMM350/17827576\n\nVoltage:\n\n	VDD supply voltage range: 1.72V to 1.98V.\n	VDDIO interface voltage range: 1.72V to 3.6V.\n\nADSEL:\n\n	I2C_ADDR = 0x14 - Available when the ADSEL pin is connected to GND (LOW).\n	I2C_ADDR = 0x15 - Available when the ADSEL pin is connected to VDDIO (HIGH).\n\nSuspend mode current: \n	1.8 uA\n\nOperating currents:\n	max normal 0.5 mA, normal transient: 3.5 mA, max transient: 20 mA"
+	(text_box "BMM350\n\nSynopsis:\n\n	3-axis magnetic sensor with high data rate.\n\nDatasheet:\n\n	https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf\n\nStore:\n\n	https://www.digikey.fi/fi/products/detail/bosch-sensortec/BMM350/17827576\n\nVoltage:\n\n	VDD supply voltage range: 1.72V to 1.98V.\n	VDDIO interface voltage range: 1.72V to 3.6V.\n\nADSEL:\n\n	I2C_ADDR = 0x14 - Available when the ADSEL pin is connected to GND (LOW).\n	I2C_ADDR = 0x15 - Available when the ADSEL pin is connected to VDDIO (HIGH).\n\nSuspend mode current: \n	1.8 uA\n\nOperating currents:\n	max normal 0.5 mA, normal transient: 3.5 mA, max transient: 20 mA\n\nInterrupt configurable push-pull or open drain"
 		(exclude_from_sim no)
 		(at 72.39 24.13 0)
-		(size 120.65 61.1979)
+		(size 120.65 65.2872)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

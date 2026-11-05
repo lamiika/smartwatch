@@ -525,7 +525,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "footprints:IFX-PG-TLGA-5N-9-V.kicad_mod"
+			(property "Footprint" "footprints:IFX-PG-TLGA-5N-9-V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1261,7 +1261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:IFX-PG-TLGA-5N-9-V.kicad_mod"
+		(property "Footprint" "footprints:IFX-PG-TLGA-5N-9-V"
 			(at 129.54 105.41 0)
 			(hide yes)
 			(show_name no)

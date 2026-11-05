@@ -47,13 +47,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 121.92) (xy 172.72 121.92)
+			(xy 157.48 123.19) (xy 172.72 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1801dca3-0b3a-459c-82a2-56831f3b8bae")
+	)
+	(wire
+		(pts
+			(xy 142.24 182.88) (xy 109.22 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180e1b36-9b24-48a5-ac35-ea96dc8f3c43")
 	)
 	(wire
 		(pts
@@ -137,6 +147,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 179.07) (xy 109.22 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41343d58-0f63-4364-9aea-6755b3cbe11f")
+	)
+	(wire
+		(pts
 			(xy 157.48 63.5) (xy 172.72 63.5)
 		)
 		(stroke
@@ -144,6 +164,16 @@
 			(type default)
 		)
 		(uuid "44cdf966-4e8a-4a2d-b047-4e8d612eb53b")
+	)
+	(wire
+		(pts
+			(xy 138.43 162.56) (xy 138.43 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9d1715-efdd-474d-9c39-afff7bbb75c5")
 	)
 	(wire
 		(pts
@@ -257,7 +287,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 102.87) (xy 172.72 102.87)
+			(xy 157.48 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
@@ -327,7 +357,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 172.72 99.06)
+			(xy 157.48 100.33) (xy 172.72 100.33)
 		)
 		(stroke
 			(width 0)
@@ -397,7 +427,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 172.72 82.55)
+			(xy 157.48 78.74) (xy 172.72 78.74)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +467,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 118.11) (xy 172.72 118.11)
+			(xy 157.48 119.38) (xy 172.72 119.38)
 		)
 		(stroke
 			(width 0)
@@ -507,6 +537,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 162.56) (xy 142.24 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e57c761a-3ba5-4ea2-91b9-a94b1491e62b")
+	)
+	(wire
+		(pts
 			(xy 109.22 158.75) (xy 118.11 158.75)
 		)
 		(stroke
@@ -517,7 +557,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 172.72 86.36)
+			(xy 157.48 82.55) (xy 172.72 82.55)
 		)
 		(stroke
 			(width 0)
@@ -527,7 +567,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 172.72 106.68)
+			(xy 157.48 107.95) (xy 172.72 107.95)
 		)
 		(stroke
 			(width 0)
@@ -557,13 +597,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 78.74) (xy 172.72 78.74)
+			(xy 157.48 86.36) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd54fdc6-ca52-4d49-85d1-aec29b540f34")
+	)
+	(wire
+		(pts
+			(xy 157.48 90.17) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3e7225-e69c-4dfc-8c8f-0234bc92715b")
 	)
 	(label "SDA_S"
 		(at 90.17 31.75 0)
@@ -703,26 +753,6 @@
 				(justify left top)
 			)
 		)
-		(pin "OUT+" input
-			(at 86.36 133.35 180)
-			(uuid "f3d693a0-a3c0-4131-a619-0fa2e82adadb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT-" input
-			(at 86.36 137.16 180)
-			(uuid "3e726cf3-068b-4e8c-a971-e9a8d7a3fc11")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LRA_EN" input
 			(at 107.95 133.35 0)
 			(uuid "5d4e63da-26b2-4569-bac1-88adb02beba6")
@@ -753,7 +783,7 @@
 	)
 	(sheet
 		(at 88.9 147.32)
-		(size 20.32 15.24)
+		(size 20.32 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -779,7 +809,7 @@
 			)
 		)
 		(property "Sheetfile" "connector.kicad_sch"
-			(at 88.9 163.1446 0)
+			(at 88.9 166.9546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -829,7 +859,7 @@
 	)
 	(sheet
 		(at 172.72 36.83)
-		(size 20.32 53.34)
+		(size 20.32 55.88)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -855,7 +885,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 172.72 90.7546 0)
+			(at 172.72 93.2946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -926,7 +956,7 @@
 			)
 		)
 		(pin "TP_INT" input
-			(at 172.72 78.74 180)
+			(at 172.72 86.36 180)
 			(uuid "d422ad6d-4939-467d-9835-dc3bbf5b3c4b")
 			(effects
 				(font
@@ -936,7 +966,7 @@
 			)
 		)
 		(pin "TP_SCL" input
-			(at 172.72 86.36 180)
+			(at 172.72 82.55 180)
 			(uuid "7152cb66-8084-4c6c-8e01-31b2740a08b4")
 			(effects
 				(font
@@ -946,7 +976,7 @@
 			)
 		)
 		(pin "TP_SDA" input
-			(at 172.72 82.55 180)
+			(at 172.72 78.74 180)
 			(uuid "a2848794-b7af-4788-b671-7f8503d130d2")
 			(effects
 				(font
@@ -988,6 +1018,16 @@
 		(pin "DISPLAY_SI03" input
 			(at 172.72 71.12 180)
 			(uuid "2c5da13a-5562-4c69-b876-4d700083ebf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_RESET" input
+			(at 172.72 90.17 180)
+			(uuid "4eb1351b-c768-4497-84e5-24cf88821b56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,8 +1150,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 168.91)
-		(size 20.32 22.86)
+		(at 88.9 171.45)
+		(size 20.32 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1126,7 +1166,7 @@
 		)
 		(uuid "88aee019-a060-45af-8aef-0fb06e52c718")
 		(property "Sheetname" "Power"
-			(at 88.9 168.1984 0)
+			(at 88.9 170.7384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1137,7 +1177,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 88.9 192.3546 0)
+			(at 88.9 187.2746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1145,6 +1185,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BATTERY" input
+			(at 109.22 179.07 0)
+			(uuid "960d3fd4-4c8d-42a2-bcd5-ab19c6ff285b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHARGING" input
+			(at 109.22 182.88 0)
+			(uuid "deb71f5b-d65c-4c96-be37-be0c42d39db5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1270,7 +1330,7 @@
 			)
 		)
 		(pin "CLK_MK" input
-			(at 157.48 118.11 0)
+			(at 157.48 119.38 0)
 			(uuid "222a1c12-a056-45b7-8f42-8f1f0c237027")
 			(effects
 				(font
@@ -1280,7 +1340,7 @@
 			)
 		)
 		(pin "DATA_MK" input
-			(at 157.48 121.92 0)
+			(at 157.48 123.19 0)
 			(uuid "80db2446-c70b-4350-b086-c4ff575aec41")
 			(effects
 				(font
@@ -1610,7 +1670,7 @@
 			)
 		)
 		(pin "SPEAKER_N" input
-			(at 157.48 102.87 0)
+			(at 157.48 104.14 0)
 			(uuid "b2660820-22a4-4aeb-bb0b-b539d0197868")
 			(effects
 				(font
@@ -1620,7 +1680,7 @@
 			)
 		)
 		(pin "SPEAKER_P" input
-			(at 157.48 99.06 0)
+			(at 157.48 100.33 0)
 			(uuid "3ead8b99-fd2a-404f-9260-5925d8a47a62")
 			(effects
 				(font
@@ -1630,7 +1690,7 @@
 			)
 		)
 		(pin "TP_INT" input
-			(at 157.48 78.74 0)
+			(at 157.48 86.36 0)
 			(uuid "2b22de3d-d559-4e76-bc47-9a3c84358f3a")
 			(effects
 				(font
@@ -1640,7 +1700,7 @@
 			)
 		)
 		(pin "TP_SCL" input
-			(at 157.48 86.36 0)
+			(at 157.48 82.55 0)
 			(uuid "0500ac8f-05de-4606-b336-8245f09134ae")
 			(effects
 				(font
@@ -1650,7 +1710,7 @@
 			)
 		)
 		(pin "TP_SDA" input
-			(at 157.48 82.55 0)
+			(at 157.48 78.74 0)
 			(uuid "7660067d-8f06-4c99-b5bb-0ec3e4c03b32")
 			(effects
 				(font
@@ -1660,7 +1720,7 @@
 			)
 		)
 		(pin "SD_SPEAKER" input
-			(at 157.48 106.68 0)
+			(at 157.48 107.95 0)
 			(uuid "b120c031-d56c-4573-88b0-10f7946df92b")
 			(effects
 				(font
@@ -1687,6 +1747,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "BATTERY" input
+			(at 138.43 162.56 270)
+			(uuid "4da3af9d-01ae-4eaf-9a21-a6ae172ce330")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHARGING" input
+			(at 142.24 162.56 270)
+			(uuid "5ee69ca8-0563-4df6-81f5-01ec1043b8c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_RESET" input
+			(at 157.48 90.17 0)
+			(uuid "ddff7ee2-774c-4a8a-ae5c-3766b4edda4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1774,7 +1864,7 @@
 		)
 	)
 	(sheet
-		(at 172.72 114.3)
+		(at 172.72 115.57)
 		(size 13.97 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1790,7 +1880,7 @@
 		)
 		(uuid "a9eb7e86-1512-4479-8078-e6ec7fe619c3")
 		(property "Sheetname" "Microphone"
-			(at 172.72 113.5884 0)
+			(at 172.72 114.8584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1801,7 +1891,7 @@
 			)
 		)
 		(property "Sheetfile" "microphone.kicad_sch"
-			(at 172.72 126.3146 0)
+			(at 172.72 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1812,7 +1902,7 @@
 			)
 		)
 		(pin "CLK_MK" input
-			(at 172.72 118.11 180)
+			(at 172.72 119.38 180)
 			(uuid "822a872e-0dd2-4102-a91a-58a1fb4dd443")
 			(effects
 				(font
@@ -1822,7 +1912,7 @@
 			)
 		)
 		(pin "DATA_MK" input
-			(at 172.72 121.92 180)
+			(at 172.72 123.19 180)
 			(uuid "57d920ce-441c-40f4-9d03-a277245170a4")
 			(effects
 				(font
@@ -2004,9 +2094,9 @@
 	(sheet
 		(at 35.56 116.84)
 		(size 21.59 26.67)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
@@ -2118,7 +2208,7 @@
 		)
 	)
 	(sheet
-		(at 172.72 96.52)
+		(at 172.72 97.79)
 		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2134,7 +2224,7 @@
 		)
 		(uuid "ceaf3bc6-770a-43e0-8824-4c6b175fbe16")
 		(property "Sheetname" "Speaker"
-			(at 172.72 95.8084 0)
+			(at 172.72 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2145,7 +2235,7 @@
 			)
 		)
 		(property "Sheetfile" "speaker.kicad_sch"
-			(at 172.72 109.8046 0)
+			(at 172.72 111.0746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2156,7 +2246,7 @@
 			)
 		)
 		(pin "SD_SPEAKER" input
-			(at 172.72 106.68 180)
+			(at 172.72 107.95 180)
 			(uuid "e2b3d9e7-84de-4ee9-8d37-37d36fe77cf4")
 			(effects
 				(font
@@ -2166,7 +2256,7 @@
 			)
 		)
 		(pin "P_SPEAKER" input
-			(at 172.72 99.06 180)
+			(at 172.72 100.33 180)
 			(uuid "501acf73-9421-4f8b-b8ff-a33c2af954ca")
 			(effects
 				(font
@@ -2176,7 +2266,7 @@
 			)
 		)
 		(pin "N_SPEAKER" input
-			(at 172.72 102.87 180)
+			(at 172.72 104.14 180)
 			(uuid "75a9e935-dda0-4f1a-977d-028e4b7861a5")
 			(effects
 				(font

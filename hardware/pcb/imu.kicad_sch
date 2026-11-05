@@ -962,10 +962,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "LSM6DSV16XTR\n\nSynopsis:\n\n	6-axis inertial measurement unit (IMU)\n\nDatasheet:\n\n	https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf\n\nVoltage:\n\n	Operation voltage 1.71V to 3.6V.\n\nI2C:\n\n	To select/exploit the I²C interface, the CS line must be tied high (that is, connected to Vdd_IO).\n\n	SCL and SDA should be configured with 10k pull-up resistors to VDD_IO voltage.\n\nSDO / SA0:\n\n	Connect to GND or VDDIO, sets the I2C address bit.\n	Tie to GND = Address 0x6A\n	Tie to VDDIO = Address 0x6B\n\nPower-down current: 			2.6 µA\nAccelerometer LPM1 at 1.875 Hz:	4.0 µA\nAccelerometer LPM2 at 1.875 Hz:	4.2 µA\nAccelerometer LPM1 at 60 Hz: 	17 µA\nAccelerometer LPM2 at 60 Hz: 	20 µA\nAccelerometer normal mode: 		100 µA\nAccelerometer high-performance:	190 µA\nAccel + gyro high-performance: 	650 µA\n\n5 mA transient?"
+	(text_box "LSM6DSV16XTR\n\nSynopsis:\n\n	6-axis inertial measurement unit (IMU)\n\nDatasheet:\n\n	https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf\n\nVoltage:\n\n	Operation voltage 1.71V to 3.6V.\n\nI2C:\n\n	To select/exploit the I²C interface, the CS line must be tied high (that is, connected to Vdd_IO).\n\n	SCL and SDA should be configured with 10k pull-up resistors to VDD_IO voltage.\n\nSDO / SA0:\n\n	Connect to GND or VDDIO, sets the I2C address bit.\n	Tie to GND = Address 0x6A\n	Tie to VDDIO = Address 0x6B\n\nPower-down current: 			2.6 µA\nAccelerometer LPM1 at 1.875 Hz:	4.0 µA\nAccelerometer LPM2 at 1.875 Hz:	4.2 µA\nAccelerometer LPM1 at 60 Hz: 	17 µA\nAccelerometer LPM2 at 60 Hz: 	20 µA\nAccelerometer normal mode: 		100 µA\nAccelerometer high-performance:	190 µA\nAccel + gyro high-performance: 	650 µA\n\n5 mA transient?\n\nInterrupt configurable push-pull or open drain"
 		(exclude_from_sim no)
-		(at 95.25 18.7489 0)
-		(size 111.76 75.5103)
+		(at 72.39 19.4604 0)
+		(size 111.76 79.5996)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1033,6 +1033,16 @@
 			(type default)
 		)
 		(uuid "2d0ca447-7823-4ede-b4e8-f23b6216f2f5")
+	)
+	(wire
+		(pts
+			(xy 163.83 140.97) (xy 163.83 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30566646-0cd6-44fb-b442-4daa955e29a3")
 	)
 	(wire
 		(pts
@@ -1156,13 +1166,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 140.97) (xy 160.02 140.97)
+			(xy 160.02 140.97) (xy 163.83 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c17d017-2769-409f-a4f8-9cd6208923d5")
+		(uuid "95992f8e-e584-47e8-a594-d7bbebafe041")
 	)
 	(wire
 		(pts
@@ -1183,16 +1193,6 @@
 			(type default)
 		)
 		(uuid "a2bfe9d3-17a0-4dff-a51e-cfc4fd280545")
-	)
-	(wire
-		(pts
-			(xy 163.83 140.97) (xy 163.83 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a47b2f98-87b5-48ac-8b6e-4be88ccc3339")
 	)
 	(wire
 		(pts
@@ -1607,6 +1607,84 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/baa00837-9e82-40d6-8cd8-3ba937210992"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f54378a-bf44-491a-ae3d-6167aefc1bef")
+		(property "Reference" "#PWR0183"
+			(at 163.83 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05bf7811-71fc-4505-a21a-55a05413de8c")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/baa00837-9e82-40d6-8cd8-3ba937210992"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -2168,84 +2246,6 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/baa00837-9e82-40d6-8cd8-3ba937210992"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d44f04c2-1ca6-499c-b78e-53d5124b49cb")
-		(property "Reference" "#PWR073"
-			(at 163.83 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1296358d-0ac3-4c8a-bd40-2541660c2ca4")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/baa00837-9e82-40d6-8cd8-3ba937210992"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)

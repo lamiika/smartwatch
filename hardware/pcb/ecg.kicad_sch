@@ -2592,7 +2592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFN50P500X500X80-29N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.2452 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2830,7 +2830,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
 			(at 73.66 121.158 90)
 			(hide yes)
 			(show_name no)
@@ -3177,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 98.7552 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3259,7 +3259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 201.6252 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3497,7 +3497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.3252 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3579,7 +3579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:QFN50P500X500X80-29N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 192.0748 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3659,7 +3659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:QFN50P500X500X80-29N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.76 131.7752 0)
 			(hide yes)
 			(show_name no)
@@ -3895,7 +3895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
 			(at 73.66 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -3977,7 +3977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:QFN50P500X500X80-29N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.2452 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4137,7 +4137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:QFN50P500X500X80-29N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 169.2148 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4219,7 +4219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:QFN50P500X500X80-29N"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.6448 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4301,7 +4301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 225.7552 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4383,7 +4383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.2452 127 0)
 			(hide yes)
 			(show_name no)
@@ -4777,7 +4777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 190.1952 83.82 0)
 			(hide yes)
 			(show_name no)
