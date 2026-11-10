@@ -3091,7 +3091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 72.39 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3416,7 +3416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 133.35 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -4240,7 +4240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 64.77 123.19 0)
 			(hide yes)
 			(show_name no)

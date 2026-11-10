@@ -1012,7 +1012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0201"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 115.57 110.49 0)
 			(hide yes)
 			(show_name no)

@@ -7467,6 +7467,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 210.82) (xy 82.55 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ac7641-0774-4002-9fde-4e7ba8502585")
+	)
+	(wire
+		(pts
 			(xy 243.84 30.48) (xy 243.84 35.56)
 		)
 		(stroke
@@ -7714,16 +7724,6 @@
 			(type default)
 		)
 		(uuid "3603393c-d19b-43b2-8c64-7607571d86a1")
-	)
-	(wire
-		(pts
-			(xy 110.49 210.82) (xy 118.11 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36563080-56dd-42a2-afa9-7b50c2b29585")
 	)
 	(wire
 		(pts
@@ -9187,6 +9187,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 210.82) (xy 118.11 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b6374b-5513-41d3-aff2-1c6f4cfb08e7")
+	)
+	(wire
+		(pts
 			(xy 294.64 227.33) (xy 294.64 224.79)
 		)
 		(stroke
@@ -10435,17 +10445,6 @@
 		)
 		(uuid "b782bc63-eb6d-49fe-91fe-857e8ade803b")
 	)
-	(hierarchical_label "DBG_UART_RXD"
-		(shape input)
-		(at 110.49 210.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c76a2367-e157-40b0-92f9-91a5f6cd40c0")
-	)
 	(hierarchical_label "LOAD_DISPLAY"
 		(shape input)
 		(at 110.49 185.42 180)
@@ -10632,6 +10631,17 @@
 			(justify right)
 		)
 		(uuid "fa93e4a4-180c-4b94-a8ed-5b589435cbda")
+	)
+	(hierarchical_label "DBG_UART_RXD"
+		(shape input)
+		(at 81.28 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "feb51b60-3dd9-45a3-9839-1b67a3089e69")
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:11pF_0402_50V_5%")
@@ -11577,7 +11587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 177.8 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -12296,7 +12306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 194.31 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -12463,7 +12473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12869,7 +12879,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 250.19 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13998,7 +14008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0201"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 153.67 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -14339,7 +14349,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 175.26 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -14505,7 +14515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0201_0603Metric"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 304.8 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16735,7 +16745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0201"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 158.75 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16999,7 +17009,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 157.48 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17128,6 +17138,87 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:res_2.2k_0201")
+		(at 86.36 210.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d7a379b-6567-4047-991f-666719cecf80")
+		(property "Reference" "R53"
+			(at 82.296 205.486 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R_0201"
+			(at 82.296 208.026 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric_Pad0.64x0.40mm"
+			(at 74.93 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 86.36 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc2f9411-0331-4b50-8790-f17a91ea9bdf")
+		)
+		(pin "2"
+			(uuid "18e37191-d40d-4741-974d-ad4ef9a685e6")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -17979,7 +18070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0201"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 270.51 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -21278,7 +21369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0201"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 166.37 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -21529,7 +21620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0201"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 260.35 78.74 0)
 			(hide yes)
 			(show_name no)
