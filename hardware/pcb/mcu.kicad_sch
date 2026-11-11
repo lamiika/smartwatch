@@ -9855,6 +9855,16 @@
 		)
 		(uuid "64498aed-5bf5-4428-9010-185ce53719b5")
 	)
+	(label "48-2"
+		(at 107.95 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cdbc707-dc0f-4006-a94b-57a6e8e323c6")
+	)
 	(label "AVDD_BRF"
 		(at 166.37 109.22 0)
 		(effects
@@ -10054,6 +10064,26 @@
 			(justify right bottom)
 		)
 		(uuid "da5a16f7-be95-4173-9600-826ae1bca4d5")
+	)
+	(label "ANT"
+		(at 152.4 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db21b577-ad2c-4b97-9010-af1ef910f4bb")
+	)
+	(label "48-1"
+		(at 105.41 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df143f0d-a8d9-4400-87ff-ded66805f90a")
 	)
 	(label "sw1"
 		(at 217.17 190.5 180)
@@ -15334,7 +15364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:ArtInChip_QFN-68-1EP_7x7mm_P0.35mm_EP5.49x5.49mm"
+		(property "Footprint" "footprints:ArtInChip_0.2_1to1_QFN-68-1EP_7x7mm_P0.35mm_EP5.49x5.49mm"
 			(at 132.08 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20850,7 +20880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:ArtInChip_QFN-68-1EP_7x7mm_P0.35mm_EP5.49x5.49mm"
+		(property "Footprint" "footprints:ArtInChip_0.2_1to1_QFN-68-1EP_7x7mm_P0.35mm_EP5.49x5.49mm"
 			(at 133.35 243.84 0)
 			(hide yes)
 			(show_name no)
