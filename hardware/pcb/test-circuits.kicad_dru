@@ -51,11 +51,11 @@
 )
 (rule "Clearance: track to NPTH hole (perimeter)"
 	# (condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'track' && A.Net != B.Net")
-	(constraint hole_clearance (min 0.2mm))
+	(constraint hole_clearance (min 0.1mm))
 	(condition "!A.isPlated() && B.Type == 'track' && A.Net != B.Net")
 )
 (rule "Clearance: track to PTH hole perimeter"
-	(constraint hole_clearance (min 0.2mm))
+	(constraint hole_clearance (min 0.1mm))
 	(condition "A.isPlated() && B.Type == 'track' && A.Net != B.Net")
 )
 (rule "Clearance: track to pad"

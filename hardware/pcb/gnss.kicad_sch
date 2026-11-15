@@ -2592,7 +2592,7 @@
 		)
 		(uuid "23bcae95-caaf-439d-9619-8d0a69d661a7")
 	)
-	(text_box "TCK127BG_LF\n\nSynopsis:\n\n	0.08 nA Ultra small IQ 1.0 A Load Switch IC in Ultra Small Package\n\nDatasheet:\n\n	https://toshiba.semicon-storage.com/info/TCK127BG_datasheet_en_20211028.pdf?did=140423&prodName=TCK127BG\n\nMax current: 28 mA\nStartup transient: 100 mA\n\nReset and EXTINT pins have internal pull-ups\nTimepulse is push-pull"
+	(text_box "TCK127BG_LF\n\nSynopsis:\n\n	0.08 nA Ultra small IQ 1.0 A Load Switch IC in Ultra Small Package\n\nDatasheet:\n\n	https://toshiba.semicon-storage.com/info/TCK127BG_datasheet_en_20211028.pdf?did=140423&prodName=TCK127BG\n\n"
 		(exclude_from_sim no)
 		(at 27.94 46.99 0)
 		(size 123.19 32.5731)
@@ -2612,10 +2612,10 @@
 		)
 		(uuid "78d8154f-8edf-42ab-b367-ebeb8d1a87fd")
 	)
-	(text_box "MAX-M10M-20B\n\nSynopsis:\n\n	Ultra-low-power GNSS receiver for high-performance asset-tracking devices\n\nDatasheet:\n\n	https://content.u-blox.com/sites/default/files/documents/MAX-M10M-20B_DataSheet_UBXDOC-963802114-13063.pdf\n\nIntegration manual: \n	https://content.u-blox.com/sites/default/files/documents/MAX-M10M-20B_IntegrationManual_UBXDOC-963802114-13064.pdf\n\nHardware backup mode current:\n	Typical 28 uA\nSoftware backup mode current:\n	Typical 49 uA (Vcc = 3 uA + V_IO = 46 uA)\n"
+	(text_box "MAX-M10M-20B\n\nSynopsis:\n\n	Ultra-low-power GNSS receiver for high-performance asset-tracking devices\n\nDatasheet:\n\n	https://content.u-blox.com/sites/default/files/documents/MAX-M10M-20B_DataSheet_UBXDOC-963802114-13063.pdf\n\nIntegration manual: \n	https://content.u-blox.com/sites/default/files/documents/MAX-M10M-20B_IntegrationManual_UBXDOC-963802114-13064.pdf\n\nHardware backup mode current:\n	Typical 28 uA\nSoftware backup mode current:\n	Typical 49 uA (Vcc = 3 uA + V_IO = 46 uA)\n\nMax current: 28 mA\nStartup transient: 100 mA\n\nReset and EXTINT pins have internal pull-ups\nTimepulse is push-pull\n"
 		(exclude_from_sim no)
 		(at 154.94 85.09 0)
-		(size 107.95 36.6624)
+		(size 107.95 48.9301)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5057,7 +5057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 133.35 116.84 0)
 			(hide yes)
 			(show_name no)

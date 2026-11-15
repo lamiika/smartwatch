@@ -3614,7 +3614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CAPC0603X33N"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 156.21 101.6 0)
 			(hide yes)
 			(show_name no)
