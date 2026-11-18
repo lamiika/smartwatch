@@ -7296,12 +7296,6 @@
 		(uuid "bfe000f9-ba17-439d-a315-e6a32cb68382")
 	)
 	(junction
-		(at 243.84 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c005de82-939e-4119-9bdb-782ea36cf9cb")
-	)
-	(junction
 		(at 110.49 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7589,16 +7583,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 30.48) (xy 243.84 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bac78cf-2421-4428-92a2-83c695e9f35c")
-	)
-	(wire
-		(pts
 			(xy 351.79 45.72) (xy 351.79 52.07)
 		)
 		(stroke
@@ -7716,16 +7700,6 @@
 			(type default)
 		)
 		(uuid "2f4e1b93-89f5-4fc4-8c87-79ce6cf2387b")
-	)
-	(wire
-		(pts
-			(xy 243.84 30.48) (xy 250.19 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30137a94-7fee-4f5a-a9c6-e79e78799ca7")
 	)
 	(wire
 		(pts
@@ -8276,16 +8250,6 @@
 			(type default)
 		)
 		(uuid "63263098-1f91-4d18-8213-3f62069787e0")
-	)
-	(wire
-		(pts
-			(xy 243.84 40.64) (xy 243.84 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63319400-64b6-4afa-bd68-048b33216d61")
 	)
 	(wire
 		(pts
@@ -9029,7 +8993,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 30.48) (xy 243.84 30.48)
+			(xy 241.3 30.48) (xy 250.19 30.48)
 		)
 		(stroke
 			(width 0)
@@ -15317,84 +15281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 243.84 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6838bc0d-8751-4398-8d61-bce96d5a0348")
-		(property "Reference" "#PWR0126"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f0047e7-1c67-45c5-a29a-b1e6990eb887")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_4ms_Capacitor:4.7uF_0402_6.3V")
 		(at 289.56 73.66 0)
 		(mirror y)
@@ -15815,7 +15701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:ArtInChip_0.2_1to1_QFN-68-1EP_7x7mm_P0.35mm_EP5.49x5.49mm"
+		(property "Footprint" "footprints:ArtInChip_0.2_QFN-68-1EP_7x7mm_P0.35mm_EP5.49x5.49mm"
 			(at 132.08 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16875,159 +16761,6 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "C52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Capacitor:4.7uF_0402_6.3V")
-		(at 243.84 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "88a970b6-f9c2-44f2-92ab-5723ce0efb59")
-		(property "Reference" "C75"
-			(at 246.38 36.8362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "?uF_0402_10V"
-			(at 243.84 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
-			(at 241.3 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7uF, Min. 6.3V 20%, X7R or X5R or similar 0402"
-			(at 243.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "4.7uF, Min. 6.3V 20%, X7R or X5R or similar"
-			(at 241.3 45.974 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 241.3 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Part Number" "GRM155R60J475ME47"
-			(at 241.3 49.022 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Display" "?uF"
-			(at 246.38 39.3762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C23733"
-			(at 245.11 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Production Stage" "A"
-			(at 241.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "fc51d628-880d-4850-b58a-0b708c0b1b37")
-		)
-		(pin "1"
-			(uuid "c51503ca-ac6a-4604-a6e3-107f134af3eb")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -21330,7 +21063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:ArtInChip_0.2_1to1_QFN-68-1EP_7x7mm_P0.35mm_EP5.49x5.49mm"
+		(property "Footprint" "footprints:ArtInChip_0.2_QFN-68-1EP_7x7mm_P0.35mm_EP5.49x5.49mm"
 			(at 133.35 243.84 0)
 			(hide yes)
 			(show_name no)
