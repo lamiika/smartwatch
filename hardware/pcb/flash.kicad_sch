@@ -332,7 +332,7 @@
 			(symbol "XT25F128FWOIGT-W_0_1"
 				(rectangle
 					(start -12.7 7.62)
-					(end 12.7 -8.89)
+					(end 12.7 -11.43)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -480,6 +480,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -8.89 0)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1168,6 +1186,12 @@
 		(uuid "1122802b-c756-48fd-942b-215d13483e75")
 	)
 	(junction
+		(at 111.76 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41083b66-baf2-48ce-a57a-3cc53eb69fc3")
+	)
+	(junction
 		(at 152.4 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1247,6 +1271,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 133.35) (xy 111.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed0c4df-abbc-4fa4-a0e3-97cf1c228590")
+	)
+	(wire
+		(pts
 			(xy 97.79 123.19) (xy 119.38 123.19)
 		)
 		(stroke
@@ -1277,7 +1311,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 130.81) (xy 111.76 137.16)
+			(xy 111.76 130.81) (xy 111.76 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1494,6 +1528,16 @@
 			(type default)
 		)
 		(uuid "f089f26c-7f6b-41c1-9be7-d2ad31f80c03")
+	)
+	(wire
+		(pts
+			(xy 111.76 133.35) (xy 119.38 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e1db65-7f1d-4a6c-9b03-211bc10ca3a8")
 	)
 	(wire
 		(pts
@@ -2884,7 +2928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" "footprints:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
 			(at 134.62 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2940,6 +2984,9 @@
 		)
 		(pin "8"
 			(uuid "b29f1636-c61b-43f0-87ff-b1af765df1a1")
+		)
+		(pin "9"
+			(uuid "0ad52be7-15ae-4fda-8494-a4ddbbdb68d8")
 		)
 		(instances
 			(project "test-circuits"
