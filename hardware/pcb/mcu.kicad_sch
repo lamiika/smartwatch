@@ -9723,6 +9723,16 @@
 		)
 		(uuid "feb5ae09-2dc7-4e5e-b142-66c65bf15f73")
 	)
+	(label "dac-"
+		(at 157.48 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "121d5bdd-b2b1-43c2-9799-3763493c22ed")
+	)
 	(label "VDD_RET"
 		(at 304.8 68.58 90)
 		(effects
@@ -9994,14 +10004,14 @@
 		(uuid "7e14e5ac-5639-46cd-b22e-1b274f90182e")
 	)
 	(label "DS"
-		(at 158.75 180.34 0)
+		(at 158.75 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "92b60818-3592-4275-a49e-9d37a82912cc")
+		(uuid "869de07b-2bdb-4b1f-b462-4b4e783c0553")
 	)
 	(label "BUCK_LX"
 		(at 166.37 86.36 0)
@@ -10063,15 +10073,15 @@
 		)
 		(uuid "a91c932e-74f0-4d0b-af1b-605ae3ecfc0a")
 	)
-	(label "SHCP"
-		(at 158.75 185.42 0)
+	(label "dac+"
+		(at 157.48 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b0b15083-0be8-4089-a8ec-5ae3c8f4a3ea")
+		(uuid "b3db2261-1bae-4453-9aa2-1ed1c3ef184b")
 	)
 	(label "SHCP"
 		(at 293.37 220.98 180)
@@ -10082,6 +10092,16 @@
 			(justify right bottom)
 		)
 		(uuid "beea8b3b-10d7-4c9b-955a-313466648cce")
+	)
+	(label "SHCP"
+		(at 158.75 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2568737-7ba2-4940-ab72-0b52235136c0")
 	)
 	(label "VDD_VOUT1"
 		(at 166.37 99.06 0)

@@ -2794,6 +2794,26 @@
 		)
 		(uuid "eea90beb-d33c-43f8-912b-a5e2fd931329")
 	)
+	(label "IN+"
+		(at 110.49 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a104094-be7a-4b68-9b6f-a2b2bc2fd2ba")
+	)
+	(label "IN-"
+		(at 110.49 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b71f7411-c68a-4aaf-85a2-4ec49edd2104")
+	)
 	(hierarchical_label "N_SPEAKER"
 		(shape input)
 		(at 88.9 130.81 180)
