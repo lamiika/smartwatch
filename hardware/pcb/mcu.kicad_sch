@@ -8235,7 +8235,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 172.72) (xy 158.75 172.72)
+			(xy 148.59 172.72) (xy 149.86 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8512,6 +8512,16 @@
 			(type default)
 		)
 		(uuid "8317ab07-2a40-4f67-9c76-3dcd05b76d87")
+	)
+	(wire
+		(pts
+			(xy 157.48 172.72) (xy 158.75 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83301cd4-5d80-4bde-b8f3-00f2da2f2187")
 	)
 	(wire
 		(pts
@@ -20130,6 +20140,88 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:res_2.2k_0201")
+		(at 153.67 172.72 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e18717e9-a695-430e-8ab2-aa32c6342bea")
+		(property "Reference" "R63"
+			(at 149.606 178.054 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33R_0201"
+			(at 149.606 175.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric_Pad0.64x0.40mm"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 153.67 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ececc3c-d079-4af9-95aa-400c0f09a8ba")
+		)
+		(pin "2"
+			(uuid "07aa2ba7-91c9-4058-8687-acefd94acfa8")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "R63")
 					(unit 1)
 				)
 			)
