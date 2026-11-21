@@ -9803,6 +9803,16 @@
 		)
 		(uuid "299c8b55-5c36-440d-bab0-bc0262200547")
 	)
+	(label "SHCP"
+		(at 158.75 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b780be7-071b-43c5-b6f9-170ad40b615a")
+	)
 	(label "VDD_VOUT2"
 		(at 335.28 69.85 90)
 		(effects
@@ -9852,6 +9862,16 @@
 			(justify left bottom)
 		)
 		(uuid "41af5f97-cdc6-4df8-aa40-576271c1a2cd")
+	)
+	(label "DS"
+		(at 158.75 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "422f26d9-7a21-4bd9-9cf7-6fe18c1d70bb")
 	)
 	(label "VDD18_VOUT"
 		(at 166.37 93.98 0)
@@ -10013,16 +10033,6 @@
 		)
 		(uuid "7e14e5ac-5639-46cd-b22e-1b274f90182e")
 	)
-	(label "DS"
-		(at 158.75 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "869de07b-2bdb-4b1f-b462-4b4e783c0553")
-	)
 	(label "BUCK_LX"
 		(at 166.37 86.36 0)
 		(effects
@@ -10102,16 +10112,6 @@
 			(justify right bottom)
 		)
 		(uuid "beea8b3b-10d7-4c9b-955a-313466648cce")
-	)
-	(label "SHCP"
-		(at 158.75 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2568737-7ba2-4940-ab72-0b52235136c0")
 	)
 	(label "VDD_VOUT1"
 		(at 166.37 99.06 0)
@@ -10223,6 +10223,17 @@
 		)
 		(uuid "fb14a9a9-ae7c-417f-a774-851d037ca6ab")
 	)
+	(hierarchical_label "DBG_*RST"
+		(shape input)
+		(at 342.9 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e6b4b27-fc7a-4c6b-bfd8-6f344ac531ec")
+	)
 	(hierarchical_label "LRA_IN1"
 		(shape input)
 		(at 110.49 213.36 180)
@@ -10244,6 +10255,17 @@
 			(justify right)
 		)
 		(uuid "1ae889f8-6ec4-4fd6-9b62-8464107528ff")
+	)
+	(hierarchical_label "GNSS_RESET"
+		(shape input)
+		(at 342.9 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b7ba099-c37e-42e9-a1cd-3a0f26f24281")
 	)
 	(hierarchical_label "SPEAKER_N"
 		(shape input)
@@ -10278,16 +10300,16 @@
 		)
 		(uuid "22b05ebd-fe7d-4032-ba0d-de1e475e2077")
 	)
-	(hierarchical_label "LRA_EN"
+	(hierarchical_label "LOAD_GNSS"
 		(shape input)
-		(at 342.9 214.63 0)
+		(at 342.9 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "24706052-62c1-42ae-96d5-9443be1b96f8")
+		(uuid "237fb7a3-a9c0-4bc9-a352-cc9de9cd044b")
 	)
 	(hierarchical_label "DISPLAY_SI02"
 		(shape input)
@@ -10299,17 +10321,6 @@
 			(justify right)
 		)
 		(uuid "276da173-937e-4451-bdce-f17fe9b8e63f")
-	)
-	(hierarchical_label "GNSS_EXTINT"
-		(shape input)
-		(at 342.9 222.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29589af0-420d-4ac3-9615-a0afe06b1619")
 	)
 	(hierarchical_label "BATTERY"
 		(shape input)
@@ -10332,17 +10343,6 @@
 			(justify right)
 		)
 		(uuid "30f81b4f-f36e-4967-aaba-9723e02dbbf9")
-	)
-	(hierarchical_label "GNSS_RESET"
-		(shape input)
-		(at 342.9 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "331d786a-d108-4fea-800a-2a72d6731017")
 	)
 	(hierarchical_label "MIC_BIAS"
 		(shape input)
@@ -10454,6 +10454,17 @@
 		)
 		(uuid "747fdfa6-4557-44f6-9253-cec685fa69b6")
 	)
+	(hierarchical_label "SD_SPEAKER"
+		(shape input)
+		(at 342.9 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "758ab7c2-07d9-49c2-a874-458fa36738b9")
+	)
 	(hierarchical_label "DBG_UART_RXD"
 		(shape input)
 		(at 335.28 45.72 90)
@@ -10520,6 +10531,17 @@
 		)
 		(uuid "adddf161-abd6-4c97-baa9-412f2b4ec65d")
 	)
+	(hierarchical_label "LRA_EN"
+		(shape input)
+		(at 342.9 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b05f5adb-31b2-47f7-8e68-480ea7a48ff9")
+	)
 	(hierarchical_label "GNSS_TIMEPULSE"
 		(shape input)
 		(at 158.75 167.64 0)
@@ -10542,16 +10564,16 @@
 		)
 		(uuid "b59cec11-862f-4b32-a5fd-2ba76df05f59")
 	)
-	(hierarchical_label "LOAD_GNSS"
+	(hierarchical_label "GNSS_EXTINT"
 		(shape input)
-		(at 342.9 217.17 0)
+		(at 342.9 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b782bc63-eb6d-49fe-91fe-857e8ade803b")
+		(uuid "c4677ec0-daf7-424a-ae29-98b870cd7a9c")
 	)
 	(hierarchical_label "LOAD_DISPLAY"
 		(shape input)
@@ -10607,17 +10629,6 @@
 			(justify left)
 		)
 		(uuid "ce31bdba-60dd-4ada-a8ce-cea9aff3d87b")
-	)
-	(hierarchical_label "SD_SPEAKER"
-		(shape input)
-		(at 342.9 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf1ae8be-6241-4a1b-84ac-991ed2fb7834")
 	)
 	(hierarchical_label "DISPLAY_RESET"
 		(shape input)
@@ -10695,17 +10706,6 @@
 			(justify left)
 		)
 		(uuid "e1e06416-3c51-435f-a5d8-37e9dacf7363")
-	)
-	(hierarchical_label "DBG_*RST"
-		(shape input)
-		(at 342.9 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e2e64ca7-2ebe-4e45-9df5-b93bb2301cb4")
 	)
 	(hierarchical_label "DISPLAY_SPI_CS"
 		(shape input)
@@ -16969,7 +16969,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k_0201"
+		(property "Value" "2.2k_0402"
 			(at 226.06 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16980,7 +16980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 223.52 181.61 0)
 			(hide yes)
 			(show_name no)

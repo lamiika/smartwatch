@@ -1,7 +1,7 @@
 (version 1)
 (rule "Track width, outer layer (1oz copper)"
 	(layer outer)
-	(constraint track_width (min 0.1mm) (opt 0.1mm) (max 0.1mm))
+	(constraint track_width (min 0.1897mm) (opt 0.1897mm) (max 0.1897mm))
 	(condition "A.Type == 'track'")
 )
 (rule "Track spacing, outer layer (1oz copper)"
