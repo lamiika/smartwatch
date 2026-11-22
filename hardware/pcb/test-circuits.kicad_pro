@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.8,
-          "width": 0.75
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,35 +52,24 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.05,
-          "corner_smoothing": 1,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
-          "min_thickness": 0.1,
-          "pad_connection": 2,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.15,
-          "thermal_relief_spoke_width": 0.3
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        },
-        {
-          "gap": 0.11,
-          "via_gap": 0.11,
-          "width": 0.1897
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -151,22 +140,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
-        "min_connection": 0.09,
-        "min_copper_edge_clearance": 0.3,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.2,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.15,
-        "min_text_height": 1.0,
-        "min_text_thickness": 0.15,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.09,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -217,21 +206,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.1,
-        0.15,
-        0.1897,
-        0.2,
-        0.2032,
-        0.21,
-        0.254,
-        0.3,
-        0.3203,
-        0.41,
-        0.5,
-        0.6
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -258,32 +233,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.4,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.45,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.4
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.5
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -553,10 +503,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.11,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1897,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -569,104 +519,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "diff_pair_gap": 0.11,
-        "diff_pair_width": 0.1897,
-        "name": "90R_diff",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "clearance": 0.1,
-        "name": "Battery",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.5
-      },
-      {
-        "name": "Bluetooth_ANT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "wire_width": 12
-      },
-      {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.6,
-        "diff_pair_width": 0.3988,
-        "name": "FineSignal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
-        "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.1,
-        "name": "Power18",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.1,
-        "name": "Power33",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.1,
-        "name": "Power5",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.11,
-        "diff_pair_width": 0.1897,
-        "name": "Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.1,
-        "name": "USB5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.5
       }
     ],
     "meta": {
@@ -674,166 +526,13 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "/SDA_S"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/SCL_S"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/SDA_S"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/Display Module/TP_SDA"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/Display Module/TP_INT|/Display Module/TP_RESET|/Display Module/TP_SCL|/Display Module/TP_SDA|/Heart Rate PPG/INT_PPG"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/Heart Rate PPG/INT_PPG|/IMU/INT1_IMU"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/GNSS/GNSS_RXD|/GNSS/GNSS_TIMEPULSE|/GNSS/GNSS_TXD|/MCU/DS|/MCU/INT_BARO|/MCU/INT_MAGN|/MCU/SHCP|/MCU/STCP|/MCU/sw1|/MCU/sw2|/MCU/sw3|/MCU/sw4|/MCU/sw5"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/Connector/DBG_UART_RXD|/Connector/DBG_UART_TXD|/Display Module/DISPLAY_RESET|/Display Module/DISPLAY_SI00|/Display Module/DISPLAY_SI01|/Display Module/DISPLAY_SI02|/Display Module/DISPLAY_SI03|/Display Module/DISPLAY_SPI_CLK|/Display Module/DISPLAY_SPI_CS|/Display Module/DISPLAY_TE|/Display Module/DISPLAY_VCI_EN|/Display Module/LOAD_DISPLAY|/Flash Storage/FLASH CS#|/Flash Storage/FLASH IO0|/Flash Storage/FLASH IO1|/Flash Storage/FLASH IO2|/Flash Storage/FLASH IO3|/Flash Storage/FLASH SCK|/MCU/CLK_MK|/MCU/DATA_MK|/MCU/LRA_IN1"
-      },
-      {
-        "netclass": "USB5V",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "Battery",
-        "pattern": "BAT"
-      },
-      {
-        "netclass": "Power33",
-        "pattern": "VDD33_VOUT1"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/MCU/MIC_BIAS"
-      },
-      {
-        "netclass": "Power18",
-        "pattern": "/MCU/MIC_BIAS"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/Connector/DBG_.*RST|/GNSS/GNSS_EXTINT|/GNSS/GNSS_RESET|/GNSS/LOAD_GNSS|/MCU/LOAD_I2C_S|/MCU/LOAD_VDD33_VOUT1|/MCU/LRA_EN|/MCU/SD_SPEAKER"
-      },
-      {
-        "netclass": "Power33",
-        "pattern": "/MCU/BUCK_FB|/MCU/BUCK_LX|VDD33_VOUT2|VSYS"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/IMU/INT1_IMU|/IMU/INT2_IMU|/SCL_S|/SDA_S|GND"
-      },
-      {
-        "netclass": "Power33",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/GNSS/GNSS_EXTINT|/GNSS/GNSS_RESET|/GNSS/GNSS_RXD|/GNSS/GNSS_TIMEPULSE|/GNSS/GNSS_TXD|/GNSS/LOAD_GNSS|GND"
-      },
-      {
-        "netclass": "Power33",
-        "pattern": "+3V3|GND"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "+3V3|/IMU/INT1_IMU|/IMU/INT2_IMU|/SCL_S|/SDA_S|GND"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/S(CL_S|DA_S)"
-      },
-      {
-        "netclass": "Power5",
-        "pattern": "VLED+"
-      },
-      {
-        "netclass": "Power33",
-        "pattern": "VSYS"
-      },
-      {
-        "netclass": "Power18",
-        "pattern": "+1V8"
-      },
-      {
-        "netclass": "Power33",
-        "pattern": "GND(|A)"
-      },
-      {
-        "netclass": "Signal",
-        "pattern": "/MCU/(CLK_MK|DATA_MK)"
-      },
-      {
-        "netclass": "USB5V",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Power33",
-        "pattern": "/Connector/3V3"
-      },
-      {
-        "netclass": "Power33",
-        "pattern": "/Connector/VDD"
-      },
-      {
-        "netclass": "FineSignal",
-        "pattern": "/MCU/48-(1|2)"
-      },
-      {
-        "netclass": "FineSignal",
-        "pattern": "/MCU/AVDD_BRF"
-      },
-      {
-        "netclass": "FineSignal",
-        "pattern": "/MCU/ANT"
-      },
-      {
-        "netclass": "Bluetooth_ANT",
-        "pattern": "/MCU/(ANT|BT_ANT_TRACE)"
-      },
-      {
-        "netclass": "FineSignal",
-        "pattern": "/Connector/D+"
-      },
-      {
-        "netclass": "FineSignal",
-        "pattern": "/Connector/D-"
-      },
-      {
-        "netclass": "90R_diff",
-        "pattern": "/Connector/D+"
-      },
-      {
-        "netclass": "90R_diff",
-        "pattern": "/Connector/D-"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "output/",
+      "plot": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -1232,12 +931,6 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Current",
-          "name": "Current",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -1296,7 +989,7 @@
         "uuid": "7b1b7b91-6618-446c-b915-39ecd9748633"
       }
     ],
-    "used_designators": "#PWR1-43,#PWR45-65,#PWR71-189,BT1-2,C1-2,C5-29,C33-100,D1-9,DS1,E1,FL1-2,J1-3,JP1-15,L1-4,M1,R1-11,R13-64,SW1-9,TP2-20,U1-10,U12-14,U17-23,U25-26,VR1,Y1-2",
+    "used_designators": "#PWR1-43,#PWR45-65,#PWR71-185,BT1-2,C1-2,C5-29,C33-98,D1-8,DS1,E1,FL1-2,J1-2,JP1-14,L1-4,M1,R1-11,R13-62,SW1-9,TP2-19,U1-10,U12,U14,U17-23,U25-26,VR1,Y1-2",
     "variants": []
   },
   "sheets": [

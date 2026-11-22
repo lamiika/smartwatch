@@ -24,3 +24,5 @@ fp-info-cache
 *.ses
 #libraries/
 output/
+
+_restore_backup*

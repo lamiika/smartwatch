@@ -3779,7 +3779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles"
+		(property "Footprint" "footprints:VLV041235L"
 			(at 168.91 120.396 0)
 			(hide yes)
 			(show_name no)

@@ -1308,7 +1308,7 @@
 					(justify right)
 				)
 			)
-			(property "Footprint" "Battery:Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles"
+			(property "Footprint" "footprints:Battery_LiPo_wire_leads"
 				(at 0 1.524 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8264,7 +8264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles"
+		(property "Footprint" "footprints:Battery_LiPo_wire_leads"
 			(at 95.25 114.046 90)
 			(hide yes)
 			(show_name no)

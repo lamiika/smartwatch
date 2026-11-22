@@ -10785,7 +10785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 100.33 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -19154,7 +19154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
 			(at 110.49 233.68 0)
 			(hide yes)
 			(show_name no)
