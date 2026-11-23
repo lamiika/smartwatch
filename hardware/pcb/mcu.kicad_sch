@@ -7162,12 +7162,6 @@
 		(uuid "3b9fff82-56e6-41e0-8287-f6f692706ceb")
 	)
 	(junction
-		(at 194.31 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c5ce861-30bd-4a21-b54e-bfa796dc65f2")
-	)
-	(junction
 		(at 208.28 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7204,6 +7198,12 @@
 		(uuid "54ae7e1f-169c-469e-a476-a17b4119fd9c")
 	)
 	(junction
+		(at 194.31 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5534b0ac-a64c-476f-977b-73274e457232")
+	)
+	(junction
 		(at 201.93 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7226,12 +7226,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65b70b67-f47e-40a4-91e6-b3604068b1ee")
-	)
-	(junction
-		(at 194.31 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f7b58c9-b092-48cb-a79e-227ffaaa1bcb")
 	)
 	(junction
 		(at 294.64 229.87)
@@ -7280,6 +7274,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e4ed26b-7b59-427b-8c98-c9096c683a98")
+	)
+	(junction
+		(at 194.31 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6a819d6-c089-4452-9dbc-91aaa25b1e6c")
 	)
 	(junction
 		(at 294.64 110.49)
@@ -7342,16 +7342,6 @@
 	(no_connect
 		(at 339.09 229.87)
 		(uuid "cbac7334-617e-4c60-a5bc-4f2aba15c9c7")
-	)
-	(wire
-		(pts
-			(xy 194.31 220.98) (xy 194.31 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04641e55-a16f-4e06-9842-d50fb8382c53")
 	)
 	(wire
 		(pts
@@ -7621,7 +7611,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "27744c04-46a1-475c-af6c-c2416bfc4107")
+		(uuid "275da63f-4aea-468f-beb0-bccbf397e0e7")
 	)
 	(wire
 		(pts
@@ -8125,7 +8115,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 236.22) (xy 182.88 236.22)
+			(xy 179.07 233.68) (xy 182.88 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8155,13 +8145,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 236.22) (xy 179.07 228.6)
+			(xy 179.07 233.68) (xy 179.07 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5f540158-fe16-4044-a3d5-1862759db947")
+	)
+	(wire
+		(pts
+			(xy 190.5 233.68) (xy 194.31 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f762ef6-6d43-479e-af57-7fbee24e5bc6")
 	)
 	(wire
 		(pts
@@ -8502,16 +8502,6 @@
 			(type default)
 		)
 		(uuid "81d28ef9-1187-4a2c-b50b-0984f1a5968d")
-	)
-	(wire
-		(pts
-			(xy 190.5 236.22) (xy 194.31 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8317ab07-2a40-4f67-9c76-3dcd05b76d87")
 	)
 	(wire
 		(pts
@@ -8935,6 +8925,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 220.98) (xy 194.31 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17235db-ecb8-4188-a23b-e38220eb2a87")
+	)
+	(wire
+		(pts
 			(xy 69.85 238.76) (xy 69.85 243.84)
 		)
 		(stroke
@@ -9295,16 +9295,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 232.41) (xy 194.31 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6397a39-b0e4-4f23-a5d8-c5fd97258ec9")
-	)
-	(wire
-		(pts
 			(xy 148.59 195.58) (xy 158.75 195.58)
 		)
 		(stroke
@@ -9605,6 +9595,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 231.14) (xy 194.31 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f524f3a4-bfda-4e46-b261-fb61f642f61e")
+	)
+	(wire
+		(pts
 			(xy 213.36 113.03) (xy 213.36 114.3)
 		)
 		(stroke
@@ -9705,7 +9705,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 236.22) (xy 196.85 236.22)
+			(xy 194.31 233.68) (xy 196.85 233.68)
 		)
 		(stroke
 			(width 0)
@@ -10269,7 +10269,7 @@
 	)
 	(hierarchical_label "SPEAKER_N"
 		(shape input)
-		(at 196.85 236.22 0)
+		(at 196.85 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11181,6 +11181,87 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:res_2.2k_0201")
+		(at 186.69 233.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "124405a2-9a64-44d0-80d8-a1a90fecf6bf")
+		(property "Reference" "R51"
+			(at 182.88 236.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.0k_0201"
+			(at 182.88 238.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+			(at 198.12 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 186.69 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e231d10-613e-4681-a22d-dce42c699614")
+		)
+		(pin "2"
+			(uuid "02b4a5e1-f2d2-4682-8f3f-ee2e848f7cb9")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Square")
 		(at 345.44 76.2 0)
 		(mirror y)
@@ -11255,88 +11336,6 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:res_2.2k_0201")
-		(at 186.69 220.98 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "17c4d205-eab6-4206-96c6-0937b7f24002")
-		(property "Reference" "R50"
-			(at 182.88 215.646 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2k_0201"
-			(at 182.88 218.186 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
-			(at 198.12 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 186.69 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9774f199-366e-404d-a4db-c9d21fc64b84")
-		)
-		(pin "2"
-			(uuid "7cfc7239-f258-4731-bf67-4d3157364b5f")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -11455,7 +11454,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "footprints:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 214.63 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11847,6 +11846,88 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:res_2.2k_0201")
+		(at 186.69 220.98 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2615037d-0a04-4805-854b-1be7a14798e5")
+		(property "Reference" "R50"
+			(at 182.88 215.646 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.0k_0201"
+			(at 182.88 218.186 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+			(at 198.12 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 186.69 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0bce72d-fd14-4793-b5f6-ed76c3ce7ff1")
+		)
+		(pin "2"
+			(uuid "a292306f-311a-4af2-a24e-00129c07767c")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -12406,173 +12487,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:cap_10nF_0201")
-		(at 194.31 229.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "34adea62-ce88-49aa-afdf-666311663159")
-		(property "Reference" "C93"
-			(at 198.12 227.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.5nF_0201"
-			(at 198.12 229.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD capacitor X6S(EIA) with capacitance 0.10uF Tol.20%. Rated voltage 4Vdc 105C"
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Murata"
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "0603 Murata"
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=snap"
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "GRM033C80G104ME19D"
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=eda"
-			(at 194.31 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "b28ead4c-b220-4077-ace5-9a49cb46398a")
-		)
-		(pin "1"
-			(uuid "bd50dedd-f574-46fe-b88b-8aede144c7bc")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "C93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:cap_100nF_0201")
 		(at 157.48 157.48 0)
 		(unit 1)
@@ -12773,7 +12687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "footprints:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 219.71 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13246,7 +13160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "footprints:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 311.15 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -20228,6 +20142,174 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:cap_10nF_0201")
+		(at 194.31 228.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e74b83a3-70db-442a-8e8e-6e3591ff72f7")
+		(property "Reference" "C93"
+			(at 190.5 226.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5nF_0201"
+			(at 190.5 228.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD capacitor X6S(EIA) with capacitance 0.10uF Tol.20%. Rated voltage 4Vdc 105C"
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Murata"
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "0603 Murata"
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=snap"
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "GRM033C80G104ME19D"
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=eda"
+			(at 194.31 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "78b7d1e6-541f-4755-a02c-261833d17315")
+		)
+		(pin "1"
+			(uuid "922b4c81-2341-4b74-9c53-99882e14dec5")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 220.98 90)
 		(unit 1)
@@ -20740,88 +20822,6 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:res_2.2k_0201")
-		(at 186.69 236.22 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f99e1b63-b783-4d33-b6c7-15f84d10f27d")
-		(property "Reference" "R51"
-			(at 182.88 230.886 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2k_0201"
-			(at 182.88 233.426 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
-			(at 198.12 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 186.69 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbdb3cc0-bcda-44ba-b440-d12d20f91699")
-		)
-		(pin "2"
-			(uuid "f02f3c37-4109-4004-b90e-ea87d8e19a14")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "R51")
 					(unit 1)
 				)
 			)

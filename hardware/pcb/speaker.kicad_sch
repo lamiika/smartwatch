@@ -2296,16 +2296,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 119.38) (xy 100.33 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0598ee69-a01d-4802-9ad7-1116de9f2497")
-	)
-	(wire
-		(pts
 			(xy 129.54 91.44) (xy 129.54 96.52)
 		)
 		(stroke
@@ -2316,7 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 106.68) (xy 100.33 109.22)
+			(xy 96.52 106.68) (xy 96.52 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 130.81) (xy 123.19 121.92)
+			(xy 123.19 132.08) (xy 123.19 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2496,7 +2486,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 99.06) (xy 100.33 96.52)
+			(xy 92.71 119.38) (xy 100.33 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efb063b-3d41-42c2-83e6-5121c41e421d")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 96.52 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2516,13 +2516,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 130.81) (xy 100.33 130.81)
+			(xy 92.71 132.08) (xy 100.33 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6965c38b-3cfc-4434-9969-0e5a43a4b869")
+		(uuid "6b15207f-f096-461f-829c-7c0df677314e")
 	)
 	(wire
 		(pts
@@ -2646,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 130.81) (xy 123.19 130.81)
+			(xy 105.41 132.08) (xy 123.19 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2706,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 96.52) (xy 111.76 96.52)
+			(xy 96.52 96.52) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2805,7 @@
 		(uuid "7a104094-be7a-4b68-9b6f-a2b2bc2fd2ba")
 	)
 	(label "IN-"
-		(at 110.49 130.81 0)
+		(at 110.49 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,14 +2816,14 @@
 	)
 	(hierarchical_label "N_SPEAKER"
 		(shape input)
-		(at 88.9 130.81 180)
+		(at 92.71 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "99171ecf-a465-4426-a1a4-cf8510e504d7")
+		(uuid "882c89dd-6a77-4895-895e-dc398403843d")
 	)
 	(hierarchical_label "SD_SPEAKER"
 		(shape input)
@@ -2838,18 +2838,18 @@
 	)
 	(hierarchical_label "P_SPEAKER"
 		(shape input)
-		(at 88.9 119.38 180)
+		(at 92.71 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c32ae916-da0a-47cf-b6a6-d08178a8a339")
+		(uuid "aac25469-d6ab-46ee-be8d-89a724a064dc")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 109.22 0)
+		(at 96.52 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2860,7 +2860,7 @@
 		(fields_autoplaced yes)
 		(uuid "013e43b3-45d0-43ac-8abe-fd05e267e9e6")
 		(property "Reference" "#PWR049"
-			(at 100.33 115.57 0)
+			(at 96.52 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,7 +2871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 114.3 0)
+			(at 96.52 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2881,7 +2881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 109.22 0)
+			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,7 +2892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 109.22 0)
+			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2903,7 +2903,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 109.22 0)
+			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "footprints:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 184.15 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3271,7 +3271,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.33 102.87 0)
+		(at 96.52 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3282,7 +3282,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a1a92fe-940a-4d3e-98af-8608e2dcbb16")
 		(property "Reference" "C28"
-			(at 104.14 101.5999 0)
+			(at 100.33 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3293,7 +3293,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 104.14 104.1399 0)
+			(at 100.33 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3304,7 +3304,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 101.2952 106.68 0)
+			(at 97.4852 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3315,7 +3315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 102.87 0)
+			(at 96.52 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3326,7 +3326,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 100.33 102.87 0)
+			(at 96.52 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4454,7 +4454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "footprints:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 184.15 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4619,7 +4619,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Capacitor:1nF_0201_16V")
-		(at 102.87 130.81 90)
+		(at 102.87 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4630,7 +4630,7 @@
 		(fields_autoplaced yes)
 		(uuid "c35eca09-cc70-4527-a87b-b37d1cd15edb")
 		(property "Reference" "C26"
-			(at 102.8763 124.46 90)
+			(at 102.8763 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4640,7 +4640,7 @@
 			)
 		)
 		(property "Value" "1nF_0201_4V"
-			(at 99.06 130.81 0)
+			(at 99.06 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4651,7 +4651,7 @@
 			)
 		)
 		(property "Footprint" "PCM_4ms_Capacitor:C_0201_TightCourtyard"
-			(at 107.95 133.35 0)
+			(at 107.95 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4663,7 +4663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 130.81 0)
+			(at 102.87 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4674,7 @@
 			)
 		)
 		(property "Description" "1nF, 0201, Min. 16V 10%, X7R or X5R or X6S or similar"
-			(at 102.87 130.81 0)
+			(at 102.87 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,7 +4685,7 @@
 			)
 		)
 		(property "Specifications" "1nF, Min. 16V 10%, X7R or X5R or X6S or similar"
-			(at 110.744 133.35 0)
+			(at 110.744 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4697,7 +4697,7 @@
 			)
 		)
 		(property "Display" "1nF"
-			(at 102.8763 127 90)
+			(at 102.8763 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4707,7 +4707,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 116.84 129.54 0)
+			(at 116.84 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4718,7 @@
 			)
 		)
 		(property "Part Number" "GRM033R71E102JA01D"
-			(at 119.38 123.19 0)
+			(at 119.38 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4729,7 +4729,7 @@
 			)
 		)
 		(property "Manufacturer 2" "Darfon Elec"
-			(at 112.268 133.35 0)
+			(at 112.268 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4741,7 +4741,7 @@
 			)
 		)
 		(property "Part Number 2" "C0603X7R102KGTS"
-			(at 113.792 133.35 0)
+			(at 113.792 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +4753,7 @@
 			)
 		)
 		(property "JLCPCB ID" "C258477"
-			(at 115.57 129.54 0)
+			(at 115.57 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4764,7 @@
 			)
 		)
 		(property "Production Stage" "A"
-			(at 119.38 133.35 0)
+			(at 119.38 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4776,7 +4776,7 @@
 			)
 		)
 		(property "JLCPCB ID 2" "C66942"
-			(at 102.87 130.81 0)
+			(at 102.87 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

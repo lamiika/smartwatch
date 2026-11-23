@@ -63,7 +63,7 @@
           "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.1,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.2,
           "thermal_relief_spoke_width": 0.5
@@ -568,9 +568,18 @@
         "wire_width": 6
       },
       {
-        "name": "90R_coplanar_0.25mm_clearance",
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.1742,
+        "name": "100R_diff_coplanar_0.25mm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "50R_coplanar_0.25mm_clearance",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3203,
         "tuning_profile": ""
@@ -580,7 +589,7 @@
         "diff_pair_width": 0.1897,
         "name": "90R_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": ""
       },
@@ -588,7 +597,7 @@
         "clearance": 0.1,
         "name": "Battery",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -598,7 +607,7 @@
       {
         "name": "Bluetooth_ANT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "tuning_profile": "",
         "wire_width": 12
@@ -609,7 +618,7 @@
         "diff_pair_width": 0.3988,
         "name": "FineSignal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": "",
@@ -620,7 +629,7 @@
         "clearance": 0.1,
         "name": "Power18",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -631,7 +640,7 @@
         "clearance": 0.1,
         "name": "Power33",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -642,7 +651,7 @@
         "clearance": 0.1,
         "name": "Power5",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -655,7 +664,7 @@
         "diff_pair_width": 0.1897,
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
@@ -666,7 +675,7 @@
         "clearance": 0.1,
         "name": "USB5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "tuning_profile": "",
@@ -831,6 +840,14 @@
       {
         "netclass": "90R_diff",
         "pattern": "/Connector/D-"
+      },
+      {
+        "netclass": "100R_diff_coplanar_0.25mm",
+        "pattern": "/MCU/SPEAKER_N"
+      },
+      {
+        "netclass": "100R_diff_coplanar_0.25mm",
+        "pattern": "/MCU/SPEAKER_P"
       }
     ]
   },
