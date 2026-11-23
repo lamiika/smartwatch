@@ -5198,7 +5198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33R_0201"
+		(property "Value" "33R_0402"
 			(at 122.936 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5209,7 +5209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric_Pad0.64x0.40mm"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 115.57 139.7 0)
 			(hide yes)
 			(show_name no)

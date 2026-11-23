@@ -423,6 +423,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:MountingHole_Pad_1.2mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H10"
+				(at 6.604 1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad_1.2mm"
+				(at 4.064 1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:TH_1.2mm_Pad2.4mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1.2mm_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1.2mm_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:TL3780AF100QG"
 			(pin_names
 				(offset 0)
@@ -1025,6 +1148,12 @@
 		(color 0 0 0 0)
 		(uuid "a4e4e099-9427-4741-b517-2fc26506cf48")
 	)
+	(junction
+		(at 133.35 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce6b27e8-9248-4a56-aafd-90b367538679")
+	)
 	(wire
 		(pts
 			(xy 142.24 99.06) (xy 142.24 95.25)
@@ -1054,16 +1183,6 @@
 			(type default)
 		)
 		(uuid "499be1ad-0748-4182-b732-4bb92f33e011")
-	)
-	(wire
-		(pts
-			(xy 133.35 80.01) (xy 133.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c781d8-93cd-4e1c-b11e-510a34944f8a")
 	)
 	(wire
 		(pts
@@ -1097,13 +1216,43 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 66.04) (xy 133.35 68.58)
+			(xy 144.78 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845fa349-5ed2-4cba-af96-df5705df0be5")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5bfc45-3544-471c-bbbe-a86061e4e6f3")
+	)
+	(wire
+		(pts
+			(xy 133.35 62.23) (xy 133.35 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a8f1fe7-6e10-48e1-a8df-2686b1b4a252")
+	)
+	(wire
+		(pts
+			(xy 133.35 72.39) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e7ab1b-ed23-4723-bc44-ffbdcca6d0e3")
 	)
 	(wire
 		(pts
@@ -1138,7 +1287,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 133.35 66.04 0)
+		(at 133.35 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1149,7 +1298,7 @@
 		(fields_autoplaced yes)
 		(uuid "4079d244-601c-4a22-a3cc-3c056ea6e5c2")
 		(property "Reference" "#PWR0140"
-			(at 133.35 69.85 0)
+			(at 133.35 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1160,7 +1309,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 133.35 60.96 0)
+			(at 133.35 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1170,7 +1319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 66.04 0)
+			(at 133.35 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1181,7 +1330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 66.04 0)
+			(at 133.35 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1192,7 +1341,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 133.35 66.04 0)
+			(at 133.35 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1232,7 +1381,7 @@
 	)
 	(symbol
 		(lib_id "symbols:res_2.2k_0201")
-		(at 133.35 72.39 0)
+		(at 133.35 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1242,7 +1391,7 @@
 		(dnp no)
 		(uuid "492c262d-46a1-446b-94a9-c9c1a31228e0")
 		(property "Reference" "R35"
-			(at 130.81 71.1199 0)
+			(at 130.81 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1253,7 +1402,7 @@
 			)
 		)
 		(property "Value" "5.1k_0201"
-			(at 130.81 73.6599 0)
+			(at 130.81 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1264,7 +1413,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
-			(at 133.35 83.82 0)
+			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1275,7 +1424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 72.39 0)
+			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1286,7 +1435,7 @@
 			)
 		)
 		(property "Description" "SMD 0201 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 133.35 72.39 0)
+			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1510,6 +1659,100 @@
 				)
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52/e02c2984-fa8e-4906-9071-cfce38ba8fc0"
 					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:MountingHole_Pad_1.2mm")
+		(at 147.32 76.2 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1746d05-d54d-4d1f-9e1c-4824958f620b")
+		(property "Reference" "H6"
+			(at 148.59 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_1.2mm"
+			(at 148.59 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:TH_1.0mm_Pad1.6mm"
+			(at 147.32 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 147.32 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e5f082c-2efc-4824-bbee-c02b4337e7be")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52/784e085e-27d4-4881-a978-93f186d1d9e3"
+					(reference "H6")
+					(unit 1)
+				)
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52/863be3ef-30ae-489c-aa58-e1765eef8a06"
+					(reference "H9")
+					(unit 1)
+				)
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52/8b189798-4532-4e9f-8e21-29dc03e4ad19"
+					(reference "H7")
+					(unit 1)
+				)
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52/d593b066-4783-4f86-94da-15f5efcb125f"
+					(reference "H8")
+					(unit 1)
+				)
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52/e02c2984-fa8e-4906-9071-cfce38ba8fc0"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -1818,7 +2061,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dcd0a710-aa89-45d4-83f7-9dcc5511b8eb")
 		(property "Reference" "SW2"
 			(at 127 85.09 0)
@@ -1840,7 +2082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:TL3780AF100QG"
+		(property "Footprint" "footprints:TL3780AF100QG-through-holes"
 			(at 133.35 85.09 0)
 			(hide yes)
 			(show_name no)

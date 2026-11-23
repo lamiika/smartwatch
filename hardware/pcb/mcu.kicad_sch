@@ -10234,6 +10234,17 @@
 		)
 		(uuid "0e6b4b27-fc7a-4c6b-bfd8-6f344ac531ec")
 	)
+	(hierarchical_label "GNSS_TIMEPULSE"
+		(shape input)
+		(at 158.75 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "110f90b6-b75c-406f-9d86-87531e1d9ee9")
+	)
 	(hierarchical_label "LRA_IN1"
 		(shape input)
 		(at 110.49 213.36 180)
@@ -10255,17 +10266,6 @@
 			(justify right)
 		)
 		(uuid "1ae889f8-6ec4-4fd6-9b62-8464107528ff")
-	)
-	(hierarchical_label "GNSS_RESET"
-		(shape input)
-		(at 342.9 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b7ba099-c37e-42e9-a1cd-3a0f26f24281")
 	)
 	(hierarchical_label "SPEAKER_N"
 		(shape input)
@@ -10443,6 +10443,17 @@
 		)
 		(uuid "64754513-392c-420d-855d-0be624f5a4f1")
 	)
+	(hierarchical_label "GNSS_EXTINT"
+		(shape input)
+		(at 342.9 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a99d100-d327-482c-82f8-d536f5cbfbc3")
+	)
 	(hierarchical_label "DISPLAY_TE"
 		(shape input)
 		(at 110.49 167.64 180)
@@ -10478,14 +10489,14 @@
 	)
 	(hierarchical_label "SDA_S"
 		(shape input)
-		(at 236.22 175.26 0)
+		(at 236.22 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "892f910c-61a1-480a-af26-7fa9176bf118")
+		(uuid "7a81ac3f-3897-45a4-8fb9-cf87015dc4cb")
 	)
 	(hierarchical_label "CLK_MK"
 		(shape input)
@@ -10520,6 +10531,17 @@
 		)
 		(uuid "9c08cccd-91cd-4e7b-b765-801fdd0c5cc7")
 	)
+	(hierarchical_label "GNSS_RESET"
+		(shape input)
+		(at 342.9 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac8f9a5e-390b-4a0d-b0eb-90f540681fea")
+	)
 	(hierarchical_label "CHARGING"
 		(shape input)
 		(at 185.42 71.12 0)
@@ -10542,7 +10564,18 @@
 		)
 		(uuid "b05f5adb-31b2-47f7-8e68-480ea7a48ff9")
 	)
-	(hierarchical_label "GNSS_TIMEPULSE"
+	(hierarchical_label "SCL_S"
+		(shape input)
+		(at 236.22 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1353035-a14a-4a44-bc1b-317c4804c13e")
+	)
+	(hierarchical_label "GNSS_TXD"
 		(shape input)
 		(at 158.75 167.64 0)
 		(effects
@@ -10551,29 +10584,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b445227f-f6e1-4fc8-ba2d-bc12b816f4cc")
-	)
-	(hierarchical_label "GNSS_TXD"
-		(shape input)
-		(at 158.75 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b59cec11-862f-4b32-a5fd-2ba76df05f59")
-	)
-	(hierarchical_label "GNSS_EXTINT"
-		(shape input)
-		(at 342.9 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c4677ec0-daf7-424a-ae29-98b870cd7a9c")
+		(uuid "b6b8f4a5-4e69-49a9-8b14-62170c421625")
 	)
 	(hierarchical_label "LOAD_DISPLAY"
 		(shape input)
@@ -10640,17 +10651,6 @@
 			(justify right)
 		)
 		(uuid "d14b5f6f-6176-4479-b3c5-76245ce5e38a")
-	)
-	(hierarchical_label "SCL_S"
-		(shape input)
-		(at 236.22 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d66f4e63-2ffa-4dcc-a32e-5f60dcf313cd")
 	)
 	(hierarchical_label "DBG_UART_TXD"
 		(shape input)
@@ -20168,7 +20168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33R_0201"
+		(property "Value" "33R_0402"
 			(at 149.606 175.514 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20179,7 +20179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric_Pad0.64x0.40mm"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 142.24 172.72 0)
 			(hide yes)
 			(show_name no)
