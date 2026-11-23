@@ -7138,6 +7138,12 @@
 		(uuid "030607c3-83bc-4a3e-8e17-c79857ed2dbb")
 	)
 	(junction
+		(at 295.91 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10076f11-9ac0-4c03-ab55-d791766559f7")
+	)
+	(junction
 		(at 321.31 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7324,6 +7330,12 @@
 		(uuid "ea75ccea-2d35-461e-af50-dba778014f7f")
 	)
 	(junction
+		(at 295.91 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eadb560c-071d-48ac-af2e-89b79e59f7fe")
+	)
+	(junction
 		(at 97.79 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7395,6 +7407,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 156.21) (xy 274.32 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b580207-0dc6-4783-9242-97f9290f6de1")
+	)
+	(wire
+		(pts
 			(xy 224.79 154.94) (xy 223.52 154.94)
 		)
 		(stroke
@@ -7442,16 +7464,6 @@
 			(type default)
 		)
 		(uuid "0dce1487-25c0-4c6a-9fd8-a2ba8191eb81")
-	)
-	(wire
-		(pts
-			(xy 201.93 157.48) (xy 199.39 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7281e5-e944-427a-8fa3-b5ffb4508740")
 	)
 	(wire
 		(pts
@@ -7585,6 +7597,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 146.05) (xy 281.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207a0c5f-99a9-4bb1-8b16-9ae7a8af2673")
+	)
+	(wire
+		(pts
 			(xy 264.16 30.48) (xy 267.97 30.48)
 		)
 		(stroke
@@ -7602,6 +7624,16 @@
 			(type default)
 		)
 		(uuid "25f10da0-c37d-49ff-a855-29e38e19bfa1")
+	)
+	(wire
+		(pts
+			(xy 295.91 156.21) (xy 295.91 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265d0699-f97a-4f6e-86ad-dc01d8d04bba")
 	)
 	(wire
 		(pts
@@ -7652,6 +7684,16 @@
 			(type default)
 		)
 		(uuid "2db22557-320e-4b27-8d32-9993f05de17a")
+	)
+	(wire
+		(pts
+			(xy 288.29 156.21) (xy 295.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e385698-f69f-4eeb-8f3a-82a47494f7b6")
 	)
 	(wire
 		(pts
@@ -7922,6 +7964,16 @@
 			(type default)
 		)
 		(uuid "4839f8fd-eabe-46cf-a84d-610e3bc11b63")
+	)
+	(wire
+		(pts
+			(xy 199.39 157.48) (xy 201.93 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48898814-6de0-474c-9273-21d3cf563787")
 	)
 	(wire
 		(pts
@@ -8305,6 +8357,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 146.05) (xy 281.94 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3dacd8-d143-4e72-945e-2a14d3f878b2")
+	)
+	(wire
+		(pts
 			(xy 177.8 71.12) (xy 185.42 71.12)
 		)
 		(stroke
@@ -8342,6 +8404,16 @@
 			(type default)
 		)
 		(uuid "767c2e6f-9179-4548-8e80-561fa2fbae81")
+	)
+	(wire
+		(pts
+			(xy 295.91 137.16) (xy 288.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77991c56-4934-4d4a-85dd-3833a077f75f")
 	)
 	(wire
 		(pts
@@ -8525,6 +8597,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 172.72) (xy 274.32 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8383aa35-ac6a-4538-936c-e79c4d5d0b8e")
+	)
+	(wire
+		(pts
 			(xy 179.07 220.98) (xy 179.07 226.06)
 		)
 		(stroke
@@ -8602,6 +8684,16 @@
 			(type default)
 		)
 		(uuid "8abc9041-bd17-40cd-9a85-0d5c588a867e")
+	)
+	(wire
+		(pts
+			(xy 295.91 168.91) (xy 295.91 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b00c0ea-68b1-4ff9-9f42-f3bdad3728a2")
 	)
 	(wire
 		(pts
@@ -8775,6 +8867,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 172.72) (xy 295.91 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db95544-4aac-46ba-b02d-2390a13dd091")
+	)
+	(wire
+		(pts
 			(xy 289.56 67.31) (xy 289.56 71.12)
 		)
 		(stroke
@@ -8802,6 +8904,16 @@
 			(type default)
 		)
 		(uuid "a13d8dd7-4442-4ead-8ed8-305b3771eb01")
+	)
+	(wire
+		(pts
+			(xy 288.29 137.16) (xy 288.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2583d85-4726-47b2-a445-f2291d470d24")
 	)
 	(wire
 		(pts
@@ -8912,6 +9024,16 @@
 			(type default)
 		)
 		(uuid "ae087b02-2fb9-4018-95f6-583fb9ad1c41")
+	)
+	(wire
+		(pts
+			(xy 281.94 137.16) (xy 274.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeee9bc7-5e74-46c3-a916-f14caa68786e")
 	)
 	(wire
 		(pts
@@ -9185,6 +9307,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 156.21) (xy 274.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd841c16-f526-4dff-8887-bed0f63fa606")
+	)
+	(wire
+		(pts
 			(xy 105.41 231.14) (xy 118.11 231.14)
 		)
 		(stroke
@@ -9292,6 +9424,16 @@
 			(type default)
 		)
 		(uuid "d45c9d08-4b9c-4980-a789-47e065933e6d")
+	)
+	(wire
+		(pts
+			(xy 274.32 137.16) (xy 274.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a0192a-a361-4098-b7c9-8555dd7f9120")
 	)
 	(wire
 		(pts
@@ -9545,6 +9687,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 172.72) (xy 295.91 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb381ab-fc9c-469a-b4f1-748fca0cc5d6")
+	)
+	(wire
+		(pts
 			(xy 160.02 101.6) (xy 166.37 101.6)
 		)
 		(stroke
@@ -9612,6 +9764,16 @@
 			(type default)
 		)
 		(uuid "f659d0e0-892b-495c-9ad2-0461c1c9d3e4")
+	)
+	(wire
+		(pts
+			(xy 295.91 137.16) (xy 295.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7942185-b4cb-488f-a571-0164d96cde5a")
 	)
 	(wire
 		(pts
@@ -9722,6 +9884,16 @@
 			(type default)
 		)
 		(uuid "fcb9f8e4-a227-4905-8645-c6964b4bb9d8")
+	)
+	(wire
+		(pts
+			(xy 280.67 172.72) (xy 274.32 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6e9d3f-d8b5-4bb2-8d1b-96bdab0d1cc9")
 	)
 	(wire
 		(pts
@@ -9933,7 +10105,7 @@
 		)
 		(uuid "6437ce1e-5eba-4867-a847-e1edb6f7729e")
 	)
-	(label "BT_ANT_TRACE"
+	(label "BT_ANT_MATCHING"
 		(at 201.93 157.48 0)
 		(effects
 			(font
@@ -10093,6 +10265,16 @@
 		)
 		(uuid "a91c932e-74f0-4d0b-af1b-605ae3ecfc0a")
 	)
+	(label "BT_ANT_TRACE"
+		(at 274.32 142.24 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3314c2e-03d6-4d26-b9a2-ac71281e6b84")
+	)
 	(label "dac+"
 		(at 157.48 226.06 0)
 		(effects
@@ -10112,6 +10294,16 @@
 			(justify right bottom)
 		)
 		(uuid "beea8b3b-10d7-4c9b-955a-313466648cce")
+	)
+	(label "BT_ANT_MATCHING"
+		(at 295.91 177.8 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d189ddd8-4e49-481d-b00d-2421b28e63f5")
 	)
 	(label "VDD_VOUT1"
 		(at 166.37 99.06 0)
@@ -10752,6 +10944,173 @@
 		(uuid "feb51b60-3dd9-45a3-9839-1b67a3089e69")
 	)
 	(symbol
+		(lib_id "symbols:cap_100nF_0201")
+		(at 285.75 156.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "01465ec9-1182-4d0c-99c1-3d558bf174fd")
+		(property "Reference" "C101"
+			(at 279.1303 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15pF_0201"
+			(at 279.1303 159.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD capacitor X6S(EIA) with capacitance 0.10uF Tol.20%. Rated voltage 4Vdc 105C"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Murata"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "0603 Murata"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=snap"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "GRM033C80G104ME19D"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=eda"
+			(at 285.75 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3310c0bd-448d-4a14-8dd3-eb218c3e3527")
+		)
+		(pin "2"
+			(uuid "f8e75954-8285-450d-87d2-1da6ef56594c")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Capacitor:11pF_0402_50V_5%")
 		(at 100.33 222.25 0)
 		(unit 1)
@@ -11095,6 +11454,173 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:cap_100nF_0201")
+		(at 285.75 172.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "0c68c832-6643-4d02-8a4c-04d3f6e27fed")
+		(property "Reference" "C75"
+			(at 279.1303 178.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15pF_0201"
+			(at 279.1303 176.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD capacitor X6S(EIA) with capacitance 0.10uF Tol.20%. Rated voltage 4Vdc 105C"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Murata"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "0603 Murata"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=snap"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "GRM033C80G104ME19D"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=eda"
+			(at 285.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "57c17870-41e1-4d3d-b925-eed62a8dd58c")
+		)
+		(pin "2"
+			(uuid "2133c282-a3cc-4534-ae61-00d6b24cbdc7")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -13436,6 +13962,84 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "535906c2-b965-4cc6-acc4-a77122df1a94")
+		(property "Reference" "#PWR0126"
+			(at 274.32 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b9ef5cd-3a36-4c99-baff-35c26bd833e3")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -20060,6 +20664,174 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:cap_100nF_0201")
+		(at 295.91 166.37 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e14c8ec9-9701-42dc-8ca1-30a3596067da")
+		(property "Reference" "C102"
+			(at 299.974 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15pF_0201"
+			(at 299.974 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD capacitor X6S(EIA) with capacitance 0.10uF Tol.20%. Rated voltage 4Vdc 105C"
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Murata"
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "0603 Murata"
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=snap"
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "GRM033C80G104ME19D"
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GRM033C80G104ME19D/Murata/view-part/?ref=eda"
+			(at 295.91 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "ba17c84a-3f78-4687-a0bf-5615e6ccb036")
+		)
+		(pin "2"
+			(uuid "60eea5fa-1194-4788-b544-3b7a9463023c")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "C102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:res_2.2k_0201")
 		(at 153.67 172.72 270)
 		(mirror x)
@@ -20822,6 +21594,84 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f950c351-8cf5-4e44-8777-7bf43afc810f")
+		(property "Reference" "#PWR0125"
+			(at 274.32 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e27c976-782e-4592-9ecf-1da1e249dc8d")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)

@@ -1,18 +1,8 @@
 (version 1)
-(rule "Track width, outer layer (1oz copper)"
-	(layer outer)
-	(constraint track_width (min 0.1742mm) (opt 0.1742mm) (max 0.1742mm))
-	(condition "A.Type == 'track'")
-)
 (rule "Track spacing, outer layer (1oz copper)"
 	(layer outer)
 	(constraint clearance (min 0.1mm))
 	(condition "A.Type == 'track' && B.Type == A.Type")
-)
-(rule "Track width, inner layer"
-	(layer inner)
-	(constraint track_width (min 0.1mm) (opt 0.1mm) (max 0.1mm))
-	(condition "A.Type == 'track'")
 )
 (rule "Track spacing, inner layer"
 	(layer inner)
@@ -31,12 +21,12 @@
 	(constraint silk_clearance (min 0.15mm))
 )
 (rule "Edge (routed) to track clearance"
+	(constraint edge_clearance (min 0.2mm))
 	(condition "A.Type == 'track'")
-	(constraint edge_clearance (min 0.3mm))
 )
 (rule "Annular ring width (via and PTH)"
 	(layer outer)
-	(constraint annular_width (min 0.1mm))
+	(constraint annular_width (min 0.075mm))
 	(condition "A.isPlated()")
 )
 (rule "Clearance: hole to hole (perimeter), different nets"
