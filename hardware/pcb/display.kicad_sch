@@ -10564,7 +10564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
 			(at 255.27 162.56 0)
 			(hide yes)
 			(show_name no)
