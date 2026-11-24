@@ -1649,7 +1649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 196.85 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -1887,7 +1887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 116.84 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1967,7 +1967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 177.8 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2125,7 +2125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 177.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -2284,7 +2284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 196.85 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2364,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 177.8 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -2690,7 +2690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 177.8 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2770,7 +2770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 116.84 127 0)
 			(hide yes)
 			(show_name no)

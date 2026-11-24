@@ -128,6 +128,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -10792,7 +10981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 285.75 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -11308,7 +11497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 285.75 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11477,7 +11666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 330.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11555,7 +11744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 198.12 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -11610,10 +11799,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "14d17813-a0bb-4116-ab29-6a22e59f9d2a")
 		(property "Reference" "TP5"
 			(at 347.218 78.486 0)
@@ -11638,7 +11827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 340.36 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11988,7 +12177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 325.12 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12145,7 +12334,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 198.12 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -12472,7 +12661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 247.65 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -13309,88 +13498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 311.15 54.61 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d7d6663-1915-476a-97ef-967ec583dcf9")
-		(property "Reference" "JP11"
-			(at 306.07 42.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 308.61 42.164 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 311.15 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 316.23 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f73ceec4-ece3-43f2-8b4d-8e0f3fe04fd5")
-		)
-		(pin "1"
-			(uuid "662a63fd-1e8b-4662-b771-0965bcf183ae")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "JP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Square")
 		(at 330.2 52.07 0)
 		(mirror y)
@@ -13425,7 +13532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 325.12 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13504,7 +13611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
+		(property "Footprint" "footprints:C_0603"
 			(at 96.52 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14760,7 +14867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 292.1 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15068,7 +15175,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 219.71 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -15509,7 +15616,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 270.51 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15739,7 +15846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 275.59 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15892,7 +15999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 335.28 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -15971,7 +16078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+		(property "Footprint" "footprints:R_0201_0603Metric"
 			(at 294.64 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16132,7 +16239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 97.79 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -16327,7 +16434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 346.71 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -16836,7 +16943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric_Pad0.64x0.40mm"
+		(property "Footprint" "footprints:R_0201_0603Metric_Pad0.64x0.40mm"
 			(at 74.93 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -17154,7 +17261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402"
 			(at 223.52 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -17455,10 +17562,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "ab24f94a-b5a9-4b50-b7ec-70e01b7cf6a5")
 		(property "Reference" "TP4"
 			(at 342.138 78.486 0)
@@ -17483,7 +17590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 335.28 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -17601,6 +17708,87 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 311.15 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac032de5-8249-4931-9948-1d2c20621833")
+		(property "Reference" "JP11"
+			(at 306.07 52.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 308.61 40.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 311.15 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 316.23 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9aa6abde-f735-4497-b15e-abcf7cf83170")
+		)
+		(pin "2"
+			(uuid "0096e8c7-555e-4f3e-ac65-0f48e4dbb58b")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -17891,7 +18079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 80.01 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -18006,7 +18194,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 175.26 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18158,7 +18346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 318.77 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18753,7 +18941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 346.71 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18912,7 +19100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 330.2 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -19509,7 +19697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Resistor:R_0402"
+		(property "Footprint" "footprints:R_0402"
 			(at 300.99 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19602,7 +19790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 284.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -20147,7 +20335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 107.95 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -20262,7 +20450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0402"
+		(property "Footprint" "footprints:C_0402"
 			(at 295.91 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -20430,7 +20618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402"
 			(at 142.24 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20760,7 +20948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
 			(at 340.36 52.07 0)
 			(hide yes)
 			(show_name no)
