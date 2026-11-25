@@ -4583,18 +4583,6 @@
 		(uuid "674956a8-ba23-42ab-a2bf-196b9db66bdb")
 	)
 	(junction
-		(at 210.82 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a975a4f-615b-4b5d-b060-4daa2462d2a8")
-	)
-	(junction
-		(at 210.82 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75fed3d5-6413-4bb8-be85-b84d30cb1122")
-	)
-	(junction
 		(at 93.98 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4897,16 +4885,6 @@
 			(type default)
 		)
 		(uuid "18d5a216-887b-4ca5-b5d9-0b2bc498a260")
-	)
-	(wire
-		(pts
-			(xy 210.82 127) (xy 210.82 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a44f9ca-5b1d-476b-8e92-0000ff264fe4")
 	)
 	(wire
 		(pts
@@ -5610,16 +5588,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 132.08) (xy 210.82 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b8824a-3703-487a-844c-f14c5ef96d9f")
-	)
-	(wire
-		(pts
 			(xy 72.39 157.48) (xy 68.58 157.48)
 		)
 		(stroke
@@ -6281,7 +6249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fc3d4a1-69e4-4673-9d7d-0ac44774016e")
-		(property "Reference" "TP20"
+		(property "Reference" "GND1"
 			(at 116.586 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6343,7 +6311,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/1542ac5e-3152-4bd7-8aa8-f00a88303213"
-					(reference "TP20")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -6549,7 +6517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14c3c2f2-c19d-4820-aa6d-7dc1f7e55434")
-		(property "Reference" "TP16"
+		(property "Reference" "VBUS1"
 			(at 70.104 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6611,7 +6579,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/1542ac5e-3152-4bd7-8aa8-f00a88303213"
-					(reference "TP16")
+					(reference "VBUS1")
 					(unit 1)
 				)
 			)
@@ -7276,86 +7244,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Square")
-		(at 210.82 138.43 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "341b0227-dfab-4dc3-81a7-bc2e00a50bdc")
-		(property "Reference" "TP12"
-			(at 212.598 140.716 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Square"
-			(at 219.202 143.002 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
-			(at 205.74 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 210.82 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e971e987-c962-4d06-a250-4c8a129cb06f")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/1542ac5e-3152-4bd7-8aa8-f00a88303213"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:MCP2221A-I_ML")
 		(at 186.69 119.38 0)
 		(mirror y)
@@ -7598,7 +7486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43c7e783-b8b1-4dad-a2f1-307838ac0336")
-		(property "Reference" "TP14"
+		(property "Reference" "D-1"
 			(at 100.838 143.256 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7660,7 +7548,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/1542ac5e-3152-4bd7-8aa8-f00a88303213"
-					(reference "TP14")
+					(reference "D-1")
 					(unit 1)
 				)
 			)
@@ -7817,85 +7705,6 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/1542ac5e-3152-4bd7-8aa8-f00a88303213"
 					(reference "#PWR0187")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Square")
-		(at 210.82 120.65 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a69fddf-7302-44a9-bd12-524bb65e15be")
-		(property "Reference" "TP13"
-			(at 212.598 118.364 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Square"
-			(at 219.202 116.078 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
-			(at 205.74 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 210.82 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "859b30a2-337f-4592-96df-1450834ff0a7")
-		)
-		(instances
-			(project "test-circuits"
-				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/1542ac5e-3152-4bd7-8aa8-f00a88303213"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -8075,7 +7884,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63acda42-c011-4aba-80c3-144f07094021")
-		(property "Reference" "TP15"
+		(property "Reference" "D+1"
 			(at 100.838 123.444 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8137,7 +7946,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/1542ac5e-3152-4bd7-8aa8-f00a88303213"
-					(reference "TP15")
+					(reference "D+1")
 					(unit 1)
 				)
 			)
@@ -8348,7 +8157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83205404-97d9-4c9b-85c4-f219ab2e3490")
-		(property "Reference" "TP17"
+		(property "Reference" "CC2"
 			(at 77.978 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8410,7 +8219,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/1542ac5e-3152-4bd7-8aa8-f00a88303213"
-					(reference "TP17")
+					(reference "CC2")
 					(unit 1)
 				)
 			)
@@ -9243,7 +9052,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b11f7220-87a9-4039-a0c8-0a8239288019")
-		(property "Reference" "TP18"
+		(property "Reference" "CC1"
 			(at 86.868 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9305,7 +9114,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/1542ac5e-3152-4bd7-8aa8-f00a88303213"
-					(reference "TP18")
+					(reference "CC1")
 					(unit 1)
 				)
 			)

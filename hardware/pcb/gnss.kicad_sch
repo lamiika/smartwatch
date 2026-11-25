@@ -4139,7 +4139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74096a43-4c4c-4666-bb56-1ccec0c90218")
-		(property "Reference" "TP1"
+		(property "Reference" "SB1"
 			(at 62.992 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4198,7 +4198,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/f63396eb-f983-445a-9b74-1d89c69668a3"
-					(reference "TP1")
+					(reference "SB1")
 					(unit 1)
 				)
 			)

@@ -7772,6 +7772,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 45.72) (xy 360.68 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246baad6-3bf8-4b7a-a33e-483aac92f0a3")
+	)
+	(wire
+		(pts
 			(xy 295.91 156.21) (xy 295.91 161.29)
 		)
 		(stroke
@@ -7789,6 +7799,16 @@
 			(type default)
 		)
 		(uuid "275da63f-4aea-468f-beb0-bccbf397e0e7")
+	)
+	(wire
+		(pts
+			(xy 360.68 69.85) (xy 360.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a5632f-d25a-42a0-b84a-a75a8484e7e2")
 	)
 	(wire
 		(pts
@@ -11231,6 +11251,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 360.68 52.07 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03fac932-8eab-4877-94bf-9be9a9a5c208")
+		(property "Reference" "33_2"
+			(at 362.458 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 369.062 56.642 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
+			(at 355.6 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 360.68 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bf6faf0-b3dc-46a6-9bfb-9393d0871f43")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "33_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 243.84 0)
 		(unit 1)
@@ -11643,7 +11743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0dec2c3b-2d0c-4633-bbd2-1f46f8263025")
-		(property "Reference" "TP3"
+		(property "Reference" "VDD2"
 			(at 337.058 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11705,7 +11805,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP3")
+					(reference "VDD2")
 					(unit 1)
 				)
 			)
@@ -11804,7 +11904,7 @@
 		(in_pos_files no)
 		(dnp yes)
 		(uuid "14d17813-a0bb-4116-ab29-6a22e59f9d2a")
-		(property "Reference" "TP5"
+		(property "Reference" "RTC1"
 			(at 347.218 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11866,7 +11966,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP5")
+					(reference "RTC1")
 					(unit 1)
 				)
 			)
@@ -12154,7 +12254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe1c65c-914b-4d0a-a4d0-929925a4a3cd")
-		(property "Reference" "TP2"
+		(property "Reference" "VDD1"
 			(at 331.978 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12216,7 +12316,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP2")
+					(reference "VDD1")
 					(unit 1)
 				)
 			)
@@ -13185,6 +13285,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Square")
+		(at 360.68 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ec3e8fc-109a-4162-ae90-54d155dd9176")
+		(property "Reference" "33_1"
+			(at 362.458 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Square"
+			(at 369.062 80.772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:TestPoint_Pad_1.5x1.5mm"
+			(at 355.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 360.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12c2695e-ad7e-4bb0-a182-e35194bdeb58")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "33_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 100.33 224.79 0)
 		(unit 1)
@@ -13509,7 +13689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f01528a-b083-4f6d-8f8a-12d43ca2c1dd")
-		(property "Reference" "TP6"
+		(property "Reference" "VCC1"
 			(at 331.978 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,7 +13751,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP6")
+					(reference "VCC1")
 					(unit 1)
 				)
 			)
@@ -15976,7 +16156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81eb4788-faba-480f-bd2e-f36bbd5d4df8")
-		(property "Reference" "TP8"
+		(property "Reference" "UTX1"
 			(at 342.138 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16038,7 +16218,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP8")
+					(reference "UTX1")
 					(unit 1)
 				)
 			)
@@ -16200,6 +16380,84 @@
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:+3.3V_B")
+		(at 360.68 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "846af98e-09eb-4845-9d75-dcb7a220ec2e")
+		(property "Reference" "#PWR0128"
+			(at 360.68 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33_VOUT1"
+			(at 360.68 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6330f41-7fd9-4f79-af87-0556750fd050")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -16411,7 +16669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92539f52-d570-45c6-a103-40e458396b5e")
-		(property "Reference" "TP10"
+		(property "Reference" "PA34"
 			(at 353.568 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16473,7 +16731,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP10")
+					(reference "PA34")
 					(unit 1)
 				)
 			)
@@ -17567,7 +17825,7 @@
 		(in_pos_files no)
 		(dnp yes)
 		(uuid "ab24f94a-b5a9-4b50-b7ec-70e01b7cf6a5")
-		(property "Reference" "TP4"
+		(property "Reference" "RET1"
 			(at 342.138 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17629,7 +17887,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP4")
+					(reference "RET1")
 					(unit 1)
 				)
 			)
@@ -18918,7 +19176,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bebc51ff-1c68-4cbe-b0b0-db3228322442")
-		(property "Reference" "TP19"
+		(property "Reference" "BAT1"
 			(at 353.568 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18980,7 +19238,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP19")
+					(reference "BAT1")
 					(unit 1)
 				)
 			)
@@ -19077,7 +19335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c360cc9b-37f3-4750-be3c-634c8f8e5216")
-		(property "Reference" "TP7"
+		(property "Reference" "URX1"
 			(at 337.058 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19139,7 +19397,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP7")
+					(reference "URX1")
 					(unit 1)
 				)
 			)
@@ -20146,6 +20404,84 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Power-symbol:+3.3V_B")
+		(at 360.68 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8cf0f0f-0d82-4d4b-906d-5693798ab56f")
+		(property "Reference" "#PWR0190"
+			(at 360.68 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD33_VOUT2"
+			(at 360.68 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 360.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "deff5b86-2ddf-4dce-be0d-e1ddc8da546e")
+		)
+		(instances
+			(project "test-circuits"
+				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 77.47 0)
 		(unit 1)
@@ -20925,7 +21261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9235316-d6dc-475f-9181-6479c92d3234")
-		(property "Reference" "TP9"
+		(property "Reference" "GND2"
 			(at 347.218 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20987,7 +21323,7 @@
 		(instances
 			(project "test-circuits"
 				(path "/7b1b7b91-6618-446c-b915-39ecd9748633/a32b5678-2b77-4736-8198-60084a791f52"
-					(reference "TP9")
+					(reference "GND2")
 					(unit 1)
 				)
 			)
