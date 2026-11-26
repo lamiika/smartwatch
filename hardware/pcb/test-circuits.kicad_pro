@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.3,
-          "height": 0.45,
-          "width": 0.45
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.1,
+          "min_thickness": 0.025,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -151,8 +151,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
-        "min_connection": 0.09,
+        "min_clearance": 0.1,
+        "min_connection": 0.1,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
@@ -164,7 +164,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.09,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
@@ -848,6 +848,14 @@
       {
         "netclass": "100R_diff_coplanar_0.25mm",
         "pattern": "/MCU/SPEAKER_P"
+      },
+      {
+        "netclass": "100R_diff_coplanar_0.25mm",
+        "pattern": "/MCU/dac+"
+      },
+      {
+        "netclass": "100R_diff_coplanar_0.25mm",
+        "pattern": "/MCU/dac-"
       }
     ]
   },

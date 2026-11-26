@@ -2599,17 +2599,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at 7.62 -5.08 180)
 					(length 2.54)
-					(name "NC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2617,10 +2617,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 7.62 -5.08 180)
+				(pin no_connect line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "GND"
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4577,12 +4577,6 @@
 		(uuid "5ab1aa76-ad27-42b0-837b-fbdf93446958")
 	)
 	(junction
-		(at 80.01 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "674956a8-ba23-42ab-a2bf-196b9db66bdb")
-	)
-	(junction
 		(at 93.98 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4683,12 +4677,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e064e2c7-ce81-4281-a019-da2f01263ba8")
-	)
-	(junction
-		(at 91.44 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e82720ff-8a13-4bb5-b1d8-1153fc5c9b6a")
 	)
 	(junction
 		(at 78.74 121.92)
@@ -5788,16 +5776,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 142.24) (xy 101.6 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f53114-4509-4ac1-b4ab-264012f66128")
-	)
-	(wire
-		(pts
 			(xy 78.74 134.62) (xy 99.06 134.62)
 		)
 		(stroke
@@ -5955,16 +5933,6 @@
 			(type default)
 		)
 		(uuid "eca1794b-b6dd-4b5b-9bd6-112d58b355cc")
-	)
-	(wire
-		(pts
-			(xy 80.01 149.86) (xy 105.41 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed4ac00f-007b-4f61-9495-969b8950a8f2")
 	)
 	(wire
 		(pts
@@ -7447,7 +7415,7 @@
 		(pin "6"
 			(uuid "5253df77-1d40-4d5e-88a5-5a669d520da7")
 		)
-		(pin "9"
+		(pin "8"
 			(uuid "5910bfe4-b609-4197-b4eb-e732ed92c74c")
 		)
 		(pin "1"
